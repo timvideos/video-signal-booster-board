@@ -14,43 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:HDMI_A J2
-U 1 1 5DB0BA68
-P 1650 3450
-F 0 "J2" H 2080 3496 50  0000 L CNN
-F 1 "HDMI_A" H 2080 3405 50  0000 L CNN
-F 2 "" H 1675 3450 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 1675 3450 50  0001 C CNN
-	1    1650 3450
-	-1   0    0    -1  
-$EndComp
-Text Notes 1000 3050 1    50   ~ 0
+Text Notes 1200 3400 1    50   ~ 0
 Generic\nShoud be male plus, such as \nSamtec HDMP-19-01-S-EM\nMorethanall HDMI-PE10-19-LF\n
-$Comp
-L antmicroUSBDVIHDMIConnectors:685119134923 J6
-U 1 1 5DB15BF1
-P 9400 3450
-F 0 "J6" H 9830 3496 50  0000 L CNN
-F 1 "685119134923" H 9830 3405 50  0000 L CNN
-F 2 "antmicro-footprints:685119134923" H 9425 3450 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 9425 3450 50  0001 C CNN
-	1    9400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroInterfaceDriversReceiversTransceivers:PTN3363 U3
-U 1 1 5DB15F6D
-P 5800 3250
-F 0 "U3" H 5400 4300 60  0000 C CNN
-F 1 "PTN3363" H 6100 4300 60  0000 C CNN
-F 2 "antmicro-footprints:QFN-32-1EP_5x5mm" H 4900 1450 60  0001 L CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf" H 4550 1350 60  0001 L CNN
-F 4 "NXP" H 5300 1550 60  0001 L CNN "Manufacturer"
-F 5 "PTN3363" H 5550 1550 60  0001 L CNN "MPN"
-	1    5800 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L antmicroCapacitors0402:C_100n_0402_6V3 C12
 U 1 1 5DB163D3
@@ -213,8 +178,6 @@ Wire Wire Line
 	2050 2850 2850 2850
 Wire Wire Line
 	2050 2950 2950 2950
-Wire Wire Line
-	3350 3350 2050 3350
 Text Label 2150 2650 0    50   ~ 0
 IN_D2_P
 Text Label 2150 2750 0    50   ~ 0
@@ -238,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3350 3350 3650
 Wire Wire Line
-	3350 3650 3950 3650
+	3350 3650 3400 3650
 Text Label 8500 2650 0    50   ~ 0
 OUT_D2_P
 Text Label 8500 2750 0    50   ~ 0
@@ -567,8 +530,6 @@ Connection ~ 5700 1550
 Wire Wire Line
 	5700 1550 5350 1550
 Wire Wire Line
-	2050 3050 3050 3050
-Wire Wire Line
 	2050 3550 2400 3550
 Wire Wire Line
 	2050 3750 2400 3750
@@ -875,7 +836,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2500 3250 3250
 Wire Wire Line
-	2050 3250 3250 3250
+	2050 3250 3000 3250
 Connection ~ 3250 3250
 Wire Wire Line
 	3250 3250 3450 3250
@@ -1635,7 +1596,7 @@ U 1 1 5E00E078
 P 4350 6950
 F 0 "J3" V 4541 6873 50  0000 R CNN
 F 1 "61300411121" V 4450 6873 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54_Drill1.1mm" H 4550 7150 60  0001 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 4550 7150 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 4550 7250 60  0001 L CNN
 F 4 "61300411121" H 4550 7450 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 4550 8050 60  0001 L CNN "Manufacturer"
@@ -1655,8 +1616,6 @@ F 5 "EFM32HG309" H 2700 5200 60  0001 L CNN "MPN"
 	1    3000 6200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 5650 2550 5750
 Connection ~ 2550 5650
 Wire Wire Line
 	4100 7050 4100 6950
@@ -1914,4 +1873,78 @@ Text Label 6200 7400 0    50   ~ 0
 SCL_SRC
 Text Label 6200 7500 0    50   ~ 0
 SDA_SRC
+Wire Wire Line
+	2050 3350 3350 3350
+Wire Wire Line
+	2050 3050 3050 3050
+Wire Wire Line
+	2550 5650 2550 5750
+Connection ~ 2550 5750
+Wire Wire Line
+	2550 5750 2550 5850
+Connection ~ 2550 5850
+Wire Wire Line
+	2550 5850 2550 5950
+Connection ~ 2550 5950
+Wire Wire Line
+	2550 5950 2550 6050
+$Comp
+L antmicroInterfaceDriversReceiversTransceivers:PTN3363 U3
+U 1 1 5DB5B52F
+P 5800 3250
+F 0 "U3" H 5450 4300 60  0000 C CNN
+F 1 "PTN3363" H 6100 4300 60  0000 C CNN
+F 2 "antmicro-footprints:QFN-32-1EP_5x5mm" H 4900 1450 60  0001 L CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf" H 4550 1350 60  0001 L CNN
+F 4 "NXP" H 5300 1550 60  0001 L CNN "Manufacturer"
+F 5 "PTN3363" H 5550 1550 60  0001 L CNN "MPN"
+	1    5800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB5B819
+P 6600 2450
+F 0 "#PWR?" H 6600 2200 50  0001 C CNN
+F 1 "GND" H 6605 2277 50  0000 C CNN
+F 2 "" H 6600 2450 50  0001 C CNN
+F 3 "" H 6600 2450 50  0001 C CNN
+	1    6600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2450 6600 2450
+Wire Wire Line
+	6600 2450 6600 2350
+Wire Wire Line
+	6600 2350 6400 2350
+Connection ~ 6600 2450
+$Comp
+L antmicroUSBDVIHDMIConnectors:HDMI-PE10-19-LF J2
+U 1 1 5DBAED87
+P 1550 3600
+F 0 "J2" V 1100 2850 50  0000 R CNN
+F 1 "HDMI-PE10-19-LF" V 1200 3500 50  0000 R CNN
+F 2 "antmicro-footprints:HDMI-PE10-19-LF" H 1750 3800 60  0001 L CNN
+F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.pdf" H 1625 3750 50  0001 C CNN
+	1    1550 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 3250
+Wire Wire Line
+	3000 3250 3250 3250
+Connection ~ 3400 3650
+Wire Wire Line
+	3400 3650 3950 3650
+$Comp
+L antmicroUSBDVIHDMIConnectors:685119134923_ J6
+U 1 1 5DBAFB0A
+P 9400 3450
+F 0 "J6" H 9150 4500 50  0000 L CNN
+F 1 "685119134923_" V 9900 2500 50  0000 L CNN
+F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 9600 3650 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 9425 3450 50  0001 C CNN
+	1    9400 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
