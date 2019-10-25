@@ -109,6 +109,26 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroDiodesRectifiersSingle_BAT54-02V-V-G
+#
+DEF antmicroDiodesRectifiersSingle_BAT54-02V-V-G D 0 0 Y Y 1 F N
+F0 "D" 0 100 60 H V C BNN
+F1 "antmicroDiodesRectifiersSingle_BAT54-02V-V-G" 50 -150 60 H V C CNN
+F2 "antmicro-footprints:SOD-523" 200 200 60 H I L CNN
+F3 "https://www.vishay.com/docs/82394/bat5402v.pdf" 200 300 60 H I L CNN
+F4 "BAT54" 200 400 60 H I L CNN "MPN"
+F5 "Vishay" 200 500 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 0 50 -50 50 -75 75 -75 75 -50 N
+P 4 0 1 0 50 50 50 75 25 75 25 50 N
+X ~ 1 -200 0 150 R 50 50 1 1 P
+X ~ 2 0 0 0 U 0 50 1 1 N N
+X ~ 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroInterfaceDriversReceiversTransceivers_PTN3363
 #
 DEF antmicroInterfaceDriversReceiversTransceivers_PTN3363 U 0 40 Y Y 1 F N
@@ -189,7 +209,6 @@ F5 "EFM32HG309" -300 -1000 60 H I L CNN "MPN"
 DRAW
 S 350 650 -350 -850 0 1 0 f
 X PA0 1 -450 550 100 R 50 50 1 1 B
-X PF2 1 -450 -650 100 R 50 50 1 1 B
 X PB13 10 -450 150 100 R 50 50 1 1 B
 X PB14 11 -450 50 100 R 50 50 1 1 B
 X AVDD_0 12 450 450 100 L 50 50 1 1 W
@@ -202,6 +221,7 @@ X PC15 18 450 -250 100 L 50 50 1 1 B
 X PF0 19 -450 -450 100 R 50 50 1 1 B
 X IOVDD_0 2 450 250 100 L 50 50 1 1 W
 X PF1 20 -450 -550 100 R 50 50 1 1 B
+X PF2 21 -450 -650 100 R 50 50 1 1 B
 X IOVDD_5 22 450 150 100 L 50 50 1 1 W
 X PE12 23 -450 -350 100 R 50 50 1 1 B
 X PE13 24 -450 -250 100 R 50 50 1 1 B
@@ -313,6 +333,23 @@ X ~ 9 150 -300 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_0R_0402
+#
+DEF ~antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_100k_0402
 #
 DEF ~antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
@@ -398,20 +435,36 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0402_R_4k7_0402
+# antmicroTransistorsFETsMOSFETsSingle_BSS138-7-F
 #
-DEF ~antmicroResistors0402_R_4k7_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_4k7_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
-F6 "4k7" 0 -100 50 H V C CNN "Val"
+DEF antmicroTransistorsFETsMOSFETsSingle_BSS138-7-F Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_BSS138-7-F" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" 200 300 60 H I L CNN
+F4 "BSS138-7-F" 200 500 60 H I L CNN "MPN"
+F5 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
