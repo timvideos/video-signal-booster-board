@@ -2417,9 +2417,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 1950 3800
 Text Label 2550 7650 0    50   ~ 0
-TX_SCL
+RX_SCL
 Text Label 2550 7550 0    50   ~ 0
-TX_SDA
+RX_SDA
 $Comp
 L antmicroResistors0402:R_0R_0402 R11
 U 1 1 5E8A7F00
