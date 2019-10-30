@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:fpga-ecosystem-video-booster-board-cache
+LIBS:video-booster-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Video Booster Board"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "Antmicro Ltd. (www.antmicro.com)"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -453,10 +453,8 @@ Text Label 4900 4600 0    50   ~ 0
 TX_HIZ_EN
 Wire Wire Line
 	5350 4600 4900 4600
-Text Notes 12500 10950 0    71   Italic 0
-FPGA Ecosystem Video Booster Board
 $Bitmap
-Pos 15300 10250
+Pos 12500 10200
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 85 00 00 00 81 08 03 00 00 00 18 1B 56 
@@ -593,7 +591,7 @@ F 3 "" H 7400 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:HDMI-PE10-19-LF J2
+L video-booster-board-rescue:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J2
 U 1 1 5DBAED87
 P 1450 3550
 F 0 "J2" V 1000 2800 50  0000 R CNN
@@ -604,7 +602,7 @@ F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:685119134923_ J6
+L video-booster-board-rescue:685119134923_-antmicroUSBDVIHDMIConnectors J6
 U 1 1 5DBAFB0A
 P 9300 3400
 F 0 "J6" H 9050 4450 50  0000 L CNN
@@ -1081,7 +1079,7 @@ F 5 "Molex" H 11150 8800 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C6
+L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C6
 U 1 1 5DBDC35C
 P 12100 8150
 F 0 "C6" H 12215 8195 60  0000 L CNN
@@ -1095,7 +1093,7 @@ F 6 "1u" H 12215 8097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C5
+L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C5
 U 1 1 5DBDC366
 P 12100 7050
 F 0 "C5" H 12215 7095 60  0000 L CNN
@@ -1153,7 +1151,7 @@ Wire Wire Line
 Wire Wire Line
 	12450 8000 12100 8000
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C26
+L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C26
 U 1 1 5DBDC388
 P 11800 8150
 F 0 "C26" H 11915 8195 60  0000 L CNN
@@ -1193,7 +1191,7 @@ F 3 "" H 12100 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_15R_0402 R1
+L video-booster-board-rescue:R_15R_0402-antmicroResistors0402 R1
 U 1 1 5DBDC3A0
 P 11750 7600
 F 0 "R1" H 11550 7650 60  0000 C CNN
@@ -1207,7 +1205,7 @@ F 6 "15R" H 11950 7650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_15R_0402 R2
+L video-booster-board-rescue:R_15R_0402-antmicroResistors0402 R2
 U 1 1 5DBDC3AA
 P 11750 7700
 F 0 "R2" H 11550 7750 60  0000 C CNN
@@ -1276,7 +1274,7 @@ Wire Wire Line
 Text Label 11250 7500 0    50   ~ 0
 VUSB
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300411121 J10
+L video-booster-board-rescue:61300411121-antmicroRectangularConnectorsHeadersMalePins J10
 U 1 1 5DBDC3D3
 P 14450 8200
 F 0 "J10" V 14641 8123 50  0000 R CNN
@@ -1289,7 +1287,7 @@ F 5 "Wurth Electronics Inc." H 14650 9300 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMicrocontrollers:EFM32HG309 U2
+L video-booster-board-rescue:EFM32HG309-antmicroMicrocontrollers U2
 U 1 1 5DBDC3DC
 P 12900 7450
 F 0 "U2" H 12900 8287 60  0000 C CNN
@@ -1456,7 +1454,7 @@ TX_SCl
 Text Label 6550 4100 0    50   ~ 0
 TX_SDA
 $Comp
-L antmicroInterfaceDriversReceiversTransceivers:PTN3363 U3
+L video-booster-board-rescue:PTN3363-antmicroInterfaceDriversReceiversTransceivers U3
 U 1 1 5DB5B52F
 P 5900 3200
 F 0 "U3" H 5550 4250 60  0000 C CNN
@@ -1469,7 +1467,7 @@ F 5 "PTN3363" H 5650 1500 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D2
+L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D2
 U 1 1 5DCADE96
 P 1550 2050
 F 0 "D2" V 1603 1947 60  0000 R CNN
@@ -1888,7 +1886,7 @@ F 3 "" H 3650 6250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:HDMI-PE10-19-LF J3
+L video-booster-board-rescue:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J3
 U 1 1 5DF9B9E7
 P 1450 7400
 F 0 "J3" V 1000 6650 50  0000 R CNN
@@ -1899,7 +1897,7 @@ F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:685119134923_ J9
+L video-booster-board-rescue:685119134923_-antmicroUSBDVIHDMIConnectors J9
 U 1 1 5DF9B9EE
 P 9300 7250
 F 0 "J9" H 9050 8300 50  0000 L CNN
@@ -1912,7 +1910,7 @@ $EndComp
 Wire Wire Line
 	5900 5350 5900 6150
 $Comp
-L antmicroInterfaceDriversReceiversTransceivers:PTN3363 U1
+L video-booster-board-rescue:PTN3363-antmicroInterfaceDriversReceiversTransceivers U1
 U 1 1 5DF9BA02
 P 5150 7050
 F 0 "U1" H 4800 8100 60  0000 C CNN
@@ -1925,7 +1923,7 @@ F 5 "PTN3363" H 4900 5350 60  0001 L CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D3
+L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D3
 U 1 1 5DF9BA0B
 P 9300 5850
 F 0 "D3" V 9353 5747 60  0000 R CNN
@@ -3028,7 +3026,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 7000 14800 7000
 Text Notes 7050 10350 0    50   ~ 0
-I2Cs are conneted directely (5V levels)\nConsider optional re-generator
+I2Cs are conneted directly (5V levels)\nConsider optional re-generator
 Wire Wire Line
 	13800 7600 14800 7600
 Wire Wire Line
@@ -3060,10 +3058,6 @@ F 6 "330R" H 13700 8000 50  0000 C CNN "Val"
 	1    13650 8100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14350 8700 14350 8650
-Wire Wire Line
-	14350 8650 14250 8650
 $Comp
 L power:GND #PWR062
 U 1 1 5F9F80DB
