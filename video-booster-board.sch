@@ -3630,13 +3630,13 @@ Wire Wire Line
 Connection ~ 4450 6150
 Wire Wire Line
 	4450 6150 4300 6150
-Text Label 13850 8200 0    50   ~ 0
+Text Label 13850 8000 0    50   ~ 0
 TX_DCC_EN
-Text Label 13850 8300 0    50   ~ 0
+Text Label 13850 7900 0    50   ~ 0
 RX_DCC_EN
-Text Label 13850 7600 0    50   ~ 0
+Text Label 13850 8100 0    50   ~ 0
 MCU_TX_HPD
-Text Label 13850 7700 0    50   ~ 0
+Text Label 13850 7600 0    50   ~ 0
 MCU_RX_HPD
 Wire Wire Line
 	13750 8500 14400 8500
@@ -3658,13 +3658,13 @@ Wire Wire Line
 	13750 7700 14400 7700
 Wire Wire Line
 	13750 7600 14400 7600
-Text Label 13850 7800 0    50   ~ 0
+Text Label 13850 7700 0    50   ~ 0
 TX_CEC_IN
-Text Label 13850 7900 0    50   ~ 0
+Text Label 13850 8300 0    50   ~ 0
 TX_CEC_OUT
-Text Label 13850 8000 0    50   ~ 0
+Text Label 13850 7800 0    50   ~ 0
 RX_CEC_IN
-Text Label 13850 8100 0    50   ~ 0
+Text Label 13850 8200 0    50   ~ 0
 RX_CEC_OUT
 $Comp
 L antmicroDiodesRectifiersSingle:1N4148X-TP D4
