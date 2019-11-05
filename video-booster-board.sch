@@ -1252,19 +1252,6 @@ Wire Wire Line
 Text Label 11650 8200 0    50   ~ 0
 VUSB
 $Comp
-L video-booster-board-rescue:61300411121-antmicroRectangularConnectorsHeadersMalePins J10
-U 1 1 5DBDC3D3
-P 14850 8900
-F 0 "J10" V 15041 8823 50  0000 R CNN
-F 1 "61300411121" V 14950 8823 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 15050 9100 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 15050 9200 60  0001 L CNN
-F 4 "61300411121" H 15050 9400 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 15050 10000 60  0001 L CNN "Manufacturer"
-	1    14850 8900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L video-booster-board-rescue:EFM32HG309-antmicroMicrocontrollers U2
 U 1 1 5DBDC3DC
 P 13300 8150
@@ -2694,8 +2681,8 @@ F 6 "100k" V 6500 10400 50  0000 L CNN "Val"
 	1    6350 10350
 	0    1    1    0   
 $EndComp
-Text Notes 7450 10350 0    50   ~ 0
-I2Cs are conneted directly (5V levels)\nConsider optional re-generator
+Text Notes 550  1150 0    59   ~ 0
+Key features:\n1. Dual channel pass-through HDMI booster. Basic configuration can be pre-set without MCU (jumpers)\n2. MCU can control boost and dongle detect function for both channels independely (via I2C GPIO expander)\n3. MCU can be controlled via USB (eg. virtual uart) or either of DDC chnnels\n4. MCU's I2C bus can be connected to either of DDC channels. MCU can also disconnect DDC paths to override EDID (I2C switches)\n5. HPD (hot plug detect) inputs can be read by MCU. HPDs also control standby mode for their respective booster channels\n6. MCU can read and transmitt CEC data for each channel independely
 $Comp
 L power:GND #PWR062
 U 1 1 5F9F80DB
@@ -3098,7 +3085,7 @@ U 1 1 5DC37F53
 P 11600 1900
 F 0 "U5" H 11500 2487 60  0000 C CNN
 F 1 "PCA9554BS3" H 11500 2381 60  0000 C CNN
-F 2 "antmicro-footprints:VQFN-16_3x3mm" H 11900 2350 60  0001 L CNN
+F 2 "antmicro-footprints:VFQFN-16-1EP_3x3mm" H 11900 2350 60  0001 L CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9554_9554A.pdf" H 11850 2450 60  0001 L CNN
 F 4 "PCA9554BS3" H 11850 2550 60  0001 L CNN "MPN"
 F 5 "NXP USA Inc." H 11850 2650 60  0001 L CNN "Manufacturer"
@@ -4068,4 +4055,17 @@ Text Label 13200 6250 0    50   ~ 0
 RX_CEC_OUT
 Text Label 15150 6050 0    50   ~ 0
 RX_CEC
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J10
+U 1 1 5DC8AFE7
+P 14850 8900
+F 0 "J10" V 15041 8822 50  0000 R CNN
+F 1 "MC-HVT1-S04-G" V 14950 8822 50  0000 R CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 15050 9200 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 15050 9300 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 15050 9400 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 15050 9500 60  0001 L CNN "Manufacturer"
+	1    14850 8900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

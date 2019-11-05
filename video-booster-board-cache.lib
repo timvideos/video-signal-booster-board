@@ -174,10 +174,13 @@ ENDDEF
 DEF antmicroLogicTranslatorsLevelShifters_PCA9554BS3 U 0 20 Y Y 1 F N
 F0 "U" -200 450 60 H V C CNN
 F1 "antmicroLogicTranslatorsLevelShifters_PCA9554BS3" -100 550 60 H V R CNN
-F2 "antmicro-footprints:VQFN-16_3x3mm" 300 450 60 H I L CNN
+F2 "antmicro-footprints:VFQFN-16-1EP_3x3mm" 300 450 60 H I L CNN
 F3 "https://www.nxp.com/docs/en/data-sheet/PCA9554_9554A.pdf" 250 550 60 H I L CNN
 F4 "PCA9554BS3" 250 650 60 H I L CNN "MPN"
 F5 "NXP USA Inc." 250 750 60 H I L CNN "Manufacturer"
+$FPLIST
+ VFQFN-16-1EP_3x3mm
+$ENDFPLIST
 DRAW
 S 100 400 -300 -600 0 1 0 f
 X A2 1 -400 -400 100 R 50 50 1 1 I
@@ -233,6 +236,28 @@ S -10 -45 10 -65 1 1 0 F
 S 90 -45 110 -65 1 1 0 F
 X ~ 1 0 100 100 D 50 50 1 1 P
 X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroRectangularConnectorsHeadersMalePins_MC-HVT1-S04-G
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_MC-HVT1-S04-G J 0 40 Y Y 1 F N
+F0 "J" -200 100 50 H V L CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_MC-HVT1-S04-G" 100 -100 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" 200 300 60 H I L CNN
+F3 "http://www.farnell.com/datasheets/2605295.pdf" 200 400 60 H I L CNN
+F4 "MC-HVT1-S04-G" 200 500 60 H I L CNN "MPN"
+F5 "Multicomp" 200 600 60 H I L CNN "Manufacturer"
+DRAW
+S -50 50 350 -50 0 1 0 f
+S -10 5 10 -15 1 1 0 F
+S 90 5 110 -15 1 1 0 F
+S 190 5 210 -15 1 1 0 F
+S 290 5 310 -15 1 1 0 F
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 100 150 100 D 50 50 1 1 P
+X ~ 3 200 150 100 D 50 50 1 1 P
+X ~ 4 300 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -502,28 +527,6 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# video-booster-board-rescue_61300411121-antmicroRectangularConnectorsHeadersMalePins
-#
-DEF video-booster-board-rescue_61300411121-antmicroRectangularConnectorsHeadersMalePins J 0 40 Y Y 1 F N
-F0 "J" -200 100 50 H V L CNN
-F1 "video-booster-board-rescue_61300411121-antmicroRectangularConnectorsHeadersMalePins" 100 -100 50 H V C CNN
-F2 "antmicro-footprints:PinHeader_1x4_P2.54_Drill1.02mm" 200 200 60 H I L CNN
-F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 200 300 60 H I L CNN
-F4 "61300411121" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -50 50 350 -50 0 1 0 f
-S -10 5 10 -15 1 1 0 F
-S 90 5 110 -15 1 1 0 F
-S 190 5 210 -15 1 1 0 F
-S 290 5 310 -15 1 1 0 F
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 100 150 100 D 50 50 1 1 P
-X ~ 3 200 150 100 D 50 50 1 1 P
-X ~ 4 300 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
