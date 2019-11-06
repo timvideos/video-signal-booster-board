@@ -2682,7 +2682,7 @@ F 6 "100k" V 6500 10400 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text Notes 550  1150 0    59   ~ 0
-Key features:\n1. Dual channel pass-through HDMI booster. Basic configuration can be pre-set without MCU (jumpers)\n2. MCU can control boost and dongle detect function for both channels independely (via I2C GPIO expander)\n3. MCU can be controlled via USB (eg. virtual uart) or either of DDC chnnels\n4. MCU's I2C bus can be connected to either of DDC channels. MCU can also disconnect DDC paths to override EDID (I2C switches)\n5. HPD (hot plug detect) inputs can be read by MCU. HPDs also control standby mode for their respective booster channels\n6. MCU can read and transmitt CEC data for each channel independely
+Key features:\n1. Dual channel pass-through HDMI booster. Basic configuration can be set with jumpers (no need to use MCU)\n2. PTN settings for both channels can be configured independently from MCU over I2C GPIO expander.\n3. It is possible to communicate with MCU via USB (virtual  UART) or with either of DDC chnnels\n4. MCU's I2C bus can be connected to either of DDC channels. MCU can also disconnect DDC paths to override EDID settings\n5. HPD (hot plug detect) inputs are accesible to MCU. HPDs also control standby mode for their respective booster channels\n6. MCU can read and transmitt CEC data for each channel independently
 $Comp
 L power:GND #PWR062
 U 1 1 5F9F80DB
@@ -3080,7 +3080,7 @@ $EndComp
 Wire Wire Line
 	1950 2800 2750 2800
 $Comp
-L antmicroLogicTranslatorsLevelShifters:PCA9554BS3 U5
+L video-booster-board-rescue:PCA9554BS3-antmicroLogicTranslatorsLevelShifters U5
 U 1 1 5DC37F53
 P 11600 1900
 F 0 "U5" H 11500 2487 60  0000 C CNN
@@ -3093,7 +3093,7 @@ F 5 "NXP USA Inc." H 11850 2650 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:PCA9517ADP U6
+L video-booster-board-rescue:PCA9517ADP-antmicroLogicTranslatorsLevelShifters U6
 U 1 1 5DC37AF4
 P 11600 4500
 F 0 "U6" H 11150 5100 60  0000 C CNN
@@ -3230,7 +3230,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 3600 15150 3600
 $Comp
-L antmicroLogicTranslatorsLevelShifters:PCA9517ADP U7
+L video-booster-board-rescue:PCA9517ADP-antmicroLogicTranslatorsLevelShifters U7
 U 1 1 5E80FE7D
 P 14200 4500
 F 0 "U7" H 13750 5100 60  0000 C CNN
@@ -3709,7 +3709,7 @@ F 6 "47k" H 12000 5865 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsBipolarSingle:BC817W Q1
+L video-booster-board-rescue:BC817W-antmicroTransistorsBipolarSingle Q1
 U 1 1 60E4B268
 P 12250 6350
 F 0 "Q1" H 12441 6396 50  0000 L CNN
@@ -3734,7 +3734,7 @@ F 6 "18k" V 11153 6120 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R38
+L video-booster-board-rescue:R_27k_0402-antmicroResistors0402 R38
 U 1 1 60E4CF08
 P 12350 5600
 F 0 "R38" V 12305 5670 60  0000 L CNN
@@ -3748,7 +3748,7 @@ F 6 "27k" V 12403 5670 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_220p_0402 C33
+L video-booster-board-rescue:C_220p_0402-antmicroCapacitors0402 C33
 U 1 1 60E4D18E
 P 11550 5950
 F 0 "C33" H 11650 5950 60  0000 L CNN
@@ -3773,7 +3773,7 @@ F 3 "" H 11550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_220p_0402 C34
+L video-booster-board-rescue:C_220p_0402-antmicroCapacitors0402 C34
 U 1 1 60ED023F
 P 12000 6150
 F 0 "C34" V 11800 6250 60  0000 C CNN
@@ -3910,7 +3910,7 @@ F 6 "47k" H 14600 5765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsBipolarSingle:BC817W Q2
+L video-booster-board-rescue:BC817W-antmicroTransistorsBipolarSingle Q2
 U 1 1 615EF44A
 P 14850 6250
 F 0 "Q2" H 15041 6296 50  0000 L CNN
@@ -3935,7 +3935,7 @@ F 6 "18k" V 13753 6020 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R60
+L video-booster-board-rescue:R_27k_0402-antmicroResistors0402 R60
 U 1 1 615EF45E
 P 14950 5500
 F 0 "R60" V 14905 5570 60  0000 L CNN
@@ -3949,7 +3949,7 @@ F 6 "27k" V 15003 5570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_220p_0402 C36
+L video-booster-board-rescue:C_220p_0402-antmicroCapacitors0402 C36
 U 1 1 615EF468
 P 14150 5850
 F 0 "C36" H 14250 5850 60  0000 L CNN
@@ -3974,7 +3974,7 @@ F 3 "" H 14150 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_220p_0402 C37
+L video-booster-board-rescue:C_220p_0402-antmicroCapacitors0402 C37
 U 1 1 615EF478
 P 14600 6050
 F 0 "C37" V 14400 6150 60  0000 C CNN
@@ -4056,7 +4056,7 @@ RX_CEC_OUT
 Text Label 15150 6050 0    50   ~ 0
 RX_CEC
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J10
+L video-booster-board-rescue:MC-HVT1-S04-G-antmicroRectangularConnectorsHeadersMalePins J10
 U 1 1 5DC8AFE7
 P 14850 8900
 F 0 "J10" V 15041 8822 50  0000 R CNN
