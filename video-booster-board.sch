@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:video-booster-board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -4068,4 +4068,192 @@ F 5 "Multicomp" H 15050 9500 60  0001 L CNN "Manufacturer"
 	1    14850 8900
 	0    -1   -1   0   
 $EndComp
+Text Label 18750 7500 0    50   ~ 0
+TX_EQ0_R
+Text Label 18750 7600 0    50   ~ 0
+TX_EQ1_R
+Text Label 18750 7800 0    50   ~ 0
+RX_EQ0_R
+Text Label 18750 7900 0    50   ~ 0
+RX_EQ1_R
+Wire Wire Line
+	17300 7900 17800 7900
+Wire Wire Line
+	17300 8000 17800 8000
+Wire Wire Line
+	17300 8100 17800 8100
+Wire Wire Line
+	17300 8200 17800 8200
+Text Label 18750 7700 0    50   ~ 0
+TX_DDET
+Text Label 18750 8000 0    50   ~ 0
+RX_DDET
+Text Label 18750 7200 0    50   ~ 0
+SDA_TX_SRC_3V
+Wire Wire Line
+	18650 9300 19300 9300
+Text Label 18750 8100 0    50   ~ 0
+MCU_RX_HPD
+Wire Wire Line
+	18650 9400 19300 9400
+Text Label 18750 8200 0    50   ~ 0
+MCU_TX_HPD
+Wire Wire Line
+	18650 9500 19300 9500
+$Comp
+L antmicroMicrocontrollers:EFM32HG321 U?
+U 1 1 5E196AD5
+P 18200 8750
+F 0 "U?" H 18175 10587 60  0000 C CNN
+F 1 "EFM32HG321" H 18175 10481 60  0000 C CNN
+F 2 "antmicro-footprints:TQFP-48_7x7mm" H 17450 7350 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2674358.pdf" H 17150 7250 60  0001 L CNN
+F 4 "Silicon Labs" H 17900 7650 60  0001 L CNN "Manufacturer"
+F 5 "EFM32HG321" H 17850 7450 60  0001 L CNN "MPN"
+	1    18200 8750
+	-1   0    0    -1  
+$EndComp
+Text Label 18850 8300 0    50   ~ 0
+ADC4
+Text Label 18850 8400 0    50   ~ 0
+ADC5
+Text Label 18850 8500 0    50   ~ 0
+ADC6
+Text Label 18850 8600 0    50   ~ 0
+ADC7
+Text Label 18750 8700 0    50   ~ 0
+PWR_CTL_D0
+Wire Wire Line
+	18650 9600 19300 9600
+Text Label 18750 8800 0    50   ~ 0
+PWR_CTL_D1
+Text Label 17300 8500 0    50   ~ 0
+MCU_TX_HPD
+Text Label 17300 8600 0    50   ~ 0
+MCU_RX_HPD
+Wire Wire Line
+	17300 8300 17800 8300
+Wire Wire Line
+	17300 8400 17800 8400
+Wire Wire Line
+	17300 8500 17800 8500
+Wire Wire Line
+	17300 8600 17800 8600
+Wire Wire Line
+	18650 7300 19300 7300
+Wire Wire Line
+	18650 7200 19300 7200
+Wire Wire Line
+	18650 7900 19300 7900
+Wire Wire Line
+	18650 8100 19300 8100
+Wire Wire Line
+	18650 8000 19300 8000
+Wire Wire Line
+	18650 8200 19300 8200
+Wire Wire Line
+	18650 7500 19300 7500
+Wire Wire Line
+	18650 7600 19300 7600
+Wire Wire Line
+	18650 7700 19300 7700
+Wire Wire Line
+	18650 7800 19300 7800
+Wire Wire Line
+	18650 8400 19300 8400
+Wire Wire Line
+	18650 8300 19300 8300
+Wire Wire Line
+	18650 9000 19300 9000
+Wire Wire Line
+	18650 8500 19300 8500
+Wire Wire Line
+	18650 8600 19300 8600
+Wire Wire Line
+	18650 8700 19300 8700
+Wire Wire Line
+	18650 8800 19300 8800
+Wire Wire Line
+	18650 8900 19300 8900
+Text Label 18750 7300 0    50   ~ 0
+SCL_TX_SRC_3V
+Text Label 18700 8900 0    50   ~ 0
+SDA_TX_SINK_3V
+Text Label 18700 9000 0    50   ~ 0
+SCL_TX_SINK_3V
+Text Label 17200 7900 0    50   ~ 0
+SDA_RX_SRC_3V
+Text Label 17200 8000 0    50   ~ 0
+SCL_RX_SRC_3V
+Text Label 17200 8100 0    50   ~ 0
+SDA_RX_SINK_3V
+Text Label 17200 8200 0    50   ~ 0
+SCL_RX_SINK_3V
+Text Label 18750 9400 0    50   ~ 0
+CEC_TX_SINK
+Text Label 18750 9300 0    50   ~ 0
+CEC_TX_SRC
+Text Label 18750 9600 0    50   ~ 0
+CEC_RX_SINK
+Text Label 18750 9500 0    50   ~ 0
+CEC_RX_SRC
+Text Label 17300 8300 0    50   ~ 0
+DBG_LED_0
+Text Label 17300 8400 0    50   ~ 0
+DBG_LED_1
+Wire Wire Line
+	19700 9500 19700 9400
+Wire Wire Line
+	19700 9400 19800 9400
+$Comp
+L power:GND #PWR?
+U 1 1 5F05FE74
+P 19700 9500
+F 0 "#PWR?" H 19700 9250 50  0001 C CNN
+F 1 "GND" H 19705 9327 50  0000 C CNN
+F 2 "" H 19700 9500 50  0001 C CNN
+F 3 "" H 19700 9500 50  0001 C CNN
+	1    19700 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19400 9100 19400 9300
+$Comp
+L power:VDD #PWR?
+U 1 1 5F05FE7C
+P 19800 9100
+F 0 "#PWR?" H 19800 8950 50  0001 C CNN
+F 1 "VDD" H 19818 9273 50  0000 C CNN
+F 2 "" H 19800 9100 50  0001 C CNN
+F 3 "" H 19800 9100 50  0001 C CNN
+	1    19800 9100
+	0    -1   1    0   
+$EndComp
+Text Label 18750 9100 0    50   ~ 0
+DBG_SWCLK
+Text Label 18750 9200 0    50   ~ 0
+DBG_SWDIO
+Text Notes 19800 9550 0    50   ~ 0
+SWD Debug
+Wire Wire Line
+	19400 9300 19800 9300
+$Comp
+L video-booster-board-rescue:MC-HVT1-S04-G-antmicroRectangularConnectorsHeadersMalePins J?
+U 1 1 5F05FE9B
+P 19950 9400
+F 0 "J?" V 20141 9322 50  0000 R CNN
+F 1 "MC-HVT1-S04-G" V 20050 9322 50  0000 R CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 20150 9700 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 20150 9800 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 20150 9900 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 20150 10000 60  0001 L CNN "Manufacturer"
+	1    19950 9400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18650 9200 19800 9200
+Wire Wire Line
+	18650 9100 19400 9100
+Wire Wire Line
+	18650 7400 19300 7400
 $EndSCHEMATC

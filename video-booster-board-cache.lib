@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # antmicroCapacitors0402_C_100n_0402_6V3
 #
-DEF ~antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -21,7 +21,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_10n_0402
 #
-DEF ~antmicroCapacitors0402_C_10n_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_10n_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -39,7 +39,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_2u2_0402
 #
-DEF ~antmicroCapacitors0402_C_2u2_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_2u2_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_2u2_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -57,7 +57,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_10u_0603
 #
-DEF ~antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_10u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -75,7 +75,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_4u7_0603
 #
-DEF ~antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_4u7_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -129,6 +129,69 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMicrocontrollers_EFM32HG321
+#
+DEF antmicroMicrocontrollers_EFM32HG321 U 0 40 Y Y 1 F N
+F0 "U" -250 1700 60 H V C CNN
+F1 "antmicroMicrocontrollers_EFM32HG321" -50 -1200 60 H V C CNN
+F2 "antmicro-footprints:TQFP-48_7x7mm" -750 -1400 60 H I L CNN
+F3 "http://www.farnell.com/datasheets/2674359.pdf" -1050 -1500 60 H I L CNN
+F4 "Silicon Labs" -300 -1100 60 H I L CNN "Manufacturer"
+F5 "EFM32HG321" -350 -1300 60 H I L CNN "MPN"
+DRAW
+S -400 550 -400 550 0 1 0 N
+S -350 1650 300 -1050 0 1 0 f
+X PA0 1 -450 1550 100 R 50 50 1 1 B
+X PC4 10 400 450 100 L 50 50 1 1 B
+X PB7 11 -450 950 100 R 50 50 1 1 B
+X PB8 12 -450 850 100 R 50 50 1 1 B
+X PA8 13 -450 1250 100 R 50 50 1 1 B
+X PA9 14 -450 1150 100 R 50 50 1 1 B
+X PA10 15 -450 1050 100 R 50 50 1 1 B
+X ~RESET 16 -450 -950 100 R 50 50 1 1 I
+X PB11 17 -450 750 100 R 50 50 1 1 B
+X VSS 18 400 -850 100 L 50 50 1 1 W
+X AVDD_1 19 400 1350 100 L 50 50 1 1 W
+X PA1 2 -450 1450 100 R 50 50 1 1 B
+X PB13 20 -450 650 100 R 50 50 1 1 B
+X PB14 21 -450 550 100 R 50 50 1 1 B
+X IOVDD_3 22 400 1150 100 L 50 50 1 1 W
+X AVDD_0 23 400 1450 100 L 50 50 1 1 W
+X PD4 24 -450 450 100 R 50 50 1 1 B
+X PD5 25 -450 350 100 R 50 50 1 1 B
+X PD6 26 -450 250 100 R 50 50 1 1 B
+X PD7 27 -450 150 100 R 50 50 1 1 B
+X VDD_RG 28 400 1550 100 L 50 50 1 1 W
+X DECOUP 29 400 -550 100 L 50 50 1 1 W
+X PA2 3 -450 1350 100 R 50 50 1 1 B
+X PC8 30 400 350 100 L 50 50 1 1 B
+X PC9 31 400 250 100 L 50 50 1 1 B
+X PC10 32 400 150 100 L 50 50 1 1 B
+X USB_VI 33 400 -50 100 L 50 50 1 1 W
+X USB_VO 34 400 -350 100 L 50 50 1 1 O
+X PC14 35 400 -150 100 L 50 50 1 1 B
+X PC15 36 400 -250 100 L 50 50 1 1 B
+X PF0 37 -450 -350 100 R 50 50 1 1 B
+X PF1 38 -450 -450 100 R 50 50 1 1 B
+X PF2 39 -450 -550 100 R 50 50 1 1 B
+X IOVDD_0 4 400 1250 100 L 50 50 1 1 W
+X PF3 40 -450 -650 100 R 50 50 1 1 B
+X PF4 41 -450 -750 100 R 50 50 1 1 B
+X PF5 42 -450 -850 100 R 50 50 1 1 B
+X IOVDD_5 43 400 1050 100 L 50 50 1 1 W
+X VSS 44 400 -950 100 L 50 50 1 1 W
+X PE10 45 -450 50 100 R 50 50 1 1 B
+X PE11 46 -450 -50 100 R 50 50 1 1 B
+X PE12 47 -450 -150 100 R 50 50 1 1 B
+X PE13 48 -450 -250 100 R 50 50 1 1 B
+X VSS 5 400 -750 100 L 50 50 1 1 W
+X PC0 6 400 850 100 L 50 50 1 1 B
+X PC1 7 400 750 100 L 50 50 1 1 B
+X PC2 8 400 650 100 L 50 50 1 1 B
+X PC3 9 400 550 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # antmicroPMICVoltageRegulatorsLinear_LP2985-33DBVR
 #
 DEF antmicroPMICVoltageRegulatorsLinear_LP2985-33DBVR U 0 20 Y Y 1 F N
@@ -168,7 +231,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_0R_0402
 #
-DEF ~antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -185,7 +248,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_100k_0402
 #
-DEF ~antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_100k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -202,7 +265,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_10k_0402
 #
-DEF ~antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -219,7 +282,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_12k4_0402
 #
-DEF ~antmicroResistors0402_R_12k4_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_12k4_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_12k4_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -236,7 +299,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_18k_0402
 #
-DEF ~antmicroResistors0402_R_18k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_18k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_18k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -253,7 +316,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_220R_0402
 #
-DEF ~antmicroResistors0402_R_220R_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_220R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_220R_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -270,7 +333,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_330R_0402
 #
-DEF ~antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_330R_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -287,7 +350,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_47k_0402
 #
-DEF ~antmicroResistors0402_R_47k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_47k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_47k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -304,7 +367,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_49R9_0402
 #
-DEF ~antmicroResistors0402_R_49R9_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_49R9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_49R9_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -480,7 +543,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -498,7 +561,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_220p_0402-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_220p_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_220p_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_220p_0402-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -737,7 +800,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_15R_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_15R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_15R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_15R_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -754,7 +817,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_27k_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_27k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_27k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_27k_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
