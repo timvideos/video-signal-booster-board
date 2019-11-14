@@ -44,6 +44,23 @@ X B1 8 400 150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# antmicroOperationalAmplifiers_INA180A1IDBVT
+#
+DEF antmicroOperationalAmplifiers_INA180A1IDBVT IC 0 40 Y Y 1 F N
+F0 "IC" 50 550 50 H V C CNN
+F1 "antmicroOperationalAmplifiers_INA180A1IDBVT" 150 -50 50 H V C CNN
+F2 "antmicro-footprints:SOT-23-5" 50 550 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/ina180.pdf" 50 550 50 H I C CNN
+DRAW
+S 0 500 450 0 0 1 0 f
+X OUT 1 550 400 100 L 50 50 1 1 O
+X GND 2 550 100 100 L 50 50 1 1 O
+X IN+ 3 -100 250 100 R 50 50 1 1 I
+X IN- 4 -100 100 100 R 50 50 1 1 I
+X VS 5 -100 400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW
 #
 DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW U 0 40 Y Y 1 F N
@@ -51,8 +68,8 @@ F0 "U" -100 250 60 H V C CNN
 F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW" -200 -350 60 H V L CNN
 F2 "antmicro-footprints:TSSOP-8_W4.4mm" 200 200 60 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps2111a.pdf" 200 300 60 H I L CNN
-F4 "Texas Instruments" 200 650 60 H I L CNN "Manufacturer"
-F5 "TPS2110APW" 200 500 60 H I L CNN "MPN"
+F4 "TPS2110APW" 200 500 60 H I L CNN "MPN"
+F5 "Texas Instruments" 200 650 60 H I L CNN "Manufacturer"
 DRAW
 S -200 200 300 -300 0 1 0 f
 X D0 1 -300 0 100 R 50 50 1 1 I
