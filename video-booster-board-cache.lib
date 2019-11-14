@@ -1,6 +1,100 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z
+#
+DEF antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
+F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
+F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroLogicTranslatorsLevelShifters_NTS0102GT
+#
+DEF antmicroLogicTranslatorsLevelShifters_NTS0102GT U 0 40 Y Y 1 F N
+F0 "U" -250 400 50 H V C CNN
+F1 "antmicroLogicTranslatorsLevelShifters_NTS0102GT" -50 -200 50 H V C CNN
+F2 "antmicro-footprints:PSON50P100X195X50-8N" -100 500 50 H I C CNN
+F3 "" 650 750 50 H I C CNN
+F4 "NTS0102GT" -50 -400 50 H V C CNN "MPN"
+F5 "NXP Semiconductors" 100 -300 50 H V C CNN "Manufacturer"
+DRAW
+S -300 350 300 -150 0 1 0 f
+X B2 1 400 50 100 L 50 50 1 1 B
+X GND 2 400 -50 100 L 50 50 1 1 W
+X VCC_A 3 -400 250 100 R 50 50 1 1 W
+X A2 4 -400 50 100 R 50 50 1 1 B
+X A1 5 -400 150 100 R 50 50 1 1 B
+X OE 6 -400 -50 100 R 50 50 1 1 W
+X VCC_B 7 400 250 100 L 50 50 1 1 W
+X B1 8 400 150 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_100R_0402
+#
+DEF antmicroResistors0402_R_100R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_100R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
+F6 "100R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_27k_0402
+#
+DEF antmicroResistors0402_R_27k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_27k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2RKF2702X" 200 300 60 H I L CNN "MPN"
+F6 "27k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_330R_0402
+#
+DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_330R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
+F6 "330R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -140,7 +234,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_100n_0402_6V3-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_100n_0402_6V3-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_100n_0402_6V3-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_100n_0402_6V3-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -158,7 +252,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_10n_0402-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_10n_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_10n_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_10n_0402-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -176,7 +270,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_10u_0603-antmicroCapacitors0603
 #
-DEF ~video-booster-board-rescue_C_10u_0603-antmicroCapacitors0603 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_10u_0603-antmicroCapacitors0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_10u_0603-antmicroCapacitors0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -194,7 +288,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_1u_0402-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -212,7 +306,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_2u2_0402-antmicroCapacitors0402
 #
-DEF ~video-booster-board-rescue_C_2u2_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_2u2_0402-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_2u2_0402-antmicroCapacitors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -230,7 +324,7 @@ ENDDEF
 #
 # video-booster-board-rescue_C_4u7_0603-antmicroCapacitors0603
 #
-DEF ~video-booster-board-rescue_C_4u7_0603-antmicroCapacitors0603 C 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_C_4u7_0603-antmicroCapacitors0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_C_4u7_0603-antmicroCapacitors0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -426,61 +520,6 @@ X ~ 4 300 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# video-booster-board-rescue_PCA9517ADP-antmicroLogicTranslatorsLevelShifters
-#
-DEF video-booster-board-rescue_PCA9517ADP-antmicroLogicTranslatorsLevelShifters U 0 20 Y Y 1 F N
-F0 "U" -200 450 60 H V C CNN
-F1 "video-booster-board-rescue_PCA9517ADP-antmicroLogicTranslatorsLevelShifters" -100 550 60 H V R CNN
-F2 "antmicro-footprints:TSSOP-8_W3mm" 300 450 60 H I L CNN
-F3 "https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf" 250 550 60 H I L CNN
-F4 "PCA9517ADP" 250 650 60 H I L CNN "MPN"
-F5 "NXP USA Inc." 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S 200 400 -300 -100 0 1 0 f
-X Vref1 1 -400 300 100 R 50 50 1 1 W
-X SCL1 2 -400 200 100 R 50 50 1 1 I
-X SDA1 3 -400 100 100 R 50 50 1 1 B
-X GND 4 -400 0 100 R 50 50 1 1 W
-X EN 5 300 0 100 L 50 50 1 1 I
-X SDA2 6 300 100 100 L 50 50 1 1 B
-X SCL2 7 300 200 100 L 50 50 1 1 I
-X Vref2 8 300 300 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# video-booster-board-rescue_PCA9554BS3-antmicroLogicTranslatorsLevelShifters
-#
-DEF video-booster-board-rescue_PCA9554BS3-antmicroLogicTranslatorsLevelShifters U 0 20 Y Y 1 F N
-F0 "U" -200 450 60 H V C CNN
-F1 "video-booster-board-rescue_PCA9554BS3-antmicroLogicTranslatorsLevelShifters" -100 550 60 H V R CNN
-F2 "antmicro-footprints:VFQFN-16-1EP_3x3mm" 300 450 60 H I L CNN
-F3 "https://www.nxp.com/docs/en/data-sheet/PCA9554_9554A.pdf" 250 550 60 H I L CNN
-F4 "PCA9554BS3" 250 650 60 H I L CNN "MPN"
-F5 "NXP USA Inc." 250 750 60 H I L CNN "Manufacturer"
-$FPLIST
- VFQFN-16-1EP_3x3mm
-$ENDFPLIST
-DRAW
-S 100 400 -300 -600 0 1 0 f
-X A2 1 -400 -400 100 R 50 50 1 1 I
-X IO7 10 200 -500 100 L 50 50 1 1 O
-X ~INT 11 200 300 100 L 50 50 1 1 C
-X SCL 12 -400 100 100 R 50 50 1 1 I
-X SDA 13 -400 0 100 R 50 50 1 1 B
-X VDD 14 -400 300 100 R 50 50 1 1 W
-X A0 15 -400 -200 100 R 50 50 1 1 I
-X A1 16 -400 -300 100 R 50 50 1 1 I
-X IO0 2 200 200 100 L 50 50 1 1 O
-X IO1 3 200 100 100 L 50 50 1 1 O
-X IO2 4 200 0 100 L 50 50 1 1 O
-X IO3 5 200 -100 100 L 50 50 1 1 O
-X GND 6 -400 -500 100 R 50 50 1 1 W
-X IO4 7 200 -200 100 L 50 50 1 1 O
-X IO5 8 200 -300 100 L 50 50 1 1 O
-X IO6 9 200 -400 100 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
 # video-booster-board-rescue_PTN3363-antmicroInterfaceDriversReceiversTransceivers
 #
 DEF video-booster-board-rescue_PTN3363-antmicroInterfaceDriversReceiversTransceivers U 0 40 Y Y 1 F N
@@ -530,7 +569,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_0R_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_0R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_0R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_0R_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -547,7 +586,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_100k_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_100k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_100k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_100k_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -564,7 +603,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_10k_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_10k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_10k_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_10k_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -581,7 +620,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_12k4_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_12k4_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_12k4_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_12k4_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -598,7 +637,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_15R_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_15R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_15R_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_15R_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -615,7 +654,7 @@ ENDDEF
 #
 # video-booster-board-rescue_R_49R9_0402-antmicroResistors0402
 #
-DEF ~video-booster-board-rescue_R_49R9_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
+DEF video-booster-board-rescue_R_49R9_0402-antmicroResistors0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "video-booster-board-rescue_R_49R9_0402-antmicroResistors0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
