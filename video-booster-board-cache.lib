@@ -44,6 +44,46 @@ X B1 8 400 150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW
+#
+DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW U 0 40 Y Y 1 F N
+F0 "U" -100 250 60 H V C CNN
+F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2110APW" -200 -350 60 H V L CNN
+F2 "antmicro-footprints:TSSOP-8_W4.4mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps2111a.pdf" 200 300 60 H I L CNN
+F4 "Texas Instruments" 200 650 60 H I L CNN "Manufacturer"
+F5 "TPS2110APW" 200 500 60 H I L CNN "MPN"
+DRAW
+S -200 200 300 -300 0 1 0 f
+X D0 1 -300 0 100 R 50 50 1 1 I
+X D1 2 -300 -100 100 R 50 50 1 1 I
+X VSNS 3 -300 -200 100 R 50 50 1 1 I
+X ILIM 4 400 -100 100 L 50 50 1 1 I
+X GND 5 400 -200 100 L 50 50 1 1 W
+X IN2 6 400 100 100 L 50 50 1 1 W
+X OUT 7 400 0 100 L 50 50 1 1 w
+X IN1 8 -300 100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# antmicroRectangularConnectorsHeadersMalePins_640456-2
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_640456-2 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_640456-2" 50 -150 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "640456-2" 200 500 60 H I L CNN "MPN"
+F5 "TE Connectivity AMP Connectors" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_100R_0402
 #
 DEF antmicroResistors0402_R_100R_0402 R 0 0 Y Y 1 F N
@@ -54,6 +94,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
 F6 "100R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1R_0402
+#
+DEF antmicroResistors0402_R_1R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-071RL" 200 300 60 H I L CNN "MPN"
+F6 "1R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -95,6 +152,40 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_4k7_0402
+#
+DEF antmicroResistors0402_R_4k7_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_4k7_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
+F6 "4k7" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_806k_0402
+#
+DEF antmicroResistors0402_R_806k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_806k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402806KFKED" 200 300 60 H I L CNN "MPN"
+F6 "806k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -107,6 +198,21 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5VA
+#
+DEF power_+5VA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5VA" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
