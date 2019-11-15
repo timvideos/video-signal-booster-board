@@ -1047,19 +1047,6 @@ F 5 "PTN3363" H 5650 1500 60  0001 L CNN "MPN"
 	1    5900 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D2
-U 1 1 5DCADE96
-P 11150 1700
-F 0 "D2" V 11203 1597 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 10950 1650 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 11350 1900 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 11350 2000 60  0001 L CNN
-F 4 "BAT54" H 11350 2100 60  0001 L CNN "MPN"
-F 5 "Vishay" H 11350 2200 60  0001 L CNN "Manufacturer"
-	1    11150 1700
-	0    -1   -1   0   
-$EndComp
 Text Label 1700 2300 0    50   ~ 0
 TX_SRC_5V
 Wire Wire Line
@@ -1386,19 +1373,6 @@ F 4 "NXP" H 4650 5350 60  0001 L CNN "Manufacturer"
 F 5 "PTN3363" H 4900 5350 60  0001 L CNN "MPN"
 	1    5150 7050
 	-1   0    0    -1  
-$EndComp
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D3
-U 1 1 5DF9BA0B
-P 2200 5750
-F 0 "D3" V 2253 5647 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 2100 5650 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 2400 5950 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 2400 6050 60  0001 L CNN
-F 4 "BAT54" H 2400 6150 60  0001 L CNN "MPN"
-F 5 "Vishay" H 2400 6250 60  0001 L CNN "Manufacturer"
-	1    2200 5750
-	0    1    1    0   
 $EndComp
 Text Label 1600 6050 0    50   ~ 0
 RX_SINK_5V
@@ -2514,7 +2488,7 @@ Wire Wire Line
 	11850 6800 12450 6800
 Wire Wire Line
 	11850 6900 12450 6900
-Text Label 13400 6400 0    50   ~ 0
+Text Label 13400 6100 0    50   ~ 0
 TX_DDET
 Text Label 13400 6700 0    50   ~ 0
 RX_DDET
@@ -2552,9 +2526,9 @@ Wire Wire Line
 Text Label 13400 7500 0    50   ~ 0
 PWR_CTL_D1
 Wire Wire Line
-	11850 7000 12450 7000
+	13300 6800 13900 6800
 Wire Wire Line
-	11850 7100 12450 7100
+	13300 6900 13900 6900
 Wire Wire Line
 	11850 7200 12450 7200
 Wire Wire Line
@@ -2591,9 +2565,9 @@ Wire Wire Line
 	13300 7500 13950 7500
 Wire Wire Line
 	13300 7600 13950 7600
-Text Label 11850 7000 0    50   ~ 0
+Text Label 13400 6800 0    50   ~ 0
 DBG_LED_0
-Text Label 11850 7100 0    50   ~ 0
+Text Label 13400 6900 0    50   ~ 0
 DBG_LED_1
 Wire Wire Line
 	14350 8500 14350 8100
@@ -2831,7 +2805,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 5950 14950 6050
 Wire Wire Line
-	14550 5950 14950 5950
+	14500 5950 14950 5950
 $Comp
 L power:GND #PWR083
 U 1 1 5E59DF88
@@ -2888,9 +2862,9 @@ Text Label 13400 7600 0    50   ~ 0
 TX_SINK_SDA_3V
 Text Label 11850 6700 0    50   ~ 0
 RX_SRC_SCL_3V
-Text Label 10250 3950 0    50   ~ 0
-TX_SRC_SCL_3V
 Text Label 10250 3850 0    50   ~ 0
+TX_SRC_SCL_3V
+Text Label 10250 3950 0    50   ~ 0
 TX_SRC_SDA_3V
 Text Label 4700 4000 0    50   ~ 0
 TX_SINK_SDA_3V
@@ -2934,7 +2908,7 @@ Text Label 8300 7550 0    50   ~ 0
 RX_SRC_SCL
 Text Label 11850 7200 0    50   ~ 0
 TX_HPD_3V
-Text Label 11850 7300 0    50   ~ 0
+Text Label 11850 7000 0    50   ~ 0
 RX_HPD_3V
 Text Label 4800 3800 0    50   ~ 0
 TX_HPD_3V
@@ -3252,10 +3226,10 @@ Wire Wire Line
 Connection ~ 12100 3750
 Wire Wire Line
 	12100 3750 12650 3750
-Text Label 12200 3950 0    50   ~ 0
+Text Label 12200 3850 0    50   ~ 0
 TX_SRC_SCL
 Text Label 12200 3750 0    50   ~ 0
-TX_5V
+TX_SRC_5V
 $Comp
 L power:GND #PWR080
 U 1 1 61A64653
@@ -3355,8 +3329,8 @@ Wire Wire Line
 Connection ~ 14800 3750
 Wire Wire Line
 	14800 3750 15350 3750
-Text Label 14900 3750 0    50   ~ 0
-RX_5V
+Text Label 14850 3750 0    50   ~ 0
+RX_SINK_5V
 $Comp
 L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C35
 U 1 1 61AB5659
@@ -3372,15 +3346,15 @@ F 6 "100n" H 13800 4050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Connection ~ 13600 4050
-Text Label 12950 3950 0    50   ~ 0
-RX_SINK_SCL_3V
 Text Label 12950 3850 0    50   ~ 0
+RX_SINK_SCL_3V
+Text Label 12950 3950 0    50   ~ 0
 RX_SINK_SDA_3V
-Text Label 14850 3950 0    50   ~ 0
-RX_SINK_SCL
 Text Label 14850 3850 0    50   ~ 0
+RX_SINK_SCL
+Text Label 14850 3950 0    50   ~ 0
 RX_SINK_SDA
-Text Label 12200 3850 0    50   ~ 0
+Text Label 12200 3950 0    50   ~ 0
 TX_SRC_SDA
 Text Label 11900 2900 0    50   ~ 0
 TX_SRC_SDA
@@ -3411,7 +3385,7 @@ TX_SINK_SDA
 Text Label 10250 10850 0    50   ~ 0
 TX_SINK_SCL
 Text Label 8850 10300 0    50   ~ 0
-RX_SINK_5V
+RX_SRC_5V
 $Comp
 L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R31
 U 1 1 5E9C4D14
@@ -3528,7 +3502,7 @@ F 3 "" H 11100 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10250 10300 0    50   ~ 0
-TX_SRC_5V
+TX_SINK_5V
 $Comp
 L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R34
 U 1 1 6256AC4F
@@ -3588,7 +3562,7 @@ $Comp
 L video-booster-board-rescue:C_4u7_0603-antmicroCapacitors0603 C36
 U 1 1 62A47AFC
 P 10800 1750
-F 0 "C36" H 10915 1795 60  0000 L CNN
+F 0 "C36" H 10850 1850 60  0000 L CNN
 F 1 "C_4u7_0603" H 10800 1600 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 11000 1950 60  0001 L CNN
 F 3 "" H 10800 1750 50  0001 C CNN
@@ -3634,19 +3608,6 @@ $EndComp
 Text Notes 10100 1750 0    50   ~ 0
 +5V Auxillary
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:640456-2 J10
-U 1 1 62913778
-P 10500 1500
-F 0 "J10" V 10300 1400 50  0000 L CNN
-F 1 "640456-2" V 10400 1250 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 10700 1700 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 10700 1800 60  0001 L CNN
-F 4 "640456-2" H 10700 2000 60  0001 L CNN "MPN"
-F 5 "TE Connectivity AMP Connectors" H 10700 2600 60  0001 L CNN "Manufacturer"
-	1    10500 1500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5VA #PWR036
 U 1 1 6291ED95
 P 7150 1300
@@ -3674,46 +3635,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 1900 11150 1950
 $Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D4
-U 1 1 62DA4294
-P 12300 1300
-F 0 "D4" H 12200 1400 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 12100 1250 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 12500 1500 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 1600 60  0001 L CNN
-F 4 "BAT54" H 12500 1700 60  0001 L CNN "MPN"
-F 5 "Vishay" H 12500 1800 60  0001 L CNN "Manufacturer"
-	1    12300 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D5
-U 1 1 62DF38B4
-P 12300 1500
-F 0 "D5" H 12200 1600 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 12100 1450 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 12500 1700 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 1800 60  0001 L CNN
-F 4 "BAT54" H 12500 1900 60  0001 L CNN "MPN"
-F 5 "Vishay" H 12500 2000 60  0001 L CNN "Manufacturer"
-	1    12300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D6
-U 1 1 62DF3D8C
-P 12300 1700
-F 0 "D6" H 12200 1800 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 12100 1650 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 12500 1900 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 2000 60  0001 L CNN
-F 4 "BAT54" H 12500 2100 60  0001 L CNN "MPN"
-F 5 "Vishay" H 12500 2200 60  0001 L CNN "Manufacturer"
-	1    12300 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D7
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D7
 U 1 1 62DF4084
 P 12300 1900
 F 0 "D7" H 12200 2000 60  0000 R CNN
@@ -3758,19 +3680,6 @@ Text Label 11600 1700 0    50   ~ 0
 TX_SRC_5V
 Text Label 11600 1300 0    50   ~ 0
 VUSB
-$Comp
-L video-booster-board-rescue:BAT54-02V-V-G-antmicroDiodesRectifiersSingle D1
-U 1 1 632A72BF
-P 2500 6050
-F 0 "D1" V 2553 5947 60  0000 R CNN
-F 1 "BAT54-02V-V-G" V 2400 5950 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 2700 6250 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 2700 6350 60  0001 L CNN
-F 4 "BAT54" H 2700 6450 60  0001 L CNN "MPN"
-F 5 "Vishay" H 2700 6550 60  0001 L CNN "Manufacturer"
-	1    2500 6050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1550 6050 2200 6050
 Wire Wire Line
@@ -4251,62 +4160,6 @@ F 6 "100k" V 2400 9650 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:M20-9990246-antmicroRectangularConnectorsHeadersMalePins J4
-U 1 1 5DBDC32F
-P 2050 10200
-F 0 "J4" V 2150 10050 50  0000 C CNN
-F 1 "M20-9990246" H 2250 9950 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 2250 10400 60  0001 L CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 2250 10500 60  0001 L CNN
-F 4 "M20-9990246" H 2250 10700 60  0001 L CNN "MPN"
-F 5 "Harwin Inc." H 2250 11300 60  0001 L CNN "Manufacturer"
-	1    2050 10200
-	0    1    1    0   
-$EndComp
-$Comp
-L video-booster-board-rescue:M20-9990246-antmicroRectangularConnectorsHeadersMalePins J5
-U 1 1 5DBDC338
-P 2500 10200
-F 0 "J5" V 2600 10050 50  0000 C CNN
-F 1 "M20-9990246" H 2650 9950 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 2700 10400 60  0001 L CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 2700 10500 60  0001 L CNN
-F 4 "M20-9990246" H 2700 10700 60  0001 L CNN "MPN"
-F 5 "Harwin Inc." H 2700 11300 60  0001 L CNN "Manufacturer"
-	1    2500 10200
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5DBDC33F
-P 2150 10450
-F 0 "#PWR04" H 2150 10200 50  0001 C CNN
-F 1 "GND" H 2155 10277 50  0000 C CNN
-F 2 "" H 2150 10450 50  0001 C CNN
-F 3 "" H 2150 10450 50  0001 C CNN
-	1    2150 10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 5DBDC345
-P 2400 10450
-F 0 "#PWR07" H 2400 10200 50  0001 C CNN
-F 1 "GND" H 2405 10277 50  0000 C CNN
-F 2 "" H 2400 10450 50  0001 C CNN
-F 3 "" H 2400 10450 50  0001 C CNN
-	1    2400 10450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 10450 2400 10300
-Wire Wire Line
-	2150 10300 2150 10450
-Wire Wire Line
-	2150 10200 2150 9850
-Wire Wire Line
-	2400 10200 2400 9950
-$Comp
 L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R9
 U 1 1 5DBDC3F5
 P 1850 9850
@@ -4334,90 +4187,64 @@ F 6 "10k" H 1650 9900 50  0000 C CNN "Val"
 	1    1850 9950
 	-1   0    0    1   
 $EndComp
-Text Label 4450 9950 0    50   ~ 0
+Text Label 2500 10800 0    50   ~ 0
 RX_EQ1
-Text Label 4450 9850 0    50   ~ 0
+Text Label 2500 10700 0    50   ~ 0
 RX_EQ0
 $Comp
 L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R14
 U 1 1 5EECF56D
-P 4100 9600
-F 0 "R14" V 4000 9300 60  0000 L CNN
-F 1 "R_100k_0402" H 4100 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4300 9800 60  0001 L CNN
-F 3 "" H 4100 9600 50  0001 C CNN
-F 4 "VISHAY" H 4300 10000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 4300 9900 60  0001 L CNN "MPN"
-F 6 "100k" V 4100 9300 50  0000 L CNN "Val"
-	1    4100 9600
+P 2150 10450
+F 0 "R14" V 2050 10150 60  0000 L CNN
+F 1 "R_100k_0402" H 2150 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2350 10650 60  0001 L CNN
+F 3 "" H 2150 10450 50  0001 C CNN
+F 4 "VISHAY" H 2350 10850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 2350 10750 60  0001 L CNN "MPN"
+F 6 "100k" V 2150 10150 50  0000 L CNN "Val"
+	1    2150 10450
 	0    1    1    0   
 $EndComp
 $Comp
 L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R15
 U 1 1 5EECF577
-P 4350 9600
-F 0 "R15" V 4250 9700 60  0000 L CNN
-F 1 "R_100k_0402" H 4350 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4550 9800 60  0001 L CNN
-F 3 "" H 4350 9600 50  0001 C CNN
-F 4 "VISHAY" H 4550 10000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 4550 9900 60  0001 L CNN "MPN"
-F 6 "100k" V 4350 9700 50  0000 L CNN "Val"
-	1    4350 9600
+P 2400 10450
+F 0 "R15" V 2300 10550 60  0000 L CNN
+F 1 "R_100k_0402" H 2400 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2600 10650 60  0001 L CNN
+F 3 "" H 2400 10450 50  0001 C CNN
+F 4 "VISHAY" H 2600 10850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 2600 10750 60  0001 L CNN "MPN"
+F 6 "100k" V 2400 10550 50  0000 L CNN "Val"
+	1    2400 10450
 	0    1    1    0   
-$EndComp
-$Comp
-L video-booster-board-rescue:M20-9990246-antmicroRectangularConnectorsHeadersMalePins J7
-U 1 1 5EECF580
-P 4000 10200
-F 0 "J7" V 4100 10050 50  0000 C CNN
-F 1 "M20-9990246" H 4200 9950 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 4200 10400 60  0001 L CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 4200 10500 60  0001 L CNN
-F 4 "M20-9990246" H 4200 10700 60  0001 L CNN "MPN"
-F 5 "Harwin Inc." H 4200 11300 60  0001 L CNN "Manufacturer"
-	1    4000 10200
-	0    1    1    0   
-$EndComp
-$Comp
-L video-booster-board-rescue:M20-9990246-antmicroRectangularConnectorsHeadersMalePins J8
-U 1 1 5EECF589
-P 4450 10200
-F 0 "J8" V 4550 10050 50  0000 C CNN
-F 1 "M20-9990246" H 4650 9950 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 4650 10400 60  0001 L CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 4650 10500 60  0001 L CNN
-F 4 "M20-9990246" H 4650 10700 60  0001 L CNN "MPN"
-F 5 "Harwin Inc." H 4650 11300 60  0001 L CNN "Manufacturer"
-	1    4450 10200
-	0    -1   1    0   
 $EndComp
 $Comp
 L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R39
 U 1 1 5F0B1270
-P 3800 9850
-F 0 "R39" H 4000 9800 60  0000 C CNN
-F 1 "R_10k_0402" H 3800 9700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4000 10050 60  0001 L CNN
-F 3 "" H 3800 9850 50  0001 C CNN
-F 4 "VISHAY" H 4000 10250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 4000 10150 60  0001 L CNN "MPN"
-F 6 "10k" H 3600 9800 50  0000 C CNN "Val"
-	1    3800 9850
+P 1850 10700
+F 0 "R39" H 2050 10650 60  0000 C CNN
+F 1 "R_10k_0402" H 1850 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2050 10900 60  0001 L CNN
+F 3 "" H 1850 10700 50  0001 C CNN
+F 4 "VISHAY" H 2050 11100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2050 11000 60  0001 L CNN "MPN"
+F 6 "10k" H 1650 10650 50  0000 C CNN "Val"
+	1    1850 10700
 	-1   0    0    1   
 $EndComp
 $Comp
 L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R40
 U 1 1 5F0B127A
-P 3800 9950
-F 0 "R40" H 4000 9900 60  0000 C CNN
-F 1 "R_10k_0402" H 3800 9800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4000 10150 60  0001 L CNN
-F 3 "" H 3800 9950 50  0001 C CNN
-F 4 "VISHAY" H 4000 10350 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 4000 10250 60  0001 L CNN "MPN"
-F 6 "10k" H 3600 9900 50  0000 C CNN "Val"
-	1    3800 9950
+P 1850 10800
+F 0 "R40" H 2050 10750 60  0000 C CNN
+F 1 "R_10k_0402" H 1850 10650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2050 11000 60  0001 L CNN
+F 3 "" H 1850 10800 50  0001 C CNN
+F 4 "VISHAY" H 2050 11200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2050 11100 60  0001 L CNN "MPN"
+F 6 "10k" H 1650 10750 50  0000 C CNN "Val"
+	1    1850 10800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -4429,78 +4256,48 @@ TX_EQ1_R
 Text Label 1150 9850 0    50   ~ 0
 TX_EQ0_R
 Wire Wire Line
-	3950 9850 4100 9850
+	2000 10700 2150 10700
 $Comp
 L power:VDD #PWR08
 U 1 1 5F7297BB
-P 4100 9450
-F 0 "#PWR08" H 4100 9300 50  0001 C CNN
-F 1 "VDD" H 4117 9623 50  0000 C CNN
-F 2 "" H 4100 9450 50  0001 C CNN
-F 3 "" H 4100 9450 50  0001 C CNN
-	1    4100 9450
+P 2150 10300
+F 0 "#PWR08" H 2150 10150 50  0001 C CNN
+F 1 "VDD" H 2167 10473 50  0000 C CNN
+F 2 "" H 2150 10300 50  0001 C CNN
+F 3 "" H 2150 10300 50  0001 C CNN
+	1    2150 10300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR010
 U 1 1 5F7297C1
-P 4350 9450
-F 0 "#PWR010" H 4350 9300 50  0001 C CNN
-F 1 "VDD" H 4367 9623 50  0000 C CNN
-F 2 "" H 4350 9450 50  0001 C CNN
-F 3 "" H 4350 9450 50  0001 C CNN
-	1    4350 9450
+P 2400 10300
+F 0 "#PWR010" H 2400 10150 50  0001 C CNN
+F 1 "VDD" H 2417 10473 50  0000 C CNN
+F 2 "" H 2400 10300 50  0001 C CNN
+F 3 "" H 2400 10300 50  0001 C CNN
+	1    2400 10300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 9750 4100 9850
-Connection ~ 4100 9850
+	2150 10600 2150 10700
+Connection ~ 2150 10700
 Wire Wire Line
-	4100 9850 4700 9850
+	2150 10700 2750 10700
 Wire Wire Line
-	4350 9750 4350 9950
+	2400 10600 2400 10800
 Wire Wire Line
-	3950 9950 4350 9950
-Connection ~ 4350 9950
+	2000 10800 2400 10800
+Connection ~ 2400 10800
 Wire Wire Line
-	4350 9950 4700 9950
-$Comp
-L power:GND #PWR09
-U 1 1 5F7297F4
-P 4100 10450
-F 0 "#PWR09" H 4100 10200 50  0001 C CNN
-F 1 "GND" H 4105 10277 50  0000 C CNN
-F 2 "" H 4100 10450 50  0001 C CNN
-F 3 "" H 4100 10450 50  0001 C CNN
-	1    4100 10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5F7297FA
-P 4350 10450
-F 0 "#PWR011" H 4350 10200 50  0001 C CNN
-F 1 "GND" H 4355 10277 50  0000 C CNN
-F 2 "" H 4350 10450 50  0001 C CNN
-F 3 "" H 4350 10450 50  0001 C CNN
-	1    4350 10450
-	1    0    0    -1  
-$EndComp
+	2400 10800 2750 10800
 Wire Wire Line
-	4350 10450 4350 10300
+	1700 10700 1150 10700
 Wire Wire Line
-	4100 10300 4100 10450
-Wire Wire Line
-	4100 10200 4100 9850
-Wire Wire Line
-	4350 10200 4350 9950
-Wire Wire Line
-	3650 9850 3100 9850
-Wire Wire Line
-	3650 9950 3100 9950
-Text Label 3100 9950 0    50   ~ 0
+	1700 10800 1150 10800
+Text Label 1150 10800 0    50   ~ 0
 RX_EQ1_R
-Text Label 3100 9850 0    50   ~ 0
+Text Label 1150 10700 0    50   ~ 0
 RX_EQ0_R
 $Comp
 L power:VDD #PWR032
@@ -4594,4 +4391,167 @@ Wire Wire Line
 	11750 9100 11750 9050
 Text Label 13350 9050 0    50   ~ 0
 TX_SINK_5V
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D4
+U 1 1 5DD44658
+P 12300 1300
+F 0 "D4" H 12200 1400 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 12100 1250 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 12500 1500 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 1600 60  0001 L CNN
+F 4 "BAT54" H 12500 1700 60  0001 L CNN "MPN"
+F 5 "Vishay" H 12500 1800 60  0001 L CNN "Manufacturer"
+	1    12300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D5
+U 1 1 5DD449C5
+P 12300 1500
+F 0 "D5" H 12200 1600 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 12100 1450 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 12500 1700 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 1800 60  0001 L CNN
+F 4 "BAT54" H 12500 1900 60  0001 L CNN "MPN"
+F 5 "Vishay" H 12500 2000 60  0001 L CNN "Manufacturer"
+	1    12300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D6
+U 1 1 5DD44CC2
+P 12300 1700
+F 0 "D6" H 12200 1800 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 12100 1650 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 12500 1900 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 12500 2000 60  0001 L CNN
+F 4 "BAT54" H 12500 2100 60  0001 L CNN "MPN"
+F 5 "Vishay" H 12500 2200 60  0001 L CNN "Manufacturer"
+	1    12300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D2
+U 1 1 5DDA66C9
+P 11150 1700
+F 0 "D2" V 11100 1600 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 10950 1650 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 11350 1900 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 11350 2000 60  0001 L CNN
+F 4 "BAT54" H 11350 2100 60  0001 L CNN "MPN"
+F 5 "Vishay" H 11350 2200 60  0001 L CNN "Manufacturer"
+	1    11150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D3
+U 1 1 5DDAC027
+P 2200 5750
+F 0 "D3" V 2150 5650 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 2000 5700 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 2400 5950 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 2400 6050 60  0001 L CNN
+F 4 "BAT54" H 2400 6150 60  0001 L CNN "MPN"
+F 5 "Vishay" H 2400 6250 60  0001 L CNN "Manufacturer"
+	1    2200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D1
+U 1 1 5DDB01CA
+P 2500 6050
+F 0 "D1" H 2450 5950 60  0000 R CNN
+F 1 "BAT54-02V-V-G" V 2300 6000 60  0001 R CNN
+F 2 "antmicro-footprints:SOD-523" H 2700 6250 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 2700 6350 60  0001 L CNN
+F 4 "BAT54" H 2700 6450 60  0001 L CNN "MPN"
+F 5 "Vishay" H 2700 6550 60  0001 L CNN "Manufacturer"
+	1    2500 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroSlideSwitches:1571983-5 SW1
+U 1 1 5DDDC5FA
+P 3900 9950
+F 0 "SW1" H 3900 10317 50  0000 C CNN
+F 1 "1571983-5" H 3900 10226 50  0000 C CNN
+F 2 "antmicro-footprints:1571983-5" H 3900 9950 50  0001 L BNN
+F 3 "TE Connectivity" H 3900 9950 50  0001 L BNN
+F 4 "450-1762-6-ND" H 3900 9950 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 3900 9950 50  0001 L BNN "Field5"
+F 6 ".1 A" H 3900 9950 50  0001 L BNN "Field6"
+F 7 "DIP-4 TE Connectivity" H 3900 9950 50  0001 L BNN "Field7"
+F 8 "50 VDC" H 3900 9950 50  0001 L BNN "Field8"
+F 9 "https://www.te.com/usa-en/product-1571983-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3900 9950 50  0001 L BNN "Field9"
+F 10 "1571983-5" H 3900 9950 50  0001 L BNN "Field10"
+F 11 "https://www.digikey.pl/product-detail/en/te-connectivity-alcoswitch-switches/1571983-5/450-1762-6-ND/2755727?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3900 9950 50  0001 L BNN "Field11"
+F 12 "1571983-5" H 3900 9950 50  0001 L BNN "Field12"
+F 13 "GDH04STR04=DIP SWITCH" H 3900 9950 50  0001 L BNN "Field13"
+F 14 "DIP" H 3900 9950 50  0001 L BNN "Field14"
+	1    3900 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 9850 3250 9850
+Wire Wire Line
+	3500 9950 3250 9950
+Wire Wire Line
+	3500 10050 3250 10050
+Wire Wire Line
+	3250 10150 3500 10150
+Text Label 3250 9850 0    50   ~ 0
+TX_EQ0
+Text Label 3250 9950 0    50   ~ 0
+TX_EQ1
+Text Label 3250 10050 0    50   ~ 0
+RX_EQ0
+Text Label 3250 10150 0    50   ~ 0
+RX_EQ1
+$Comp
+L power:GND #PWR04
+U 1 1 5E0EDB8A
+P 4450 10350
+F 0 "#PWR04" H 4450 10100 50  0001 C CNN
+F 1 "GND" H 4455 10177 50  0000 C CNN
+F 2 "" H 4450 10350 50  0001 C CNN
+F 3 "" H 4450 10350 50  0001 C CNN
+	1    4450 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 9850 4300 9850
+Wire Wire Line
+	4450 10350 4450 10150
+Wire Wire Line
+	4300 9950 4450 9950
+Connection ~ 4450 9950
+Wire Wire Line
+	4450 9950 4450 9850
+Wire Wire Line
+	4300 10050 4450 10050
+Connection ~ 4450 10050
+Wire Wire Line
+	4450 10050 4450 9950
+Wire Wire Line
+	4300 10150 4450 10150
+Connection ~ 4450 10150
+Wire Wire Line
+	4450 10150 4450 10050
+Wire Wire Line
+	13300 6100 13950 6100
+Wire Wire Line
+	12450 7000 11850 7000
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:M20-9990246 J10
+U 1 1 5DD74C13
+P 10500 1500
+F 0 "J10" V 10275 1508 50  0000 C CNN
+F 1 "M20-9990246" V 10366 1508 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 10700 1700 60  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 10700 1800 60  0001 L CNN
+F 4 "M20-9990246" H 10700 2000 60  0001 L CNN "MPN"
+F 5 "Harwin Inc." H 10700 2600 60  0001 L CNN "Manufacturer"
+	1    10500 1500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
