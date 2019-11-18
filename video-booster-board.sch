@@ -4610,4 +4610,10 @@ Text Notes 13050 850  0    138  ~ 28
 Power supply
 Text Notes 13150 8050 0    138  ~ 28
 MCU
+Text Notes 3250 3700 0    50   ~ 0
+SCL/SDA operate at 5V
+Text Notes 13350 4400 0    50   ~ 0
+We should control the OE from MCU
+Text Notes 13350 4500 0    50   ~ 0
+For both channels
 $EndSCHEMATC
