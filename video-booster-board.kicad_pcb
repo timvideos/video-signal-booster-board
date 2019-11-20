@@ -372,7 +372,7 @@
     (add_net "Net-(U6-Pad32)")
   )
 
-  (module antmicro-footprints:UFDFN-10_2.5x1mm (layer F.Cu) (tedit 5DD50D84) (tstamp 5DD52A5F)
+  (module video-booster-board-footprints:UFDFN-10_2.5x1mm (layer F.Cu) (tedit 5DD50D84) (tstamp 5DD52A5F)
     (at 133.91 78.16 90)
     (descr http://www.semtech.com/images/datasheet/rclamp0522p_0524p.pdf)
     (path /5DFD2A20)
@@ -431,7 +431,7 @@
     )
   )
 
-  (module antmicro-footprints:PinHeader_1x2_P2.54mm (layer F.Cu) (tedit 5DBACA37) (tstamp 5DCF06C4)
+  (module video-booster-board-footprints:PinHeader_1x2_P2.54mm (layer F.Cu) (tedit 5DBACA37) (tstamp 5DCF06C4)
     (at 133.3 60.61)
     (path /5DD74C13)
     (fp_text reference J10 (at 1.37 -2.69) (layer F.SilkS)
@@ -470,7 +470,7 @@
     )
   )
 
-  (module antmicro-footprints:1571983-5 (layer B.Cu) (tedit 5DCE6836) (tstamp 5DCEE766)
+  (module video-booster-board-footprints:1571983-5 (layer B.Cu) (tedit 5DCE6836) (tstamp 5DCEE766)
     (at 119.88 78.76 270)
     (path /5DDDC5FA)
     (attr smd)
@@ -619,7 +619,7 @@
     )
   )
 
-  (module antmicro-footprints:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5DCE5D24) (tstamp 5DCFBE71)
+  (module video-booster-board-footprints:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5DCE5D24) (tstamp 5DCFBE71)
     (at 141.49 78.68)
     (descr http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf)
     (path /633E3EA1)
@@ -674,7 +674,7 @@
     )
   )
 
-  (module antmicro-footprints:TQFP-48_7x7mm (layer F.Cu) (tedit 5DCE5CB6) (tstamp 5DC05DA3)
+  (module video-booster-board-footprints:TQFP-48_7x7mm (layer F.Cu) (tedit 5DCE5CB6) (tstamp 5DC05DA3)
     (at 127.88 77.16 270)
     (descr http://ww1.microchip.com/downloads/en/DeviceDoc/40001884A.pdf)
     (path /5E196AD5)
@@ -809,7 +809,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD194)
+  (module video-booster-board-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD194)
     (at 119.74 97.32 180)
     (path /5DD44CC2)
     (attr smd)
@@ -854,7 +854,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD2D8)
+  (module video-booster-board-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD2D8)
     (at 133.46 72.21 90)
     (path /5DD449C5)
     (attr smd)
@@ -899,7 +899,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD287)
+  (module video-booster-board-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD287)
     (at 119.68 98.87 180)
     (path /5DD44658)
     (attr smd)
@@ -944,7 +944,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer B.Cu) (tedit 5DC132DF) (tstamp 5DCF1598)
+  (module video-booster-board-footprints:SOD-523 (layer B.Cu) (tedit 5DC132DF) (tstamp 5DCF1598)
     (at 145.47 64.37 270)
     (path /5DDAC027)
     (attr smd)
@@ -989,7 +989,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCE7B67)
+  (module video-booster-board-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCE7B67)
     (at 127.23 60.05 180)
     (path /5DDA66C9)
     (attr smd)
@@ -1034,7 +1034,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer B.Cu) (tedit 5DC132DF) (tstamp 5DCF15E9)
+  (module video-booster-board-footprints:SOD-523 (layer B.Cu) (tedit 5DC132DF) (tstamp 5DCF15E9)
     (at 144.19 64.35 270)
     (path /5DDB01CA)
     (attr smd)
@@ -1079,7 +1079,7 @@
     )
   )
 
-  (module antmicro-footprints:PSON50P100X195X50-8N (layer F.Cu) (tedit 5DCD5522) (tstamp 5DC05DC1)
+  (module video-booster-board-footprints:PSON50P100X195X50-8N (layer F.Cu) (tedit 5DCD5522) (tstamp 5DC05DC1)
     (at 117.92 70.07 90)
     (path /61A6466F)
     (attr smd)
@@ -1124,7 +1124,7 @@
     )
   )
 
-  (module antmicro-footprints:PSON50P100X195X50-8N (layer F.Cu) (tedit 5DCD5522) (tstamp 5DC1F2AD)
+  (module video-booster-board-footprints:PSON50P100X195X50-8N (layer F.Cu) (tedit 5DCD5522) (tstamp 5DC1F2AD)
     (at 117.66 94.47)
     (path /61020792)
     (attr smd)
@@ -1169,7 +1169,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFB715)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFB715)
     (at 134.63 78.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1203,7 +1203,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFDB)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFDB)
     (at 136.72 78.77)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1237,7 +1237,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFCC)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFCC)
     (at 121.54 77.47 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1271,7 +1271,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFBD)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFBD)
     (at 119.38 77.49 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1305,7 +1305,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFAE)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECFAE)
     (at 109.01 72.85 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1339,7 +1339,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF9F)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF9F)
     (at 108.02 72.85 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1373,7 +1373,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF90)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF90)
     (at 134.62 77.67)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1407,7 +1407,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF81)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCECF81)
     (at 136.7 77.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1441,7 +1441,7 @@
     )
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 5DCFD41D)
+  (module video-booster-board-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 5DCFD41D)
     (at 132.8 81.41)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /5F05FE9B)
@@ -1485,7 +1485,7 @@
     )
   )
 
-  (module antmicro-footprints:SOT-23-5 (layer F.Cu) (tedit 5D64D240) (tstamp 5DCFBF72)
+  (module video-booster-board-footprints:SOT-23-5 (layer F.Cu) (tedit 5D64D240) (tstamp 5DCFBF72)
     (at 148.03 78.83 180)
     (path /5DD3122C)
     (attr smd)
@@ -1532,7 +1532,7 @@
     )
   )
 
-  (module antmicro-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5DCEC74C)
+  (module video-booster-board-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5DCEC74C)
     (at 116.53 80.81 270)
     (path /5E667AE9)
     (attr smd)
@@ -1574,7 +1574,7 @@
     )
   )
 
-  (module antmicro-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5DCEC731)
+  (module video-booster-board-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 5DCEC731)
     (at 116.45 76.96 90)
     (path /5E306153)
     (attr smd)
@@ -1616,7 +1616,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD329)
+  (module video-booster-board-footprints:SOD-523 (layer F.Cu) (tedit 5DC132DF) (tstamp 5DCFD329)
     (at 135 72.2 90)
     (path /62DF4084)
     (attr smd)
@@ -1661,7 +1661,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBFDE)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBFDE)
     (at 148.49 81.47 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1695,7 +1695,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEC612)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEC612)
     (at 117.93 68.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1729,7 +1729,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEC603)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEC603)
     (at 119.49 93.49 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1763,7 +1763,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DC068F2)
+  (module video-booster-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DC068F2)
     (at 130.37 60.14 180)
     (path /62A47AFC)
     (attr smd)
@@ -1798,7 +1798,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC0693D)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC0693D)
     (at 136.62 76.56 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1832,7 +1832,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEED9C)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCEED9C)
     (at 119.51 95.27)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1866,7 +1866,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBEBE)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBEBE)
     (at 145.52 79.94 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1900,7 +1900,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBFB4)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DCFBFB4)
     (at 145.57 77.73 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1934,7 +1934,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC06901)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC06901)
     (at 117.96 71.36 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1968,7 +1968,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC068E3)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DC068E3)
     (at 121.28 79.02 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2002,7 +2002,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC06862)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC06862)
     (at 130.95 84.97 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2036,7 +2036,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC06853)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC06853)
     (at 132.15 84.97 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2070,7 +2070,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFC3A4)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFC3A4)
     (at 144.02 81.02 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2104,7 +2104,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFBF3C)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFBF3C)
     (at 142.08 81.02)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2138,7 +2138,7 @@
     )
   )
 
-  (module antmicro-footprints:HDMI-PE10-19-LF (layer F.Cu) (tedit 5DBABDAE) (tstamp 5DB2DEF9)
+  (module video-booster-board-footprints:HDMI-PE10-19-LF (layer F.Cu) (tedit 5DBABDAE) (tstamp 5DB2DEF9)
     (at 114.7 67.1957 270)
     (descr "WR-COM SMT Horizontal HDMI, 19 pins")
     (path /5DF9B9E7)
@@ -2215,7 +2215,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD84C)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD84C)
     (at 130.42 63.34)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2249,7 +2249,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD76E)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD76E)
     (at 130.42 65.87)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2283,7 +2283,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD798)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD798)
     (at 130.42 61.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2317,7 +2317,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D667)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D667)
     (at 118.35 87.420903)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2351,7 +2351,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD876)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD876)
     (at 132.4 63.83 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2385,7 +2385,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD8A0)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD8A0)
     (at 132.44 65.39 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2419,7 +2419,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD8CA)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD8CA)
     (at 130.42 67.41)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2453,7 +2453,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD744)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD744)
     (at 132.43 67.92 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2487,7 +2487,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD81C)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD81C)
     (at 131.42 69.45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2521,7 +2521,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D817)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D817)
     (at 118.35 91.434099)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2555,7 +2555,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D841)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D841)
     (at 118.35 92.4374)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2589,7 +2589,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D694)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D694)
     (at 118.35 90.4308)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2623,7 +2623,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D6BE)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D6BE)
     (at 118.35 89.427501)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2657,7 +2657,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D712)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D712)
     (at 118.35 86.417604)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2691,7 +2691,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D6E8)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D6E8)
     (at 118.35 88.424202)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2725,7 +2725,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D86E)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB7D86E)
     (at 118.35 85.414305)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2759,7 +2759,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB31765)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB31765)
     (at 121.794 70.79 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2793,7 +2793,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3172C)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3172C)
     (at 127.84 62.06)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2827,7 +2827,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3171D)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3171D)
     (at 127.84 64.097142)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2861,7 +2861,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315F6)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315F6)
     (at 132.97 83.25 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2895,7 +2895,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315E7)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315E7)
     (at 127.84 69.19)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2929,7 +2929,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315D8)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315D8)
     (at 127.84 67.152855)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2963,7 +2963,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315C9)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315C9)
     (at 127.84 65.115713)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2997,7 +2997,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB35ABF)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB35ABF)
     (at 127.84 63.078571)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3031,7 +3031,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315AB)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB315AB)
     (at 127.84 68.171426)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3065,7 +3065,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3159C)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3159C)
     (at 127.84 66.134284)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3099,7 +3099,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3158D)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB3158D)
     (at 124.65 60.81 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3133,7 +3133,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31458)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31458)
     (at 124.204 83.68 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3167,7 +3167,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3142D)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3142D)
     (at 123.11 83.67 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3201,7 +3201,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEE093)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEE093)
     (at 124.102 70.79 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3235,7 +3235,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3140F)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3140F)
     (at 136.4 93.94 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3269,7 +3269,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31400)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31400)
     (at 123.63 60.81 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3303,7 +3303,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEED72)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEED72)
     (at 133.97 69.54 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3337,7 +3337,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB313E2)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB313E2)
     (at 125.256 70.79 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3371,7 +3371,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB313D3)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB313D3)
     (at 126.41 70.79 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3405,7 +3405,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFBEE8)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCFBEE8)
     (at 139.32 81.01)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3439,7 +3439,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEED48)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCEED48)
     (at 136.29 71.28 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3473,7 +3473,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCF2DC8)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DCF2DC8)
     (at 136.39 96.22 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3507,7 +3507,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD7EF)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DBAD7EF)
     (at 136.39 95.16 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3541,7 +3541,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31388)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31388)
     (at 120.65 61.04 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3575,7 +3575,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31379)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB31379)
     (at 119.58 61.04 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3609,7 +3609,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3136A)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3136A)
     (at 136.44 92.74 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3643,7 +3643,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3135B)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3135B)
     (at 121.74 72.71)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3677,7 +3677,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3134C)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB3134C)
     (at 121.66 73.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3711,7 +3711,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB82457)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB82457)
     (at 136.67 69.58 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3745,7 +3745,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB82A5B)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB82A5B)
     (at 137.34 71.3 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3779,7 +3779,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DCEF051)
+  (module video-booster-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DCEF051)
     (at 120.17 70.48 270)
     (path /5DF9B8F2)
     (attr smd)
@@ -3814,7 +3814,7 @@
     )
   )
 
-  (module antmicro-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 5DB31285)
+  (module video-booster-board-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 5DB31285)
     (at 140.95 67.632 270)
     (descr http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf)
     (path /5DF9B9EE)
@@ -3898,7 +3898,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN-32-1EP_5x5mm locked (layer F.Cu) (tedit 5D5E824D) (tstamp 5DB3112C)
+  (module video-booster-board-footprints:QFN-32-1EP_5x5mm locked (layer F.Cu) (tedit 5D5E824D) (tstamp 5DB3112C)
     (at 122.18 66.22 270)
     (path /5DF9BA02)
     (attr smd)
@@ -4021,7 +4021,7 @@
     )
   )
 
-  (module antmicro-footprints:HDMI-PE10-19-LF locked (layer F.Cu) (tedit 5DBABDAE) (tstamp 5DB1977B)
+  (module video-booster-board-footprints:HDMI-PE10-19-LF locked (layer F.Cu) (tedit 5DBABDAE) (tstamp 5DB1977B)
     (at 114.7 90.5637 270)
     (descr "WR-COM SMT Horizontal HDMI, 19 pins")
     (path /5DBAED87)
@@ -4098,7 +4098,7 @@
     )
   )
 
-  (module antmicro-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 5DB19753)
+  (module video-booster-board-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 5DB19753)
     (at 140.95 91 270)
     (descr http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf)
     (path /5DBAFB0A)
@@ -4182,7 +4182,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1C864)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1C864)
     (at 122.78 94.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4216,7 +4216,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1A835)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1A835)
     (at 121.7 94.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4250,7 +4250,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D8C2)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D8C2)
     (at 121.8466 85.414305 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4284,7 +4284,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1D3CB)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1D3CB)
     (at 128.69 83.22 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4318,7 +4318,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1D3A1)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1D3A1)
     (at 130.93 83.18)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4352,7 +4352,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB0C432)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB0C432)
     (at 125.97 98.54 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4386,7 +4386,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB0C423)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB0C423)
     (at 125.9 96.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4420,7 +4420,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D9CA)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D9CA)
     (at 121.8466 91.434101 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4454,7 +4454,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D9A0)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D9A0)
     (at 121.8466 89.427503 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4488,7 +4488,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D976)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D976)
     (at 121.8466 87.420905 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4522,7 +4522,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1ECE9)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1ECE9)
     (at 126.38 83.71 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4556,7 +4556,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1F813)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB1F813)
     (at 124.23 93.24 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4590,7 +4590,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D94C)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D94C)
     (at 121.8466 86.417606 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4624,7 +4624,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D922)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D922)
     (at 121.8466 88.424204 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4658,7 +4658,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D8F8)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D8F8)
     (at 121.8466 90.430802 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4692,7 +4692,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D898)
+  (module video-booster-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5DB7D898)
     (at 121.8466 92.4374 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4726,7 +4726,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C38D)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C38D)
     (at 119.605 74.88)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4760,7 +4760,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C37E)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C37E)
     (at 119.57 75.92)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4794,7 +4794,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DCEF495)
+  (module video-booster-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DCEF495)
     (at 142.55 94.43)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4828,7 +4828,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DB1F76B)
+  (module video-booster-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DB1F76B)
     (at 142.54 93.38)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4862,7 +4862,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C351)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C351)
     (at 121.69 74.82)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4896,7 +4896,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EBEA)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EBEA)
     (at 121.65 75.91)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4930,7 +4930,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DB0C333)
+  (module video-booster-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DB0C333)
     (at 142.53 70.74 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4964,7 +4964,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F795)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F795)
     (at 126.96 93.24 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4998,7 +4998,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DCEF34A)
+  (module video-booster-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5DCEF34A)
     (at 142.59 69.49 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5032,7 +5032,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC0C5E2)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DC0C5E2)
     (at 118.97 82.41 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5066,7 +5066,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C2F7)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C2F7)
     (at 131.64 92.16 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5100,7 +5100,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C2E8)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C2E8)
     (at 132.7 92.17 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5134,7 +5134,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F9CC)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F9CC)
     (at 119.55 72.77)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5168,7 +5168,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F7E9)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F7E9)
     (at 119.55 73.86)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5202,7 +5202,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EAEE)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EAEE)
     (at 111.97 69.85 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5236,7 +5236,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EAC4)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1EAC4)
     (at 122.54 60.97 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5270,7 +5270,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F7BF)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F7BF)
     (at 120.17 82.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5304,7 +5304,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F741)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1F741)
     (at 125.29 83.68 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5338,7 +5338,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1AF7F)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB1AF7F)
     (at 110.68 69.85 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5372,7 +5372,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C270)
+  (module video-booster-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5DB0C270)
     (at 125.92 93.23 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5406,7 +5406,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DB0C261)
+  (module video-booster-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DB0C261)
     (at 128.81 93.48 180)
     (path /5DBDC3B4)
     (attr smd)
@@ -5441,7 +5441,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DB851F5)
+  (module video-booster-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5DB851F5)
     (at 128.71 84.62)
     (path /5DB29D67)
     (attr smd)
@@ -5476,7 +5476,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN-32-1EP_5x5mm (layer F.Cu) (tedit 5D5E824D) (tstamp 5DB7D781)
+  (module video-booster-board-footprints:QFN-32-1EP_5x5mm (layer F.Cu) (tedit 5D5E824D) (tstamp 5DB7D781)
     (at 127.35 88.41 90)
     (path /5DB5B52F)
     (attr smd)
@@ -5599,7 +5599,7 @@
     )
   )
 
-  (module antmicro-footprints:SOT-753 (layer F.Cu) (tedit 5DBAC6C7) (tstamp 5DB0C0AC)
+  (module video-booster-board-footprints:SOT-753 (layer F.Cu) (tedit 5DBAC6C7) (tstamp 5DB0C0AC)
     (at 123.24 97.61 270)
     (path /5DBDC201)
     (attr smd)
@@ -5648,7 +5648,7 @@
     )
   )
 
-  (module antmicro-footprints:USB_Micro_B_Female_0473460001 (layer F.Cu) (tedit 5D5E8368) (tstamp 5DB0C08F)
+  (module video-booster-board-footprints:USB_Micro_B_Female_0473460001 (layer F.Cu) (tedit 5D5E8368) (tstamp 5DB0C08F)
     (at 131 98.0313 180)
     (descr http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
     (path /5DBDC352)

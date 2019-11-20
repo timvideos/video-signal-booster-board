@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C12
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C12
 U 1 1 5DB163D3
 P 5100 3450
 F 0 "C12" V 5050 3300 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5100 3300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5300 3650 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5300 3650 60  0001 L CNN
 F 3 "" H 5100 3450 50  0001 C CNN
 F 4 "Walsin" H 5300 3850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5300 3750 60  0001 L CNN "MPN"
@@ -29,12 +29,12 @@ F 6 "100n" V 5050 3600 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C16
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C16
 U 1 1 5DB16850
 P 5400 3350
 F 0 "C16" V 5350 3200 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5400 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5600 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5600 3550 60  0001 L CNN
 F 3 "" H 5400 3350 50  0001 C CNN
 F 4 "Walsin" H 5600 3750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5600 3650 60  0001 L CNN "MPN"
@@ -43,12 +43,12 @@ F 6 "100n" V 5350 3500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C11
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C11
 U 1 1 5DB16ABE
 P 5100 3150
 F 0 "C11" V 5050 3000 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5100 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5300 3350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5300 3350 60  0001 L CNN
 F 3 "" H 5100 3150 50  0001 C CNN
 F 4 "Walsin" H 5300 3550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5300 3450 60  0001 L CNN "MPN"
@@ -57,12 +57,12 @@ F 6 "100n" V 5050 3300 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C15
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C15
 U 1 1 5DB16AC8
 P 5400 3050
 F 0 "C15" V 5350 2900 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5400 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5600 3250 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5600 3250 60  0001 L CNN
 F 3 "" H 5400 3050 50  0001 C CNN
 F 4 "Walsin" H 5600 3450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5600 3350 60  0001 L CNN "MPN"
@@ -71,12 +71,12 @@ F 6 "100n" V 5350 3200 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C10
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C10
 U 1 1 5DB16B5E
 P 5100 2850
 F 0 "C10" V 5050 2700 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5100 2700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5300 3050 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5300 3050 60  0001 L CNN
 F 3 "" H 5100 2850 50  0001 C CNN
 F 4 "Walsin" H 5300 3250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5300 3150 60  0001 L CNN "MPN"
@@ -85,12 +85,12 @@ F 6 "100n" V 5050 3000 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C14
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C14
 U 1 1 5DB16B68
 P 5400 2750
 F 0 "C14" V 5350 2600 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5400 2600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5600 2950 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5600 2950 60  0001 L CNN
 F 3 "" H 5400 2750 50  0001 C CNN
 F 4 "Walsin" H 5600 3150 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5600 3050 60  0001 L CNN "MPN"
@@ -99,12 +99,12 @@ F 6 "100n" V 5350 2900 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C9
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C9
 U 1 1 5DB16C8C
 P 5100 2550
 F 0 "C9" V 5050 2400 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5100 2400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5300 2750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5300 2750 60  0001 L CNN
 F 3 "" H 5100 2550 50  0001 C CNN
 F 4 "Walsin" H 5300 2950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5300 2850 60  0001 L CNN "MPN"
@@ -113,12 +113,12 @@ F 6 "100n" V 5050 2700 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_10u_0603-antmicroCapacitors0603 C17
+L video-booster-board:C_10u_0603-antmicroCapacitors0603 C17
 U 1 1 5DB29D67
 P 6350 1550
 F 0 "C17" H 6465 1595 60  0000 L CNN
 F 1 "C_10u_0603" H 6350 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 6550 1750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0603-cap" H 6550 1750 60  0001 L CNN
 F 3 "" H 6350 1550 50  0001 C CNN
 F 4 "AVX" H 6550 1950 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 6550 1850 60  0001 L CNN "MPN"
@@ -127,12 +127,12 @@ F 6 "10u" H 6465 1497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C18
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C18
 U 1 1 5DB3BFEB
 P 6700 1550
 F 0 "C18" H 6600 1450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 6700 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6900 1750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 6900 1750 60  0001 L CNN
 F 3 "" H 6700 1550 50  0001 C CNN
 F 4 "Walsin" H 6900 1950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6900 1850 60  0001 L CNN "MPN"
@@ -148,12 +148,12 @@ Connection ~ 6050 2150
 Wire Wire Line
 	6050 2150 6050 2250
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C19
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C19
 U 1 1 5DB42D2B
 P 7000 1550
 F 0 "C19" H 6900 1450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7000 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7200 1750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 7200 1750 60  0001 L CNN
 F 3 "" H 7000 1550 50  0001 C CNN
 F 4 "Walsin" H 7200 1950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7200 1850 60  0001 L CNN "MPN"
@@ -162,7 +162,7 @@ F 6 "100n" H 6850 1650 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR022
+L video-booster-board:GND #PWR022
 U 1 1 5DB4401A
 P 6350 1700
 F 0 "#PWR022" H 6350 1450 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 6350 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L video-booster-board:GND #PWR025
 U 1 1 5DB452F0
 P 6700 1700
 F 0 "#PWR025" H 6700 1450 50  0001 C CNN
@@ -184,7 +184,7 @@ F 3 "" H 6700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L video-booster-board:GND #PWR028
 U 1 1 5DB465C6
 P 7000 1700
 F 0 "#PWR028" H 7000 1450 50  0001 C CNN
@@ -222,12 +222,12 @@ Wire Wire Line
 Wire Wire Line
 	9950 3950 9450 3950
 $Comp
-L video-booster-board-rescue:R_12k4_0402-antmicroResistors0402 R13
+L video-booster-board:R_12k4_0402-antmicroResistors0402 R13
 U 1 1 5DB96C5E
 P 7650 4250
 F 0 "R13" H 7800 4150 60  0000 C CNN
 F 1 "R_12k4_0402" H 7650 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7850 4450 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 7850 4450 60  0001 L CNN
 F 3 "" H 7650 4250 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 7850 4650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1242X" H 7850 4550 60  0001 L CNN "MPN"
@@ -236,7 +236,7 @@ F 6 "12k4" H 7450 4150 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR029
+L video-booster-board:GND #PWR029
 U 1 1 5DB96E41
 P 7900 4350
 F 0 "#PWR029" H 7900 4100 50  0001 C CNN
@@ -247,7 +247,7 @@ F 3 "" H 7900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L video-booster-board:GND #PWR037
 U 1 1 5DBBE095
 P 10350 4550
 F 0 "#PWR037" H 10350 4300 50  0001 C CNN
@@ -286,7 +286,7 @@ Connection ~ 10550 4450
 Wire Wire Line
 	10550 4450 10650 4450
 $Comp
-L power:GND #PWR02
+L video-booster-board:GND #PWR02
 U 1 1 5DBC0DCF
 P 2100 4550
 F 0 "#PWR02" H 2100 4300 50  0001 C CNN
@@ -325,12 +325,12 @@ Connection ~ 2300 4450
 Wire Wire Line
 	2300 4450 2400 4450
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C13
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C13
 U 1 1 5DBF0B3D
 P 5400 2450
 F 0 "C13" V 5350 2300 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 5400 2300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5600 2650 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 5600 2650 60  0001 L CNN
 F 3 "" H 5400 2450 50  0001 C CNN
 F 4 "Walsin" H 5600 2850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5600 2750 60  0001 L CNN "MPN"
@@ -339,7 +339,7 @@ F 6 "100n" V 5350 2600 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR06
+L video-booster-board:+5V #PWR06
 U 1 1 5DC07857
 P 16700 1550
 F 0 "#PWR06" H 16700 1400 50  0001 C CNN
@@ -522,7 +522,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4250 7400 4250
 $Comp
-L power:GND #PWR034
+L video-booster-board:GND #PWR034
 U 1 1 5DB5B819
 P 7650 2150
 F 0 "#PWR034" H 7650 1900 50  0001 C CNN
@@ -533,34 +533,34 @@ F 3 "" H 7650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J2
+L video-booster-board:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J2
 U 1 1 5DBAED87
 P 2100 3400
 F 0 "J2" V 1650 2650 50  0000 R CNN
 F 1 "HDMI-PE10-19-LF" V 1750 3300 50  0000 R CNN
-F 2 "antmicro-footprints:HDMI-PE10-19-LF" H 2300 3600 60  0001 L CNN
+F 2 "video-booster-board-footprints:HDMI-PE10-19-LF" H 2300 3600 60  0001 L CNN
 F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.pdf" H 2175 3550 50  0001 C CNN
 	1    2100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:685119134923_-antmicroUSBDVIHDMIConnectors J6
+L video-booster-board:685119134923_-antmicroUSBDVIHDMIConnectors J6
 U 1 1 5DBAFB0A
 P 10350 3250
 F 0 "J6" H 10100 4300 50  0000 L CNN
 F 1 "685119134923_" V 10850 2300 50  0000 L CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 10550 3450 60  0001 L CNN
+F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10550 3450 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10375 3250 50  0001 C CNN
 	1    10350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C27
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C27
 U 1 1 5DBDC1F8
 P 17200 2100
 F 0 "C27" H 17100 2000 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 17200 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 17400 2300 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 17400 2300 60  0001 L CNN
 F 3 "" H 17200 2100 50  0001 C CNN
 F 4 "Walsin" H 17400 2500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 17400 2400 60  0001 L CNN "MPN"
@@ -569,12 +569,12 @@ F 6 "100n" H 17100 2200 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L video-booster-board-rescue:LP2985-33DBVR-antmicroPMICVoltageRegulatorsLinear U4
+L video-booster-board:LP2985-33DBVR-antmicroPMICVoltageRegulatorsLinear U4
 U 1 1 5DBDC201
 P 17950 1850
 F 0 "U4" H 17950 2350 60  0000 C CNN
 F 1 "LP2985-33DBVR" H 17950 2244 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-753" H 18150 2050 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOT-753" H 18150 2050 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp2985" H 18150 2150 60  0001 L CNN
 F 4 "LP2985-33DBVR" H 18150 2350 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 18150 2950 60  0001 L CNN "Manufacturer"
@@ -582,12 +582,12 @@ F 5 "Texas Instruments" H 18150 2950 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_10n_0402-antmicroCapacitors0402 C29
+L video-booster-board:C_10n_0402-antmicroCapacitors0402 C29
 U 1 1 5DBDC20B
 P 18450 2100
 F 0 "C29" H 18565 2145 60  0000 L CNN
 F 1 "C_10n_0402" H 18450 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 18650 2300 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 18650 2300 60  0001 L CNN
 F 3 "" H 18450 2100 50  0001 C CNN
 F 4 "AVX" H 18650 2500 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 18650 2400 60  0001 L CNN "MPN"
@@ -596,12 +596,12 @@ F 6 "10n" H 18565 2047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_2u2_0402-antmicroCapacitors0402 C30
+L video-booster-board:C_2u2_0402-antmicroCapacitors0402 C30
 U 1 1 5DBDC215
 P 18950 2100
 F 0 "C30" H 19065 2145 60  0000 L CNN
 F 1 "C_2u2_0402" H 18950 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 19150 2300 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 19150 2300 60  0001 L CNN
 F 3 "" H 18950 2100 50  0001 C CNN
 F 4 "TDK" H 19150 2500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 19150 2400 60  0001 L CNN "MPN"
@@ -610,12 +610,12 @@ F 6 "2u2" H 19065 2047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_2u2_0402-antmicroCapacitors0402 C28
+L video-booster-board:C_2u2_0402-antmicroCapacitors0402 C28
 U 1 1 5DBDC21F
 P 17450 2100
 F 0 "C28" H 17450 2200 60  0000 L CNN
 F 1 "C_2u2_0402" H 17450 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 17650 2300 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 17650 2300 60  0001 L CNN
 F 3 "" H 17450 2100 50  0001 C CNN
 F 4 "TDK" H 17650 2500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 17650 2400 60  0001 L CNN "MPN"
@@ -624,7 +624,7 @@ F 6 "2u2" H 17500 2000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR055
+L video-booster-board:GND #PWR055
 U 1 1 5DBDC226
 P 17950 2250
 F 0 "#PWR055" H 17950 2000 50  0001 C CNN
@@ -635,7 +635,7 @@ F 3 "" H 17950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
+L video-booster-board:GND #PWR053
 U 1 1 5DBDC22C
 P 17450 2250
 F 0 "#PWR053" H 17450 2000 50  0001 C CNN
@@ -646,7 +646,7 @@ F 3 "" H 17450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR049
+L video-booster-board:GND #PWR049
 U 1 1 5DBDC238
 P 17200 2250
 F 0 "#PWR049" H 17200 2000 50  0001 C CNN
@@ -673,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	17950 2150 17950 2250
 $Comp
-L power:GND #PWR056
+L video-booster-board:GND #PWR056
 U 1 1 5DBDC247
 P 18450 2250
 F 0 "#PWR056" H 18450 2000 50  0001 C CNN
@@ -684,7 +684,7 @@ F 3 "" H 18450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L video-booster-board:GND #PWR058
 U 1 1 5DBDC24D
 P 18950 2250
 F 0 "#PWR058" H 18950 2000 50  0001 C CNN
@@ -704,7 +704,7 @@ Wire Wire Line
 	18950 1850 18950 1950
 Connection ~ 18950 1850
 $Comp
-L power:+5V #PWR048
+L video-booster-board:+5V #PWR048
 U 1 1 5DBDC258
 P 17200 1550
 F 0 "#PWR048" H 17200 1400 50  0001 C CNN
@@ -734,12 +734,12 @@ Connection ~ 4550 6050
 Wire Wire Line
 	4550 6050 4900 6050
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R21
+L video-booster-board:R_10k_0402-antmicroResistors0402 R21
 U 1 1 5DBDC2D5
 P 4550 5700
 F 0 "R21" V 4400 5750 60  0000 L CNN
 F 1 "R_10k_0402" H 4550 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4750 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4750 5900 60  0001 L CNN
 F 3 "" H 4550 5700 50  0001 C CNN
 F 4 "VISHAY" H 4750 6100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4750 6000 60  0001 L CNN "MPN"
@@ -748,12 +748,12 @@ F 6 "10k" V 4700 5750 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R22
+L video-booster-board:R_10k_0402-antmicroResistors0402 R22
 U 1 1 5DBDC2E5
 P 4800 5700
 F 0 "R22" V 4650 5750 60  0000 L CNN
 F 1 "R_10k_0402" H 4800 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 5000 5900 60  0001 L CNN
 F 3 "" H 4800 5700 50  0001 C CNN
 F 4 "VISHAY" H 5000 6100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5000 6000 60  0001 L CNN "MPN"
@@ -764,12 +764,12 @@ $EndComp
 Wire Wire Line
 	4900 6150 4800 6150
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R23
+L video-booster-board:R_10k_0402-antmicroResistors0402 R23
 U 1 1 5DBDC2F0
 P 4800 6400
 F 0 "R23" V 4755 6470 60  0000 L CNN
 F 1 "R_10k_0402" H 4800 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 6600 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 5000 6600 60  0001 L CNN
 F 3 "" H 4800 6400 50  0001 C CNN
 F 4 "VISHAY" H 5000 6800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5000 6700 60  0001 L CNN "MPN"
@@ -778,7 +778,7 @@ F 6 "10k" V 4950 6450 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR023
+L video-booster-board:GND #PWR023
 U 1 1 5DBDC2F7
 P 4800 6550
 F 0 "#PWR023" H 4800 6300 50  0001 C CNN
@@ -800,12 +800,12 @@ Wire Wire Line
 Wire Wire Line
 	4800 6150 4800 6250
 $Comp
-L video-booster-board-rescue:0473460001-antmicroUSBDVIHDMIConnectors J1
+L video-booster-board:0473460001-antmicroUSBDVIHDMIConnectors J1
 U 1 1 5DBDC352
 P 15200 10900
 F 0 "J1" H 15263 11623 50  0000 C CNN
 F 1 "0473460001" H 15263 11532 50  0000 C CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_0473460001" H 15400 11100 60  0001 L CNN
+F 2 "video-booster-board-footprints:USB_Micro_B_Female_0473460001" H 15400 11100 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 15400 11200 60  0001 L CNN
 F 4 "0473460001" H 15400 11400 60  0001 L CNN "MPN"
 F 5 "Molex" H 15400 12000 60  0001 L CNN "Manufacturer"
@@ -813,12 +813,12 @@ F 5 "Molex" H 15400 12000 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C6
+L video-booster-board:C_1u_0402-antmicroCapacitors0402 C6
 U 1 1 5DBDC35C
 P 16500 11350
 F 0 "C6" H 16615 11395 60  0000 L CNN
 F 1 "C_1u_0402" H 16500 11200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16700 11550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16700 11550 60  0001 L CNN
 F 3 "" H 16500 11350 50  0001 C CNN
 F 4 "TDK" H 16700 11750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 16700 11650 60  0001 L CNN "MPN"
@@ -827,7 +827,7 @@ F 6 "1u" H 16615 11297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR052
+L video-booster-board:GND #PWR052
 U 1 1 5DBDC373
 P 16500 11700
 F 0 "#PWR052" H 16500 11450 50  0001 C CNN
@@ -838,7 +838,7 @@ F 3 "" H 16500 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR054
+L video-booster-board:GND #PWR054
 U 1 1 5DBDC379
 P 16750 11700
 F 0 "#PWR054" H 16750 11450 50  0001 C CNN
@@ -851,12 +851,12 @@ $EndComp
 Wire Wire Line
 	16850 11200 16500 11200
 $Comp
-L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C26
+L video-booster-board:C_1u_0402-antmicroCapacitors0402 C26
 U 1 1 5DBDC388
 P 16100 11350
 F 0 "C26" H 16215 11395 60  0000 L CNN
 F 1 "C_1u_0402" H 16100 11200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16300 11550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16300 11550 60  0001 L CNN
 F 3 "" H 16100 11350 50  0001 C CNN
 F 4 "TDK" H 16300 11750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 16300 11650 60  0001 L CNN "MPN"
@@ -865,7 +865,7 @@ F 6 "1u" H 16215 11297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR047
+L video-booster-board:GND #PWR047
 U 1 1 5DBDC38F
 P 16100 11700
 F 0 "#PWR047" H 16100 11450 50  0001 C CNN
@@ -880,12 +880,12 @@ Wire Wire Line
 Wire Wire Line
 	16100 11000 16850 11000
 $Comp
-L video-booster-board-rescue:R_15R_0402-antmicroResistors0402 R1
+L video-booster-board:R_15R_0402-antmicroResistors0402 R1
 U 1 1 5DBDC3A0
 P 16150 10800
 F 0 "R1" H 15950 10850 60  0000 C CNN
 F 1 "R_15R_0402" H 16150 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16350 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 16350 11000 60  0001 L CNN
 F 3 "" H 16150 10800 50  0001 C CNN
 F 4 "BOURNS" H 16350 11200 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X15R0FTL" H 16350 11100 60  0001 L CNN "MPN"
@@ -894,12 +894,12 @@ F 6 "15R" H 16350 10850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:R_15R_0402-antmicroResistors0402 R2
+L video-booster-board:R_15R_0402-antmicroResistors0402 R2
 U 1 1 5DBDC3AA
 P 16150 10900
 F 0 "R2" H 15950 10950 60  0000 C CNN
 F 1 "R_15R_0402" H 16150 10750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16350 11100 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 16350 11100 60  0001 L CNN
 F 3 "" H 16150 10900 50  0001 C CNN
 F 4 "BOURNS" H 16350 11300 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X15R0FTL" H 16350 11200 60  0001 L CNN "MPN"
@@ -908,12 +908,12 @@ F 6 "15R" H 16350 10950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_4u7_0603-antmicroCapacitors0603 C1
+L video-booster-board:C_4u7_0603-antmicroCapacitors0603 C1
 U 1 1 5DBDC3B4
 P 15750 11350
 F 0 "C1" H 15865 11395 60  0000 L CNN
 F 1 "C_4u7_0603" H 15750 11200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 15950 11550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0603-cap" H 15950 11550 60  0001 L CNN
 F 3 "" H 15750 11350 50  0001 C CNN
 F 4 "TDK" H 15950 11750 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 15950 11650 60  0001 L CNN "MPN"
@@ -922,7 +922,7 @@ F 6 "4u7" H 15800 11250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L video-booster-board:GND #PWR046
 U 1 1 5DBDC3BB
 P 15750 11700
 F 0 "#PWR046" H 15750 11450 50  0001 C CNN
@@ -935,7 +935,7 @@ $EndComp
 Wire Wire Line
 	16850 10700 15750 10700
 $Comp
-L power:GND #PWR045
+L video-booster-board:GND #PWR045
 U 1 1 5DBDC3C2
 P 15500 11700
 F 0 "#PWR045" H 15500 11450 50  0001 C CNN
@@ -967,12 +967,12 @@ TX_UTILITY
 Text Label 9500 3950 0    50   ~ 0
 TX_HPD
 $Comp
-L video-booster-board-rescue:PTN3363-antmicroInterfaceDriversReceiversTransceivers U3
+L video-booster-board:PTN3363-antmicroInterfaceDriversReceiversTransceivers U3
 U 1 1 5DB5B52F
 P 6800 3050
 F 0 "U3" H 6450 4100 60  0000 C CNN
 F 1 "PTN3363" H 7100 4100 60  0000 C CNN
-F 2 "antmicro-footprints:QFN-32-1EP_5x5mm" H 5900 1250 60  0001 L CNN
+F 2 "video-booster-board-footprints:QFN-32-1EP_5x5mm" H 5900 1250 60  0001 L CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf" H 5550 1150 60  0001 L CNN
 F 4 "NXP" H 6300 1350 60  0001 L CNN "Manufacturer"
 F 5 "PTN3363" H 6550 1350 60  0001 L CNN "MPN"
@@ -1029,12 +1029,12 @@ RX_UTILITY
 Text Label 3050 11400 0    50   ~ 0
 RX_HPD
 $Comp
-L video-booster-board-rescue:R_12k4_0402-antmicroResistors0402 R17
+L video-booster-board:R_12k4_0402-antmicroResistors0402 R17
 U 1 1 5DF9B94A
 P 5550 11700
 F 0 "R17" H 5700 11600 60  0000 C CNN
 F 1 "R_12k4_0402" H 5550 11550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5750 11900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 5750 11900 60  0001 L CNN
 F 3 "" H 5550 11700 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5750 12100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1242X" H 5750 12000 60  0001 L CNN "MPN"
@@ -1043,7 +1043,7 @@ F 6 "12k4" H 5350 11600 50  0000 C CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR013
+L video-booster-board:GND #PWR013
 U 1 1 5DF9B951
 P 5300 11800
 F 0 "#PWR013" H 5300 11550 50  0001 C CNN
@@ -1054,7 +1054,7 @@ F 3 "" H 5300 11800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L video-booster-board:GND #PWR042
 U 1 1 5DF9B957
 P 10750 12000
 F 0 "#PWR042" H 10750 11750 50  0001 C CNN
@@ -1093,7 +1093,7 @@ Connection ~ 10950 11900
 Wire Wire Line
 	10950 11900 11050 11900
 $Comp
-L power:GND #PWR01
+L video-booster-board:GND #PWR01
 U 1 1 5DF9B96D
 P 2450 12000
 F 0 "#PWR01" H 2450 11750 50  0001 C CNN
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 11700 5800 11700
 $Comp
-L power:GND #PWR012
+L video-booster-board:GND #PWR012
 U 1 1 5DF9B9E1
 P 5550 9600
 F 0 "#PWR012" H 5550 9350 50  0001 C CNN
@@ -1153,34 +1153,34 @@ F 3 "" H 5550 9600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J3
+L video-booster-board:HDMI-PE10-19-LF-antmicroUSBDVIHDMIConnectors J3
 U 1 1 5DF9B9E7
 P 2450 10850
 F 0 "J3" V 2000 10100 50  0000 R CNN
 F 1 "HDMI-PE10-19-LF" V 2100 10750 50  0000 R CNN
-F 2 "antmicro-footprints:HDMI-PE10-19-LF" H 2650 11050 60  0001 L CNN
+F 2 "video-booster-board-footprints:HDMI-PE10-19-LF" H 2650 11050 60  0001 L CNN
 F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.pdf" H 2525 11000 50  0001 C CNN
 	1    2450 10850
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:685119134923_-antmicroUSBDVIHDMIConnectors J9
+L video-booster-board:685119134923_-antmicroUSBDVIHDMIConnectors J9
 U 1 1 5DF9B9EE
 P 10750 10700
 F 0 "J9" H 10500 11750 50  0000 L CNN
 F 1 "685119134923_" V 11250 9750 50  0000 L CNN
-F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 10950 10900 60  0001 L CNN
+F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10950 10900 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10775 10700 50  0001 C CNN
 	1    10750 10700
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:PTN3363-antmicroInterfaceDriversReceiversTransceivers U1
+L video-booster-board:PTN3363-antmicroInterfaceDriversReceiversTransceivers U1
 U 1 1 5DF9BA02
 P 6400 10500
 F 0 "U1" H 6050 11550 60  0000 C CNN
 F 1 "PTN3363" H 6700 11550 60  0000 C CNN
-F 2 "antmicro-footprints:QFN-32-1EP_5x5mm" H 5500 8700 60  0001 L CNN
+F 2 "video-booster-board-footprints:QFN-32-1EP_5x5mm" H 5500 8700 60  0001 L CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf" H 5150 8600 60  0001 L CNN
 F 4 "NXP" H 5900 8800 60  0001 L CNN "Manufacturer"
 F 5 "PTN3363" H 6150 8800 60  0001 L CNN "MPN"
@@ -1200,12 +1200,12 @@ RX_SRC_5V
 Wire Wire Line
 	2550 9600 2550 9500
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C25
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C25
 U 1 1 5E0293DB
 P 8100 10900
 F 0 "C25" V 8050 10750 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 8100 10750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8300 11100 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8300 11100 60  0001 L CNN
 F 3 "" H 8100 10900 50  0001 C CNN
 F 4 "Walsin" H 8300 11300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8300 11200 60  0001 L CNN "MPN"
@@ -1214,12 +1214,12 @@ F 6 "100n" V 8050 11050 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C21
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C21
 U 1 1 5E0293E5
 P 7800 10800
 F 0 "C21" V 7750 10650 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7800 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8000 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8000 11000 60  0001 L CNN
 F 3 "" H 7800 10800 50  0001 C CNN
 F 4 "Walsin" H 8000 11200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8000 11100 60  0001 L CNN "MPN"
@@ -1232,12 +1232,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 10800 6950 10800
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C24
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C24
 U 1 1 5E0293F1
 P 8100 10600
 F 0 "C24" V 8050 10450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 8100 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8300 10800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8300 10800 60  0001 L CNN
 F 3 "" H 8100 10600 50  0001 C CNN
 F 4 "Walsin" H 8300 11000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8300 10900 60  0001 L CNN "MPN"
@@ -1246,12 +1246,12 @@ F 6 "100n" V 8050 10750 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C20
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C20
 U 1 1 5E0293FB
 P 7800 10500
 F 0 "C20" V 7750 10350 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7800 10350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8000 10700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8000 10700 60  0001 L CNN
 F 3 "" H 7800 10500 50  0001 C CNN
 F 4 "Walsin" H 8000 10900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8000 10800 60  0001 L CNN "MPN"
@@ -1264,12 +1264,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 10500 6950 10500
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C23
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C23
 U 1 1 5E029407
 P 8100 10300
 F 0 "C23" V 8050 10150 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 8100 10150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8300 10500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8300 10500 60  0001 L CNN
 F 3 "" H 8100 10300 50  0001 C CNN
 F 4 "Walsin" H 8300 10700 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8300 10600 60  0001 L CNN "MPN"
@@ -1278,12 +1278,12 @@ F 6 "100n" V 8050 10450 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C8
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C8
 U 1 1 5E029411
 P 7800 10200
 F 0 "C8" V 7750 10050 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7800 10050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8000 10400 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8000 10400 60  0001 L CNN
 F 3 "" H 7800 10200 50  0001 C CNN
 F 4 "Walsin" H 8000 10600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8000 10500 60  0001 L CNN "MPN"
@@ -1296,12 +1296,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 10200 6950 10200
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C22
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C22
 U 1 1 5E02941D
 P 8100 10000
 F 0 "C22" V 8050 9850 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 8100 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8300 10200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8300 10200 60  0001 L CNN
 F 3 "" H 8100 10000 50  0001 C CNN
 F 4 "Walsin" H 8300 10400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8300 10300 60  0001 L CNN "MPN"
@@ -1360,12 +1360,12 @@ Wire Wire Line
 Wire Wire Line
 	10350 10000 9650 10000
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C7
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C7
 U 1 1 5E02944A
 P 7800 9900
 F 0 "C7" V 7750 9750 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7800 9750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8000 10100 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 8000 10100 60  0001 L CNN
 F 3 "" H 7800 9900 50  0001 C CNN
 F 4 "Walsin" H 8000 10300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8000 10200 60  0001 L CNN "MPN"
@@ -1490,12 +1490,12 @@ RX_UTILITY
 Text Label 9800 11400 0    50   ~ 0
 RX_HPD
 $Comp
-L video-booster-board-rescue:R_0R_0402-antmicroResistors0402 R7
+L video-booster-board:R_0R_0402-antmicroResistors0402 R7
 U 1 1 5E792102
 P 15500 3200
 F 0 "R7" H 15300 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 15500 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15700 3400 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 15700 3400 60  0001 L CNN
 F 3 "" H 15500 3200 50  0001 C CNN
 F 4 "PANASONIC" H 15700 3600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15700 3500 60  0001 L CNN "MPN"
@@ -1504,12 +1504,12 @@ F 6 "0R" H 15700 3250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:R_0R_0402-antmicroResistors0402 R8
+L video-booster-board:R_0R_0402-antmicroResistors0402 R8
 U 1 1 5E7927B6
 P 15500 3300
 F 0 "R8" H 15300 3350 60  0000 C CNN
 F 1 "R_0R_0402" H 15500 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15700 3500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 15700 3500 60  0001 L CNN
 F 3 "" H 15500 3300 50  0001 C CNN
 F 4 "PANASONIC" H 15700 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15700 3600 60  0001 L CNN "MPN"
@@ -1526,12 +1526,12 @@ Wire Wire Line
 Wire Wire Line
 	3150 3650 2600 3650
 $Comp
-L video-booster-board-rescue:R_0R_0402-antmicroResistors0402 R11
+L video-booster-board:R_0R_0402-antmicroResistors0402 R11
 U 1 1 5E8A7F00
 P 18200 3200
 F 0 "R11" H 18000 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 18200 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 18400 3400 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 18400 3400 60  0001 L CNN
 F 3 "" H 18200 3200 50  0001 C CNN
 F 4 "PANASONIC" H 18400 3600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 18400 3500 60  0001 L CNN "MPN"
@@ -1540,12 +1540,12 @@ F 6 "0R" H 18400 3250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:R_0R_0402-antmicroResistors0402 R12
+L video-booster-board:R_0R_0402-antmicroResistors0402 R12
 U 1 1 5E8A7F0A
 P 18200 3300
 F 0 "R12" H 18000 3350 60  0000 C CNN
 F 1 "R_0R_0402" H 18200 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 18400 3500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 18400 3500 60  0001 L CNN
 F 3 "" H 18200 3300 50  0001 C CNN
 F 4 "PANASONIC" H 18400 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 18400 3600 60  0001 L CNN "MPN"
@@ -1572,12 +1572,12 @@ Connection ~ 4500 13900
 Wire Wire Line
 	4500 13900 4850 13900
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R26
+L video-booster-board:R_10k_0402-antmicroResistors0402 R26
 U 1 1 5ED0E60B
 P 4500 13550
 F 0 "R26" V 4350 13600 60  0000 L CNN
 F 1 "R_10k_0402" H 4500 13400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4700 13750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4700 13750 60  0001 L CNN
 F 3 "" H 4500 13550 50  0001 C CNN
 F 4 "VISHAY" H 4700 13950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4700 13850 60  0001 L CNN "MPN"
@@ -1586,12 +1586,12 @@ F 6 "10k" V 4650 13600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R28
+L video-booster-board:R_10k_0402-antmicroResistors0402 R28
 U 1 1 5ED0E61B
 P 4750 13550
 F 0 "R28" V 4600 13600 60  0000 L CNN
 F 1 "R_10k_0402" H 4750 13400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4950 13750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4950 13750 60  0001 L CNN
 F 3 "" H 4750 13550 50  0001 C CNN
 F 4 "VISHAY" H 4950 13950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4950 13850 60  0001 L CNN "MPN"
@@ -1602,12 +1602,12 @@ $EndComp
 Wire Wire Line
 	4850 14000 4750 14000
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R29
+L video-booster-board:R_10k_0402-antmicroResistors0402 R29
 U 1 1 5ED0E626
 P 4750 14250
 F 0 "R29" V 4705 14320 60  0000 L CNN
 F 1 "R_10k_0402" H 4750 14100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4950 14450 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4950 14450 60  0001 L CNN
 F 3 "" H 4750 14250 50  0001 C CNN
 F 4 "VISHAY" H 4950 14650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4950 14550 60  0001 L CNN "MPN"
@@ -1616,7 +1616,7 @@ F 6 "10k" V 4900 14300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR033
+L video-booster-board:GND #PWR033
 U 1 1 5ED0E62D
 P 4750 14400
 F 0 "#PWR033" H 4750 14150 50  0001 C CNN
@@ -1652,12 +1652,12 @@ Wire Wire Line
 	6450 13900 6600 13900
 Connection ~ 6450 13900
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R36
+L video-booster-board:R_10k_0402-antmicroResistors0402 R36
 U 1 1 5EDD3C76
 P 6200 13550
 F 0 "R36" V 6050 13600 60  0000 L CNN
 F 1 "R_10k_0402" H 6200 13400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 13750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6400 13750 60  0001 L CNN
 F 3 "" H 6200 13550 50  0001 C CNN
 F 4 "VISHAY" H 6400 13950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6400 13850 60  0001 L CNN "MPN"
@@ -1666,12 +1666,12 @@ F 6 "10k" V 6200 13600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R37
+L video-booster-board:R_10k_0402-antmicroResistors0402 R37
 U 1 1 5EDD3C80
 P 6450 13550
 F 0 "R37" V 6300 13600 60  0000 L CNN
 F 1 "R_10k_0402" H 6450 13400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6650 13750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6650 13750 60  0001 L CNN
 F 3 "" H 6450 13550 50  0001 C CNN
 F 4 "VISHAY" H 6650 13950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6650 13850 60  0001 L CNN "MPN"
@@ -1680,12 +1680,12 @@ F 6 "10k" V 6450 13650 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R19
+L video-booster-board:R_100k_0402-antmicroResistors0402 R19
 U 1 1 5F5A2FB3
 P 4300 5700
 F 0 "R19" V 4150 5750 60  0000 L CNN
 F 1 "R_100k_0402" H 4300 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4500 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4500 5900 60  0001 L CNN
 F 3 "" H 4300 5700 50  0001 C CNN
 F 4 "VISHAY" H 4500 6100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4500 6000 60  0001 L CNN "MPN"
@@ -1694,12 +1694,12 @@ F 6 "100k" V 4450 5750 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R24
+L video-booster-board:R_100k_0402-antmicroResistors0402 R24
 U 1 1 5F60F4C7
 P 4250 13550
 F 0 "R24" V 4100 13600 60  0000 L CNN
 F 1 "R_100k_0402" H 4250 13400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4450 13750 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4450 13750 60  0001 L CNN
 F 3 "" H 4250 13550 50  0001 C CNN
 F 4 "VISHAY" H 4450 13950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4450 13850 60  0001 L CNN "MPN"
@@ -1708,12 +1708,12 @@ F 6 "100k" V 4400 13600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R3
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R3
 U 1 1 5DB6B28E
 P 3200 2150
 F 0 "R3" H 2650 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3200 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3400 2350 60  0001 L CNN
 F 3 "" H 3200 2150 50  0001 C CNN
 F 4 "VISHAY" H 3400 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3400 2450 60  0001 L CNN "MPN"
@@ -1724,12 +1724,12 @@ $EndComp
 Wire Wire Line
 	3200 2300 3200 2450
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R33
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R33
 U 1 1 5DC664D6
 P 3300 2150
 F 0 "R33" H 2700 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3300 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3500 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3500 2350 60  0001 L CNN
 F 3 "" H 3300 2150 50  0001 C CNN
 F 4 "VISHAY" H 3500 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3500 2450 60  0001 L CNN "MPN"
@@ -1738,12 +1738,12 @@ F 6 "49R9" H 2450 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R42
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R42
 U 1 1 5DC96EE6
 P 3400 2150
 F 0 "R42" H 2800 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3400 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3600 2350 60  0001 L CNN
 F 3 "" H 3400 2150 50  0001 C CNN
 F 4 "VISHAY" H 3600 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3600 2450 60  0001 L CNN "MPN"
@@ -1752,12 +1752,12 @@ F 6 "49R9" H 2550 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R43
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R43
 U 1 1 5DCC78F2
 P 3500 2150
 F 0 "R43" H 2900 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3500 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3700 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3700 2350 60  0001 L CNN
 F 3 "" H 3500 2150 50  0001 C CNN
 F 4 "VISHAY" H 3700 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3700 2450 60  0001 L CNN "MPN"
@@ -1766,12 +1766,12 @@ F 6 "49R9" H 2650 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R44
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R44
 U 1 1 5DCF8304
 P 3600 2150
 F 0 "R44" H 3000 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3600 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3800 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3800 2350 60  0001 L CNN
 F 3 "" H 3600 2150 50  0001 C CNN
 F 4 "VISHAY" H 3800 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3800 2450 60  0001 L CNN "MPN"
@@ -1780,12 +1780,12 @@ F 6 "49R9" H 2750 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R45
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R45
 U 1 1 5DD28D18
 P 3700 2150
 F 0 "R45" H 3100 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3700 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3900 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3900 2350 60  0001 L CNN
 F 3 "" H 3700 2150 50  0001 C CNN
 F 4 "VISHAY" H 3900 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 3900 2450 60  0001 L CNN "MPN"
@@ -1794,12 +1794,12 @@ F 6 "49R9" H 2850 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R46
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R46
 U 1 1 5DD5972E
 P 3800 2150
 F 0 "R46" H 3200 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3800 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4000 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4000 2350 60  0001 L CNN
 F 3 "" H 3800 2150 50  0001 C CNN
 F 4 "VISHAY" H 4000 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 4000 2450 60  0001 L CNN "MPN"
@@ -1808,12 +1808,12 @@ F 6 "49R9" H 2950 2150 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R47
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R47
 U 1 1 5DD8A144
 P 3900 2150
 F 0 "R47" H 3300 2150 60  0000 L CNN
 F 1 "R_49R9_0402" H 3900 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4100 2350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4100 2350 60  0001 L CNN
 F 3 "" H 3900 2150 50  0001 C CNN
 F 4 "VISHAY" H 4100 2550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 4100 2450 60  0001 L CNN "MPN"
@@ -1964,12 +1964,12 @@ Connection ~ 9650 9350
 Wire Wire Line
 	9650 9350 9550 9350
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R48
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R48
 U 1 1 5E603100
 P 9050 9600
 F 0 "R48" H 8350 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9050 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9250 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9250 9800 60  0001 L CNN
 F 3 "" H 9050 9600 50  0001 C CNN
 F 4 "VISHAY" H 9250 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9250 9900 60  0001 L CNN "MPN"
@@ -1978,12 +1978,12 @@ F 6 "49R9" H 8100 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R49
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R49
 U 1 1 5E60310A
 P 9150 9600
 F 0 "R49" H 8450 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9150 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9350 9800 60  0001 L CNN
 F 3 "" H 9150 9600 50  0001 C CNN
 F 4 "VISHAY" H 9350 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9350 9900 60  0001 L CNN "MPN"
@@ -1992,12 +1992,12 @@ F 6 "49R9" H 8200 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R50
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R50
 U 1 1 5E603114
 P 9250 9600
 F 0 "R50" H 8550 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9250 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9450 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9450 9800 60  0001 L CNN
 F 3 "" H 9250 9600 50  0001 C CNN
 F 4 "VISHAY" H 9450 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9450 9900 60  0001 L CNN "MPN"
@@ -2006,12 +2006,12 @@ F 6 "49R9" H 8300 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R51
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R51
 U 1 1 5E60311E
 P 9350 9600
 F 0 "R51" H 8650 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9350 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9550 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9550 9800 60  0001 L CNN
 F 3 "" H 9350 9600 50  0001 C CNN
 F 4 "VISHAY" H 9550 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9550 9900 60  0001 L CNN "MPN"
@@ -2020,12 +2020,12 @@ F 6 "49R9" H 8400 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R52
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R52
 U 1 1 5E603128
 P 9450 9600
 F 0 "R52" H 8750 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9450 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9650 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9650 9800 60  0001 L CNN
 F 3 "" H 9450 9600 50  0001 C CNN
 F 4 "VISHAY" H 9650 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9650 9900 60  0001 L CNN "MPN"
@@ -2034,12 +2034,12 @@ F 6 "49R9" H 8500 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R53
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R53
 U 1 1 5E603132
 P 9550 9600
 F 0 "R53" H 8850 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9550 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9750 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9750 9800 60  0001 L CNN
 F 3 "" H 9550 9600 50  0001 C CNN
 F 4 "VISHAY" H 9750 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9750 9900 60  0001 L CNN "MPN"
@@ -2048,12 +2048,12 @@ F 6 "49R9" H 8600 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R54
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R54
 U 1 1 5E60313C
 P 9650 9600
 F 0 "R54" H 8950 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9650 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9850 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9850 9800 60  0001 L CNN
 F 3 "" H 9650 9600 50  0001 C CNN
 F 4 "VISHAY" H 9850 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9850 9900 60  0001 L CNN "MPN"
@@ -2062,12 +2062,12 @@ F 6 "49R9" H 8700 9600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_49R9_0402-antmicroResistors0402 R55
+L video-booster-board:R_49R9_0402-antmicroResistors0402 R55
 U 1 1 5E603146
 P 9750 9600
 F 0 "R55" H 9050 9600 60  0000 L CNN
 F 1 "R_49R9_0402" H 9750 9450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9950 9800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9950 9800 60  0001 L CNN
 F 3 "" H 9750 9600 50  0001 C CNN
 F 4 "VISHAY" H 9950 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 9950 9900 60  0001 L CNN "MPN"
@@ -2078,7 +2078,7 @@ $EndComp
 Wire Wire Line
 	2600 2650 3400 2650
 $Comp
-L power:GND #PWR065
+L video-booster-board:GND #PWR065
 U 1 1 5DCFFD45
 P 16000 4650
 F 0 "#PWR065" H 16000 4400 50  0001 C CNN
@@ -2097,12 +2097,12 @@ Wire Wire Line
 Wire Wire Line
 	9950 3650 9300 3650
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C32
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C32
 U 1 1 5E5CD0C1
 P 15000 4500
 F 0 "C32" H 15200 4450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 15000 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15200 4700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 15200 4700 60  0001 L CNN
 F 3 "" H 15000 4500 50  0001 C CNN
 F 4 "Walsin" H 15200 4900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15200 4800 60  0001 L CNN "MPN"
@@ -2111,7 +2111,7 @@ F 6 "100n" H 15200 4350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L video-booster-board:GND #PWR060
 U 1 1 5E601B03
 P 15000 4650
 F 0 "#PWR060" H 15000 4400 50  0001 C CNN
@@ -2219,12 +2219,12 @@ Wire Wire Line
 Wire Wire Line
 	17700 11400 18350 11400
 $Comp
-L video-booster-board-rescue:EFM32HG321-antmicroMicrocontrollers U6
+L video-booster-board:EFM32HG321-antmicroMicrocontrollers U6
 U 1 1 5E196AD5
 P 17250 10650
 F 0 "U6" H 17225 12487 60  0000 C CNN
 F 1 "EFM32HG321" H 17225 12381 60  0000 C CNN
-F 2 "antmicro-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
+F 2 "video-booster-board-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2674358.pdf" H 16200 9150 60  0001 L CNN
 F 4 "Silicon Labs" H 16950 9550 60  0001 L CNN "Manufacturer"
 F 5 "EFM32HG321" H 16900 9350 60  0001 L CNN "MPN"
@@ -2292,7 +2292,7 @@ Wire Wire Line
 Wire Wire Line
 	18750 11300 18850 11300
 $Comp
-L power:GND #PWR078
+L video-booster-board:GND #PWR078
 U 1 1 5F05FE74
 P 18750 11700
 F 0 "#PWR078" H 18750 11450 50  0001 C CNN
@@ -2313,12 +2313,12 @@ SWD Debug
 Wire Wire Line
 	18450 11200 18850 11200
 $Comp
-L video-booster-board-rescue:MC-HVT1-S04-G-antmicroRectangularConnectorsHeadersMalePins J11
+L video-booster-board:MC-HVT1-S04-G-antmicroRectangularConnectorsHeadersMalePins J11
 U 1 1 5F05FE9B
 P 19000 11300
 F 0 "J11" V 19191 11222 50  0000 R CNN
 F 1 "MC-HVT1-S04-G" H 19350 11100 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 19200 11600 60  0001 L CNN
+F 2 "video-booster-board-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 19200 11600 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 19200 11700 60  0001 L CNN
 F 4 "MC-HVT1-S04-G" H 19200 11800 60  0001 L CNN "MPN"
 F 5 "Multicomp" H 19200 11900 60  0001 L CNN "Manufacturer"
@@ -2330,7 +2330,7 @@ Wire Wire Line
 Wire Wire Line
 	17700 11000 18450 11000
 $Comp
-L power:GND #PWR070
+L video-booster-board:GND #PWR070
 U 1 1 5DD1E675
 P 15800 9500
 F 0 "#PWR070" H 15800 9250 50  0001 C CNN
@@ -2358,12 +2358,12 @@ Wire Wire Line
 	15800 9100 15800 8950
 Connection ~ 15800 9100
 $Comp
-L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C5
+L video-booster-board:C_1u_0402-antmicroCapacitors0402 C5
 U 1 1 5DD1E66F
 P 15800 9350
 F 0 "C5" H 15915 9395 60  0000 L CNN
 F 1 "C_1u_0402" H 15800 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16000 9550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16000 9550 60  0001 L CNN
 F 3 "" H 15800 9350 50  0001 C CNN
 F 4 "TDK" H 16000 9750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 16000 9650 60  0001 L CNN "MPN"
@@ -2374,12 +2374,12 @@ $EndComp
 Wire Wire Line
 	15800 9200 15800 9100
 $Comp
-L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C37
+L video-booster-board:C_1u_0402-antmicroCapacitors0402 C37
 U 1 1 5E240702
 P 16200 9350
 F 0 "C37" H 16315 9395 60  0000 L CNN
 F 1 "C_1u_0402" H 16200 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16400 9550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16400 9550 60  0001 L CNN
 F 3 "" H 16200 9350 50  0001 C CNN
 F 4 "TDK" H 16400 9750 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 16400 9650 60  0001 L CNN "MPN"
@@ -2388,7 +2388,7 @@ F 6 "1u" H 16315 9297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR072
+L video-booster-board:GND #PWR072
 U 1 1 5E240998
 P 16200 9500
 F 0 "#PWR072" H 16200 9250 50  0001 C CNN
@@ -2446,7 +2446,7 @@ Wire Wire Line
 Wire Wire Line
 	19800 9950 19800 10150
 $Comp
-L power:GND #PWR084
+L video-booster-board:GND #PWR084
 U 1 1 5E667AF8
 P 19800 10150
 F 0 "#PWR084" H 19800 9900 50  0001 C CNN
@@ -2457,12 +2457,12 @@ F 3 "" H 19800 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R67
+L video-booster-board:R_330R_0402 R67
 U 1 1 5E667AF2
 P 19800 9400
 F 0 "R67" V 19755 9470 60  0000 L CNN
 F 1 "R_330R_0402" H 19800 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 20000 9600 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 20000 9600 60  0001 L CNN
 F 3 "" H 19800 9400 50  0001 C CNN
 F 4 "MULTICOMP" H 20000 9800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 20000 9700 60  0001 L CNN "MPN"
@@ -2471,12 +2471,12 @@ F 6 "330R" V 19853 9470 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D9
+L video-booster-board:LG_L29K-G2J1-24-Z D9
 U 1 1 5E667AE9
 P 19800 9850
 F 0 "D9" V 19697 10028 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 19150 9750 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 20000 10050 60  0001 L CNN
+F 2 "video-booster-board-footprints:LED_0603" H 20000 10050 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 20000 10150 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 20000 10350 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 20000 10950 60  0001 L CNN "Manufacturer"
@@ -2492,7 +2492,7 @@ Wire Wire Line
 Wire Wire Line
 	18900 9150 19350 9150
 $Comp
-L power:GND #PWR083
+L video-booster-board:GND #PWR083
 U 1 1 5E59DF88
 P 19350 10150
 F 0 "#PWR083" H 19350 9900 50  0001 C CNN
@@ -2503,12 +2503,12 @@ F 3 "" H 19350 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R66
+L video-booster-board:R_330R_0402 R66
 U 1 1 5E30CDD9
 P 19350 9400
 F 0 "R66" V 19305 9470 60  0000 L CNN
 F 1 "R_330R_0402" H 19350 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 19550 9600 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 19550 9600 60  0001 L CNN
 F 3 "" H 19350 9400 50  0001 C CNN
 F 4 "MULTICOMP" H 19550 9800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 19550 9700 60  0001 L CNN "MPN"
@@ -2517,12 +2517,12 @@ F 6 "330R" V 19403 9470 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D8
+L video-booster-board:LG_L29K-G2J1-24-Z D8
 U 1 1 5E306153
 P 19350 9850
 F 0 "D8" V 19247 10028 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 18700 9750 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 19550 10050 60  0001 L CNN
+F 2 "video-booster-board-footprints:LED_0603" H 19550 10050 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 19550 10150 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 19550 10350 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 19550 10950 60  0001 L CNN "Manufacturer"
@@ -2616,12 +2616,12 @@ RX_DDET
 Text Label 7400 11900 2    50   ~ 0
 RX_HIZ_EN
 $Comp
-L antmicroResistors0402:R_100R_0402 R4
+L video-booster-board:R_100R_0402 R4
 U 1 1 60735FAE
 P 2900 3350
 F 0 "R4" H 2800 3450 60  0000 C CNN
 F 1 "R_100R_0402" H 2900 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3100 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3100 3550 60  0001 L CNN
 F 3 "" H 2900 3350 50  0001 C CNN
 F 4 "BOURNS" H 3100 3750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 3100 3650 60  0001 L CNN "MPN"
@@ -2630,12 +2630,12 @@ F 6 "100R" H 3000 3450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R18
+L video-booster-board:R_27k_0402 R18
 U 1 1 6074A841
 P 3550 3350
 F 0 "R18" H 3400 3450 60  0000 C CNN
 F 1 "R_27k_0402" H 3550 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3750 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3750 3550 60  0001 L CNN
 F 3 "" H 3550 3350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3750 3750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 3750 3650 60  0001 L CNN "MPN"
@@ -2667,12 +2667,12 @@ RX_SRC_CEC
 Text Label 3750 11000 0    50   ~ 0
 RX_SINK_CEC
 $Comp
-L antmicroResistors0402:R_100R_0402 R16
+L video-booster-board:R_100R_0402 R16
 U 1 1 60AF7EDB
 P 3250 10800
 F 0 "R16" H 3150 10900 60  0000 C CNN
 F 1 "R_100R_0402" H 3250 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3450 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 3450 11000 60  0001 L CNN
 F 3 "" H 3250 10800 50  0001 C CNN
 F 4 "BOURNS" H 3450 11200 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 3450 11100 60  0001 L CNN "MPN"
@@ -2681,12 +2681,12 @@ F 6 "100R" H 3350 10900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R20
+L video-booster-board:R_27k_0402 R20
 U 1 1 60AF7EE4
 P 3900 10800
 F 0 "R20" H 3750 10900 60  0000 C CNN
 F 1 "R_27k_0402" H 3900 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4100 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 4100 11000 60  0001 L CNN
 F 3 "" H 3900 10800 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4100 11200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 4100 11100 60  0001 L CNN "MPN"
@@ -2710,12 +2710,12 @@ Wire Wire Line
 Text Label 9150 3550 2    50   ~ 0
 TX_SINK_CEC
 $Comp
-L antmicroResistors0402:R_100R_0402 R38
+L video-booster-board:R_100R_0402 R38
 U 1 1 60C6429E
 P 9650 3350
 F 0 "R38" H 9550 3450 60  0000 C CNN
 F 1 "R_100R_0402" H 9650 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9850 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9850 3550 60  0001 L CNN
 F 3 "" H 9650 3350 50  0001 C CNN
 F 4 "BOURNS" H 9850 3750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 9850 3650 60  0001 L CNN "MPN"
@@ -2724,12 +2724,12 @@ F 6 "100R" H 9750 3450 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R25
+L video-booster-board:R_27k_0402 R25
 U 1 1 60C642A7
 P 9000 3350
 F 0 "R25" H 8850 3450 60  0000 C CNN
 F 1 "R_27k_0402" H 9000 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9200 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9200 3550 60  0001 L CNN
 F 3 "" H 9000 3350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9200 3750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 9200 3650 60  0001 L CNN "MPN"
@@ -2755,12 +2755,12 @@ Wire Wire Line
 Text Label 9550 11000 2    50   ~ 0
 RX_SRC_CEC
 $Comp
-L antmicroResistors0402:R_100R_0402 R41
+L video-booster-board:R_100R_0402 R41
 U 1 1 60DDD18E
 P 10050 10800
 F 0 "R41" H 9950 10900 60  0000 C CNN
 F 1 "R_100R_0402" H 10050 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10250 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 10250 11000 60  0001 L CNN
 F 3 "" H 10050 10800 50  0001 C CNN
 F 4 "BOURNS" H 10250 11200 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 10250 11100 60  0001 L CNN "MPN"
@@ -2769,12 +2769,12 @@ F 6 "100R" H 10150 10900 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R27
+L video-booster-board:R_27k_0402 R27
 U 1 1 60DDD197
 P 9450 10800
 F 0 "R27" H 9300 10900 60  0000 C CNN
 F 1 "R_27k_0402" H 9450 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9650 11000 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 9650 11000 60  0001 L CNN
 F 3 "" H 9450 10800 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9650 11200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 9650 11100 60  0001 L CNN "MPN"
@@ -2796,12 +2796,12 @@ Connection ~ 9650 10800
 Wire Wire Line
 	9650 10800 9600 10800
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0102GT U5
+L video-booster-board:NTS0102GT U5
 U 1 1 61020792
 P 15500 4300
 F 0 "U5" H 15250 4700 50  0000 C CNN
 F 1 "NTS0102GT" H 15650 4700 50  0000 C CNN
-F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 15400 4800 50  0001 C CNN
+F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 15400 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 16150 5050 50  0001 C CNN
 F 4 "NTS0102GT" H 15500 4723 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 15500 4724 50  0001 C CNN "Manufacturer"
@@ -2819,12 +2819,12 @@ Wire Wire Line
 Wire Wire Line
 	15000 4050 15000 3950
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C38
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C38
 U 1 1 61566A03
 P 16200 4500
 F 0 "C38" H 16400 4500 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 16200 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16400 4700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16400 4700 60  0001 L CNN
 F 3 "" H 16200 4500 50  0001 C CNN
 F 4 "Walsin" H 16400 4900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 16400 4800 60  0001 L CNN "MPN"
@@ -2834,7 +2834,7 @@ F 6 "100n" H 16350 4600 50  0000 C CNN "Val"
 $EndComp
 Connection ~ 15000 4350
 $Comp
-L power:GND #PWR073
+L video-booster-board:GND #PWR073
 U 1 1 61610A9A
 P 16200 4650
 F 0 "#PWR073" H 16200 4400 50  0001 C CNN
@@ -2861,7 +2861,7 @@ TX_SRC_SCL
 Text Label 16300 4050 0    50   ~ 0
 TX_SRC_5V
 $Comp
-L power:GND #PWR080
+L video-booster-board:GND #PWR080
 U 1 1 61A64653
 P 18700 4650
 F 0 "#PWR080" H 18700 4400 50  0001 C CNN
@@ -2878,7 +2878,7 @@ Wire Wire Line
 Wire Wire Line
 	17800 4050 17700 4050
 $Comp
-L power:GND #PWR076
+L video-booster-board:GND #PWR076
 U 1 1 61A64665
 P 17700 4650
 F 0 "#PWR076" H 17700 4400 50  0001 C CNN
@@ -2889,12 +2889,12 @@ F 3 "" H 17700 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0102GT U7
+L video-booster-board:NTS0102GT U7
 U 1 1 61A6466F
 P 18200 4300
 F 0 "U7" H 17950 4700 50  0000 C CNN
 F 1 "NTS0102GT" H 18350 4700 50  0000 C CNN
-F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 18100 4800 50  0001 C CNN
+F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 18100 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 18850 5050 50  0001 C CNN
 F 4 "NTS0102GT" H 18200 4723 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 18200 4724 50  0001 C CNN "Manufacturer"
@@ -2912,12 +2912,12 @@ Wire Wire Line
 Wire Wire Line
 	17700 4050 17700 3950
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C39
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C39
 U 1 1 61A64683
 P 18900 4500
 F 0 "C39" H 19100 4500 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 18900 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 19100 4700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 19100 4700 60  0001 L CNN
 F 3 "" H 18900 4500 50  0001 C CNN
 F 4 "Walsin" H 19100 4900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 19100 4800 60  0001 L CNN "MPN"
@@ -2926,7 +2926,7 @@ F 6 "100n" H 19050 4600 50  0000 C CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR082
+L video-booster-board:GND #PWR082
 U 1 1 61A6468A
 P 18900 4650
 F 0 "#PWR082" H 18900 4400 50  0001 C CNN
@@ -2951,12 +2951,12 @@ Wire Wire Line
 Text Label 18950 4050 0    50   ~ 0
 RX_SINK_5V
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C35
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C35
 U 1 1 61AB5659
 P 17700 4500
 F 0 "C35" H 17900 4450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 17700 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 17900 4700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 17900 4700 60  0001 L CNN
 F 3 "" H 17700 4500 50  0001 C CNN
 F 4 "Walsin" H 17900 4900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 17900 4800 60  0001 L CNN "MPN"
@@ -3006,12 +3006,12 @@ TX_SINK_SCL
 Text Label 5600 14250 0    50   ~ 0
 RX_SRC_5V
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R31
+L video-booster-board:R_10k_0402-antmicroResistors0402 R31
 U 1 1 5E9C4D14
 P 6200 14450
 F 0 "R31" V 6050 14500 60  0000 L CNN
 F 1 "R_10k_0402" H 6200 14300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 14650 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6400 14650 60  0001 L CNN
 F 3 "" H 6200 14450 50  0001 C CNN
 F 4 "VISHAY" H 6400 14850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6400 14750 60  0001 L CNN "MPN"
@@ -3029,12 +3029,12 @@ Wire Wire Line
 Wire Wire Line
 	6450 14300 6450 14250
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R32
+L video-booster-board:R_10k_0402-antmicroResistors0402 R32
 U 1 1 5E9F2D89
 P 6450 14450
 F 0 "R32" V 6300 14500 60  0000 L CNN
 F 1 "R_10k_0402" H 6450 14300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6650 14650 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6650 14650 60  0001 L CNN
 F 3 "" H 6450 14450 50  0001 C CNN
 F 4 "VISHAY" H 6650 14850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6650 14750 60  0001 L CNN "MPN"
@@ -3071,12 +3071,12 @@ Wire Wire Line
 	6750 6050 6900 6050
 Connection ~ 6750 6050
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R58
+L video-booster-board:R_10k_0402-antmicroResistors0402 R58
 U 1 1 6256AC2C
 P 6500 5700
 F 0 "R58" V 6350 5750 60  0000 L CNN
 F 1 "R_10k_0402" H 6500 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6700 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6700 5900 60  0001 L CNN
 F 3 "" H 6500 5700 50  0001 C CNN
 F 4 "VISHAY" H 6700 6100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6700 6000 60  0001 L CNN "MPN"
@@ -3085,12 +3085,12 @@ F 6 "10k" V 6500 5750 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R59
+L video-booster-board:R_10k_0402-antmicroResistors0402 R59
 U 1 1 6256AC35
 P 6750 5700
 F 0 "R59" V 6600 5750 60  0000 L CNN
 F 1 "R_10k_0402" H 6750 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6950 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6950 5900 60  0001 L CNN
 F 3 "" H 6750 5700 50  0001 C CNN
 F 4 "VISHAY" H 6950 6100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6950 6000 60  0001 L CNN "MPN"
@@ -3101,12 +3101,12 @@ $EndComp
 Text Label 5900 6400 0    50   ~ 0
 TX_SINK_5V
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R34
+L video-booster-board:R_10k_0402-antmicroResistors0402 R34
 U 1 1 6256AC4F
 P 6500 6600
 F 0 "R34" V 6350 6650 60  0000 L CNN
 F 1 "R_10k_0402" H 6500 6450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6700 6800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6700 6800 60  0001 L CNN
 F 3 "" H 6500 6600 50  0001 C CNN
 F 4 "VISHAY" H 6700 7000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6700 6900 60  0001 L CNN "MPN"
@@ -3124,12 +3124,12 @@ Wire Wire Line
 Wire Wire Line
 	6750 6450 6750 6400
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R35
+L video-booster-board:R_10k_0402-antmicroResistors0402 R35
 U 1 1 6256AC5D
 P 6750 6600
 F 0 "R35" V 6600 6650 60  0000 L CNN
 F 1 "R_10k_0402" H 6750 6450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6950 6800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 6950 6800 60  0001 L CNN
 F 3 "" H 6750 6600 50  0001 C CNN
 F 4 "VISHAY" H 6950 7000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6950 6900 60  0001 L CNN "MPN"
@@ -3156,12 +3156,12 @@ TX_SINK_SDA_3V
 Text Label 5900 6050 0    50   ~ 0
 TX_SINK_SCL_3V
 $Comp
-L video-booster-board-rescue:C_4u7_0603-antmicroCapacitors0603 C36
+L video-booster-board:C_4u7_0603-antmicroCapacitors0603 C36
 U 1 1 62A47AFC
 P 14900 2050
 F 0 "C36" H 14950 2150 60  0000 L CNN
 F 1 "C_4u7_0603" H 14900 1900 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 15100 2250 60  0001 L CNN
+F 2 "video-booster-board-footprints:0603-cap" H 15100 2250 60  0001 L CNN
 F 3 "" H 14900 2050 50  0001 C CNN
 F 4 "TDK" H 15100 2450 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 15100 2350 60  0001 L CNN "MPN"
@@ -3170,7 +3170,7 @@ F 6 "4u7" H 14950 1950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR061
+L video-booster-board:GND #PWR061
 U 1 1 62AD30B5
 P 14700 2250
 F 0 "#PWR061" H 14700 2000 50  0001 C CNN
@@ -3181,7 +3181,7 @@ F 3 "" H 14700 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR062
+L video-booster-board:GND #PWR062
 U 1 1 62AD3480
 P 14900 2250
 F 0 "#PWR062" H 14900 2000 50  0001 C CNN
@@ -3192,7 +3192,7 @@ F 3 "" H 14900 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L video-booster-board:GND #PWR068
 U 1 1 62AD35F3
 P 15250 2250
 F 0 "#PWR068" H 15250 2000 50  0001 C CNN
@@ -3205,7 +3205,7 @@ $EndComp
 Text Notes 14200 2050 0    50   ~ 0
 +5V Auxillary
 $Comp
-L power:+5VA #PWR036
+L video-booster-board:+5VA #PWR036
 U 1 1 6291ED95
 P 15000 5600
 F 0 "#PWR036" H 15000 5450 50  0001 C CNN
@@ -3232,12 +3232,12 @@ Wire Wire Line
 Wire Wire Line
 	15250 2200 15250 2250
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D7
+L video-booster-board:BAT54-02V-V-G D7
 U 1 1 62DF4084
 P 16400 2200
 F 0 "D7" H 16300 2300 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 16200 2150 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 16600 2400 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 16600 2400 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 16600 2500 60  0001 L CNN
 F 4 "BAT54" H 16600 2600 60  0001 L CNN "MPN"
 F 5 "Vishay" H 16600 2700 60  0001 L CNN "Manufacturer"
@@ -3289,7 +3289,7 @@ Wire Wire Line
 Text Label 3750 9500 0    50   ~ 0
 RX_SRC_5V
 $Comp
-L power:+5VA #PWR016
+L video-booster-board:+5VA #PWR016
 U 1 1 633D882A
 P 3200 9000
 F 0 "#PWR016" H 3200 8850 50  0001 C CNN
@@ -3300,12 +3300,12 @@ F 3 "" H 3200 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2110APW U2
+L video-booster-board:TPS2110APW U2
 U 1 1 633E3EA1
 P 15450 5950
 F 0 "U2" H 15400 5600 60  0000 C CNN
 F 1 "TPS2110APW" H 15550 5500 60  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-8_W4.4mm" H 15650 6150 60  0001 L CNN
+F 2 "video-booster-board-footprints:TSSOP-8_W4.4mm" H 15650 6150 60  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2111a.pdf" H 15650 6250 60  0001 L CNN
 F 4 "Texas Instruments" H 15650 6600 60  0001 L CNN "Manufacturer"
 F 5 "TPS2110APW" H 15650 6450 60  0001 L CNN "MPN"
@@ -3313,12 +3313,12 @@ F 5 "TPS2110APW" H 15650 6450 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C31
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C31
 U 1 1 633ED1A3
 P 15000 6300
 F 0 "C31" H 14750 6300 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 15000 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15200 6500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 15200 6500 60  0001 L CNN
 F 3 "" H 15000 6300 50  0001 C CNN
 F 4 "Walsin" H 15200 6700 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15200 6600 60  0001 L CNN "MPN"
@@ -3327,12 +3327,12 @@ F 6 "100n" H 14800 6200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C33
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C33
 U 1 1 63436321
 P 16200 5500
 F 0 "C33" V 16100 5350 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 16200 5350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16400 5700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16400 5700 60  0001 L CNN
 F 3 "" H 16200 5500 50  0001 C CNN
 F 4 "Walsin" H 16400 5900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 16400 5800 60  0001 L CNN "MPN"
@@ -3341,12 +3341,12 @@ F 6 "100n" V 16100 5650 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_806k_0402 R30
+L video-booster-board:R_806k_0402 R30
 U 1 1 634835AE
 P 16050 6300
 F 0 "R30" V 16005 6370 60  0000 L CNN
 F 1 "R_806k_0402" H 16050 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16250 6500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 16250 6500 60  0001 L CNN
 F 3 "" H 16050 6300 50  0001 C CNN
 F 4 "VISHAY" H 16250 6700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402806KFKED" H 16250 6600 60  0001 L CNN "MPN"
@@ -3355,12 +3355,12 @@ F 6 "806k" V 16103 6370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_1u_0402-antmicroCapacitors0402 C34
+L video-booster-board:C_1u_0402-antmicroCapacitors0402 C34
 U 1 1 6348A162
 P 16400 6300
 F 0 "C34" H 16500 6250 60  0000 L CNN
 F 1 "C_1u_0402" H 16400 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16600 6500 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16600 6500 60  0001 L CNN
 F 3 "" H 16400 6300 50  0001 C CNN
 F 4 "TDK" H 16600 6700 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 16600 6600 60  0001 L CNN "MPN"
@@ -3369,7 +3369,7 @@ F 6 "1u" H 16500 6150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L video-booster-board:GND #PWR050
 U 1 1 634E5914
 P 16050 6450
 F 0 "#PWR050" H 16050 6200 50  0001 C CNN
@@ -3380,7 +3380,7 @@ F 3 "" H 16050 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR041
+L video-booster-board:GND #PWR041
 U 1 1 634E5C3E
 P 15850 6450
 F 0 "#PWR041" H 15850 6200 50  0001 C CNN
@@ -3391,7 +3391,7 @@ F 3 "" H 15850 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR059
+L video-booster-board:GND #PWR059
 U 1 1 634E5EEC
 P 16400 6450
 F 0 "#PWR059" H 16400 6200 50  0001 C CNN
@@ -3402,7 +3402,7 @@ F 3 "" H 16400 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR038
+L video-booster-board:GND #PWR038
 U 1 1 634E60D3
 P 15000 6450
 F 0 "#PWR038" H 15000 6200 50  0001 C CNN
@@ -3419,7 +3419,7 @@ Wire Wire Line
 Wire Wire Line
 	15950 5500 15250 5500
 $Comp
-L power:GND #PWR051
+L video-booster-board:GND #PWR051
 U 1 1 63579DC4
 P 16400 5550
 F 0 "#PWR051" H 16400 5300 50  0001 C CNN
@@ -3469,12 +3469,12 @@ TX_SRC_5V
 Text Label 16950 5950 0    50   ~ 0
 TX_SINK_5V
 $Comp
-L antmicroResistors0402:R_1R_0402 R56
+L video-booster-board:R_1R_0402 R56
 U 1 1 63B7E04A
 P 16600 5950
 F 0 "R56" H 16500 6050 60  0000 C CNN
 F 1 "R_1R_0402" H 16600 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16800 6150 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 16800 6150 60  0001 L CNN
 F 3 "" H 16600 5950 50  0001 C CNN
 F 4 "YAGEO" H 16800 6350 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-071RL" H 16800 6250 60  0001 L CNN "MPN"
@@ -3483,12 +3483,12 @@ F 6 "1R" H 16700 6050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_1R_0402 R57
+L video-booster-board:R_1R_0402 R57
 U 1 1 63B8103C
 P 16600 6150
 F 0 "R57" H 16500 6250 60  0000 C CNN
 F 1 "R_1R_0402" H 16600 6000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 16800 6350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 16800 6350 60  0001 L CNN
 F 3 "" H 16600 6150 50  0001 C CNN
 F 4 "YAGEO" H 16800 6550 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-071RL" H 16800 6450 60  0001 L CNN "MPN"
@@ -3520,7 +3520,7 @@ ADC6
 Text Label 17950 6200 0    50   ~ 0
 ADC7
 $Comp
-L power:+5VA #PWR067
+L video-booster-board:+5VA #PWR067
 U 1 1 64417248
 P 15250 1550
 F 0 "#PWR067" H 15250 1400 50  0001 C CNN
@@ -3535,7 +3535,7 @@ TX_SINK_5V
 Text Label 9850 5900 0    50   ~ 0
 TX_SINK_PWR
 $Comp
-L power:+5VA #PWR085
+L video-booster-board:+5VA #PWR085
 U 1 1 6442A641
 P 18250 5850
 F 0 "#PWR085" H 18250 5700 50  0001 C CNN
@@ -3548,12 +3548,12 @@ $EndComp
 Text Label 7900 13650 0    50   ~ 0
 RX_SRC_5V
 $Comp
-L antmicroResistors0402:R_4k7_0402 R63
+L video-booster-board:R_4k7_0402 R63
 U 1 1 645D5103
 P 8500 6000
 F 0 "R63" V 8550 5850 60  0000 C CNN
 F 1 "R_4k7_0402" H 8500 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8700 6200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 8700 6200 60  0001 L CNN
 F 3 "" H 8500 6000 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 8700 6400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 8700 6300 60  0001 L CNN "MPN"
@@ -3562,12 +3562,12 @@ F 6 "4k7" V 8450 5850 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R62
+L video-booster-board:R_27k_0402 R62
 U 1 1 645D510C
 P 8500 5700
 F 0 "R62" V 8550 5850 60  0000 C CNN
 F 1 "R_27k_0402" H 8500 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8700 5900 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 8700 5900 60  0001 L CNN
 F 3 "" H 8500 5700 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 8700 6100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 8700 6000 60  0001 L CNN "MPN"
@@ -3576,7 +3576,7 @@ F 6 "27k" V 8450 5850 50  0000 C CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR077
+L video-booster-board:GND #PWR077
 U 1 1 645D5112
 P 8500 6150
 F 0 "#PWR077" H 8500 5900 50  0001 C CNN
@@ -3594,12 +3594,12 @@ Wire Wire Line
 Wire Wire Line
 	8500 5500 8000 5500
 $Comp
-L antmicroResistors0402:R_4k7_0402 R65
+L video-booster-board:R_4k7_0402 R65
 U 1 1 64626661
 P 8400 14150
 F 0 "R65" V 8450 14000 60  0000 C CNN
 F 1 "R_4k7_0402" H 8400 14000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8600 14350 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 8600 14350 60  0001 L CNN
 F 3 "" H 8400 14150 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 8600 14550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 8600 14450 60  0001 L CNN "MPN"
@@ -3608,12 +3608,12 @@ F 6 "4k7" V 8350 14000 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R64
+L video-booster-board:R_27k_0402 R64
 U 1 1 6462666A
 P 8400 13850
 F 0 "R64" V 8450 14000 60  0000 C CNN
 F 1 "R_27k_0402" H 8400 13700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8600 14050 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 8600 14050 60  0001 L CNN
 F 3 "" H 8400 13850 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 8600 14250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 8600 14150 60  0001 L CNN "MPN"
@@ -3622,7 +3622,7 @@ F 6 "27k" V 8350 14000 50  0000 C CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR081
+L video-booster-board:GND #PWR081
 U 1 1 64626670
 P 8400 14300
 F 0 "#PWR081" H 8400 14050 50  0001 C CNN
@@ -3640,12 +3640,12 @@ Wire Wire Line
 Wire Wire Line
 	8400 13650 7900 13650
 $Comp
-L antmicroResistors0402:R_4k7_0402 R69
+L video-booster-board:R_4k7_0402 R69
 U 1 1 646787E9
 P 18250 6350
 F 0 "R69" V 18300 6200 60  0000 C CNN
 F 1 "R_4k7_0402" H 18250 6200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 18450 6550 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 18450 6550 60  0001 L CNN
 F 3 "" H 18250 6350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 18450 6750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 18450 6650 60  0001 L CNN "MPN"
@@ -3654,12 +3654,12 @@ F 6 "4k7" V 18200 6200 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_27k_0402 R68
+L video-booster-board:R_27k_0402 R68
 U 1 1 646787F2
 P 18250 6050
 F 0 "R68" V 18300 6200 60  0000 C CNN
 F 1 "R_27k_0402" H 18250 5900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 18450 6250 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 18450 6250 60  0001 L CNN
 F 3 "" H 18250 6050 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 18450 6450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 18450 6350 60  0001 L CNN "MPN"
@@ -3668,7 +3668,7 @@ F 6 "27k" V 18200 6200 50  0000 C CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR086
+L video-booster-board:GND #PWR086
 U 1 1 646787F8
 P 18250 6500
 F 0 "#PWR086" H 18250 6250 50  0001 C CNN
@@ -3702,12 +3702,12 @@ Connection ~ 2750 6100
 Wire Wire Line
 	2750 6100 3100 6100
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R5
+L video-booster-board:R_100k_0402-antmicroResistors0402 R5
 U 1 1 5DBDC31C
 P 2500 5750
 F 0 "R5" V 2400 5550 60  0000 L CNN
 F 1 "R_100k_0402" H 2500 5600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 5950 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2700 5950 60  0001 L CNN
 F 3 "" H 2500 5750 50  0001 C CNN
 F 4 "VISHAY" H 2700 6150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2700 6050 60  0001 L CNN "MPN"
@@ -3716,12 +3716,12 @@ F 6 "100k" V 2500 5500 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R6
+L video-booster-board:R_100k_0402-antmicroResistors0402 R6
 U 1 1 5DBDC326
 P 2750 5750
 F 0 "R6" V 2650 5800 60  0000 L CNN
 F 1 "R_100k_0402" H 2750 5600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2950 5950 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2950 5950 60  0001 L CNN
 F 3 "" H 2750 5750 50  0001 C CNN
 F 4 "VISHAY" H 2950 6150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2950 6050 60  0001 L CNN "MPN"
@@ -3730,12 +3730,12 @@ F 6 "100k" V 2750 5800 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R9
+L video-booster-board:R_10k_0402-antmicroResistors0402 R9
 U 1 1 5DBDC3F5
 P 2200 6000
 F 0 "R9" H 2400 5950 60  0000 C CNN
 F 1 "R_10k_0402" H 2200 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 6200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2400 6200 60  0001 L CNN
 F 3 "" H 2200 6000 50  0001 C CNN
 F 4 "VISHAY" H 2400 6400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2400 6300 60  0001 L CNN "MPN"
@@ -3744,12 +3744,12 @@ F 6 "10k" H 2000 5950 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R10
+L video-booster-board:R_10k_0402-antmicroResistors0402 R10
 U 1 1 5DBDC3FF
 P 2200 6100
 F 0 "R10" H 2400 6050 60  0000 C CNN
 F 1 "R_10k_0402" H 2200 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 6300 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2400 6300 60  0001 L CNN
 F 3 "" H 2200 6100 50  0001 C CNN
 F 4 "VISHAY" H 2400 6500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2400 6400 60  0001 L CNN "MPN"
@@ -3762,12 +3762,12 @@ RX_EQ1
 Text Label 2700 13850 0    50   ~ 0
 RX_EQ0
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R14
+L video-booster-board:R_100k_0402-antmicroResistors0402 R14
 U 1 1 5EECF56D
 P 2350 13600
 F 0 "R14" V 2250 13300 60  0000 L CNN
 F 1 "R_100k_0402" H 2350 13450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2550 13800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2550 13800 60  0001 L CNN
 F 3 "" H 2350 13600 50  0001 C CNN
 F 4 "VISHAY" H 2550 14000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2550 13900 60  0001 L CNN "MPN"
@@ -3776,12 +3776,12 @@ F 6 "100k" V 2350 13300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_100k_0402-antmicroResistors0402 R15
+L video-booster-board:R_100k_0402-antmicroResistors0402 R15
 U 1 1 5EECF577
 P 2600 13600
 F 0 "R15" V 2500 13700 60  0000 L CNN
 F 1 "R_100k_0402" H 2600 13450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2800 13800 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2800 13800 60  0001 L CNN
 F 3 "" H 2600 13600 50  0001 C CNN
 F 4 "VISHAY" H 2800 14000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2800 13900 60  0001 L CNN "MPN"
@@ -3790,12 +3790,12 @@ F 6 "100k" V 2600 13700 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R39
+L video-booster-board:R_10k_0402-antmicroResistors0402 R39
 U 1 1 5F0B1270
 P 2050 13850
 F 0 "R39" H 2250 13800 60  0000 C CNN
 F 1 "R_10k_0402" H 2050 13700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2250 14050 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2250 14050 60  0001 L CNN
 F 3 "" H 2050 13850 50  0001 C CNN
 F 4 "VISHAY" H 2250 14250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2250 14150 60  0001 L CNN "MPN"
@@ -3804,12 +3804,12 @@ F 6 "10k" H 1850 13800 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L video-booster-board-rescue:R_10k_0402-antmicroResistors0402 R40
+L video-booster-board:R_10k_0402-antmicroResistors0402 R40
 U 1 1 5F0B127A
 P 2050 13950
 F 0 "R40" H 2250 13900 60  0000 C CNN
 F 1 "R_10k_0402" H 2050 13800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2250 14150 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-res" H 2250 14150 60  0001 L CNN
 F 3 "" H 2050 13950 50  0001 C CNN
 F 4 "VISHAY" H 2250 14350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2250 14250 60  0001 L CNN "MPN"
@@ -3848,23 +3848,23 @@ RX_EQ1_R
 Text Label 1350 13850 0    50   ~ 0
 RX_EQ0_R
 $Comp
-L antmicroOperationalAmplifiers:INA180A1IDBVT IC1
+L video-booster-board:INA180A1IDBVT IC1
 U 1 1 5DD3122C
 P 10500 6150
 F 0 "IC1" H 10725 6815 50  0000 C CNN
 F 1 "INA180A1IDBVT" H 10725 6724 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 10550 6700 50  0001 C CNN
+F 2 "video-booster-board-footprints:SOT-23-5" H 10550 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina180.pdf" H 10550 6700 50  0001 C CNN
 	1    10500 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C40
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C40
 U 1 1 5DDC8A4E
 P 10150 5500
 F 0 "C40" V 10100 5650 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 10150 5350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10350 5700 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 10350 5700 60  0001 L CNN
 F 3 "" H 10150 5500 50  0001 C CNN
 F 4 "Walsin" H 10350 5900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10350 5800 60  0001 L CNN "MPN"
@@ -3873,7 +3873,7 @@ F 6 "100n" V 10250 5650 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR074
+L video-booster-board:GND #PWR074
 U 1 1 5DDD8114
 P 9900 5550
 F 0 "#PWR074" H 9900 5300 50  0001 C CNN
@@ -3894,7 +3894,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 5750 11300 5750
 $Comp
-L power:GND #PWR088
+L video-booster-board:GND #PWR088
 U 1 1 5E0280DA
 P 11150 6100
 F 0 "#PWR088" H 11150 5850 50  0001 C CNN
@@ -3918,12 +3918,12 @@ Wire Wire Line
 Text Label 8000 5500 0    50   ~ 0
 TX_SINK_5V
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D4
+L video-booster-board:BAT54-02V-V-G D4
 U 1 1 5DD44658
 P 16400 1600
 F 0 "D4" H 16300 1700 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 16200 1550 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 16600 1800 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 16600 1800 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 16600 1900 60  0001 L CNN
 F 4 "BAT54" H 16600 2000 60  0001 L CNN "MPN"
 F 5 "Vishay" H 16600 2100 60  0001 L CNN "Manufacturer"
@@ -3931,12 +3931,12 @@ F 5 "Vishay" H 16600 2100 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D5
+L video-booster-board:BAT54-02V-V-G D5
 U 1 1 5DD449C5
 P 16400 1800
 F 0 "D5" H 16300 1900 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 16200 1750 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 16600 2000 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 16600 2000 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 16600 2100 60  0001 L CNN
 F 4 "BAT54" H 16600 2200 60  0001 L CNN "MPN"
 F 5 "Vishay" H 16600 2300 60  0001 L CNN "Manufacturer"
@@ -3944,12 +3944,12 @@ F 5 "Vishay" H 16600 2300 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D6
+L video-booster-board:BAT54-02V-V-G D6
 U 1 1 5DD44CC2
 P 16400 2000
 F 0 "D6" H 16300 2100 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 16200 1950 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 16600 2200 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 16600 2200 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 16600 2300 60  0001 L CNN
 F 4 "BAT54" H 16600 2400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 16600 2500 60  0001 L CNN "Manufacturer"
@@ -3957,12 +3957,12 @@ F 5 "Vishay" H 16600 2500 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D2
+L video-booster-board:BAT54-02V-V-G D2
 U 1 1 5DDA66C9
 P 15250 2000
 F 0 "D2" V 15200 1900 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 15050 1950 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 15450 2200 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 15450 2200 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 15450 2300 60  0001 L CNN
 F 4 "BAT54" H 15450 2400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 15450 2500 60  0001 L CNN "Manufacturer"
@@ -3970,12 +3970,12 @@ F 5 "Vishay" H 15450 2500 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D3
+L video-booster-board:BAT54-02V-V-G D3
 U 1 1 5DDAC027
 P 3200 9200
 F 0 "D3" V 3150 9100 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 3000 9150 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 3400 9400 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 3400 9400 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 3400 9500 60  0001 L CNN
 F 4 "BAT54" H 3400 9600 60  0001 L CNN "MPN"
 F 5 "Vishay" H 3400 9700 60  0001 L CNN "Manufacturer"
@@ -3983,12 +3983,12 @@ F 5 "Vishay" H 3400 9700 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:BAT54-02V-V-G D1
+L video-booster-board:BAT54-02V-V-G D1
 U 1 1 5DDB01CA
 P 3500 9500
 F 0 "D1" H 3450 9400 60  0000 R CNN
 F 1 "BAT54-02V-V-G" V 3300 9450 60  0001 R CNN
-F 2 "antmicro-footprints:SOD-523" H 3700 9700 60  0001 L CNN
+F 2 "video-booster-board-footprints:SOD-523" H 3700 9700 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/82394/bat5402v.pdf" H 3700 9800 60  0001 L CNN
 F 4 "BAT54" H 3700 9900 60  0001 L CNN "MPN"
 F 5 "Vishay" H 3700 10000 60  0001 L CNN "Manufacturer"
@@ -3996,12 +3996,12 @@ F 5 "Vishay" H 3700 10000 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroSlideSwitches:1571983-5 SW1
+L video-booster-board:1571983-5 SW1
 U 1 1 5DDDC5FA
 P 14850 14500
 F 0 "SW1" H 14850 14867 50  0000 C CNN
 F 1 "1571983-5" H 14850 14776 50  0000 C CNN
-F 2 "antmicro-footprints:1571983-5" H 14850 14500 50  0001 L BNN
+F 2 "video-booster-board-footprints:1571983-5" H 14850 14500 50  0001 L BNN
 F 3 "TE Connectivity" H 14850 14500 50  0001 L BNN
 F 4 "450-1762-6-ND" H 14850 14500 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 14850 14500 50  0001 L BNN "Field5"
@@ -4034,7 +4034,7 @@ RX_EQ0
 Text Label 14200 14700 0    50   ~ 0
 RX_EQ1
 $Comp
-L power:GND #PWR04
+L video-booster-board:GND #PWR04
 U 1 1 5E0EDB8A
 P 15400 14900
 F 0 "#PWR04" H 15400 14650 50  0001 C CNN
@@ -4068,12 +4068,12 @@ Wire Wire Line
 Wire Wire Line
 	16850 10200 16250 10200
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:M20-9990246 J10
+L video-booster-board:M20-9990246 J10
 U 1 1 5DD74C13
 P 14600 1800
 F 0 "J10" V 14375 1808 50  0000 C CNN
 F 1 "M20-9990246" V 14466 1808 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 14800 2000 60  0001 L CNN
+F 2 "video-booster-board-footprints:PinHeader_1x2_P2.54mm" H 14800 2000 60  0001 L CNN
 F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 14800 2100 60  0001 L CNN
 F 4 "M20-9990246" H 14800 2300 60  0001 L CNN "MPN"
 F 5 "Harwin Inc." H 14800 2900 60  0001 L CNN "Manufacturer"
@@ -4191,7 +4191,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 8850 6200 8800
 $Comp
-L power:GND #PWR017
+L video-booster-board:GND #PWR017
 U 1 1 5DF9B924
 P 6200 9150
 F 0 "#PWR017" H 6200 8900 50  0001 C CNN
@@ -4202,7 +4202,7 @@ F 3 "" H 6200 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L video-booster-board:GND #PWR019
 U 1 1 5DF9B91E
 P 6500 9150
 F 0 "#PWR019" H 6500 8900 50  0001 C CNN
@@ -4213,7 +4213,7 @@ F 3 "" H 6500 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L video-booster-board:GND #PWR024
 U 1 1 5DF9B918
 P 6850 9150
 F 0 "#PWR024" H 6850 8900 50  0001 C CNN
@@ -4224,12 +4224,12 @@ F 3 "" H 6850 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C2
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C2
 U 1 1 5DF9B911
 P 6200 9000
 F 0 "C2" H 6100 8900 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 6200 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6400 9200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 6400 9200 60  0001 L CNN
 F 3 "" H 6200 9000 50  0001 C CNN
 F 4 "Walsin" H 6400 9400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6400 9300 60  0001 L CNN "MPN"
@@ -4238,12 +4238,12 @@ F 6 "100n" H 6050 9100 50  0000 C CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C3
+L video-booster-board:C_100n_0402_6V3-antmicroCapacitors0402 C3
 U 1 1 5DF9B8FC
 P 6500 9000
 F 0 "C3" H 6400 8900 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 6500 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6700 9200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0402-cap" H 6700 9200 60  0001 L CNN
 F 3 "" H 6500 9000 50  0001 C CNN
 F 4 "Walsin" H 6700 9400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6700 9300 60  0001 L CNN "MPN"
@@ -4252,12 +4252,12 @@ F 6 "100n" H 6350 9100 50  0000 C CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L video-booster-board-rescue:C_10u_0603-antmicroCapacitors0603 C4
+L video-booster-board:C_10u_0603-antmicroCapacitors0603 C4
 U 1 1 5DF9B8F2
 P 6850 9000
 F 0 "C4" H 6965 9045 60  0000 L CNN
 F 1 "C_10u_0603" H 6850 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 7050 9200 60  0001 L CNN
+F 2 "video-booster-board-footprints:0603-cap" H 7050 9200 60  0001 L CNN
 F 3 "" H 6850 9000 50  0001 C CNN
 F 4 "AVX" H 7050 9400 60  0001 L CNN "Manufacturer"
 F 5 "06036D106MAT2A" H 7050 9300 60  0001 L CNN "MPN"
@@ -4292,7 +4292,7 @@ MCU
 Text Notes 3250 3700 0    50   ~ 0
 SCL/SDA operate at 5V
 $Comp
-L power:+3V3 #PWR09
+L video-booster-board:+3V3 #PWR09
 U 1 1 5DDC8FDD
 P 3600 1900
 F 0 "#PWR09" H 3600 1750 50  0001 C CNN
@@ -4303,7 +4303,7 @@ F 3 "" H 3600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR027
+L video-booster-board:+3V3 #PWR027
 U 1 1 5DEA93DA
 P 6050 1150
 F 0 "#PWR027" H 6050 1000 50  0001 C CNN
@@ -4314,7 +4314,7 @@ F 3 "" H 6050 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR05
+L video-booster-board:+3V3 #PWR05
 U 1 1 5DEAA92D
 P 2500 5600
 F 0 "#PWR05" H 2500 5450 50  0001 C CNN
@@ -4325,7 +4325,7 @@ F 3 "" H 2500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR08
+L video-booster-board:+3V3 #PWR08
 U 1 1 5DEB2DC5
 P 2750 5600
 F 0 "#PWR08" H 2750 5450 50  0001 C CNN
@@ -4336,7 +4336,7 @@ F 3 "" H 2750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR015
+L video-booster-board:+3V3 #PWR015
 U 1 1 5DEB3F7D
 P 4300 5550
 F 0 "#PWR015" H 4300 5400 50  0001 C CNN
@@ -4349,7 +4349,7 @@ $EndComp
 Wire Wire Line
 	6050 1150 6050 1350
 $Comp
-L power:+3V3 #PWR020
+L video-booster-board:+3V3 #PWR020
 U 1 1 5DF0EF17
 P 4550 5550
 F 0 "#PWR020" H 4550 5400 50  0001 C CNN
@@ -4360,7 +4360,7 @@ F 3 "" H 4550 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR026
+L video-booster-board:+3V3 #PWR026
 U 1 1 5DF0F17E
 P 4800 5550
 F 0 "#PWR026" H 4800 5400 50  0001 C CNN
@@ -4371,7 +4371,7 @@ F 3 "" H 4800 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR032
+L video-booster-board:+3V3 #PWR032
 U 1 1 5DF0FBA7
 P 6500 5550
 F 0 "#PWR032" H 6500 5400 50  0001 C CNN
@@ -4382,7 +4382,7 @@ F 3 "" H 6500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR035
+L video-booster-board:+3V3 #PWR035
 U 1 1 5DF1305B
 P 6750 5550
 F 0 "#PWR035" H 6750 5400 50  0001 C CNN
@@ -4393,7 +4393,7 @@ F 3 "" H 6750 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR057
+L video-booster-board:+3V3 #PWR057
 U 1 1 5DF174F3
 P 10400 5450
 F 0 "#PWR057" H 10400 5300 50  0001 C CNN
@@ -4404,7 +4404,7 @@ F 3 "" H 10400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR040
+L video-booster-board:+3V3 #PWR040
 U 1 1 5DF1C038
 P 8800 3350
 F 0 "#PWR040" H 8800 3200 50  0001 C CNN
@@ -4415,7 +4415,7 @@ F 3 "" H 8800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR010
+L video-booster-board:+3V3 #PWR010
 U 1 1 5DF1C8F9
 P 3850 3350
 F 0 "#PWR010" H 3850 3200 50  0001 C CNN
@@ -4426,7 +4426,7 @@ F 3 "" H 3850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR075
+L video-booster-board:+3V3 #PWR075
 U 1 1 5DF25C3C
 P 18950 1600
 F 0 "#PWR075" H 18950 1450 50  0001 C CNN
@@ -4437,7 +4437,7 @@ F 3 "" H 18950 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR063
+L video-booster-board:+3V3 #PWR063
 U 1 1 5DF262B9
 P 15000 3950
 F 0 "#PWR063" H 15000 3800 50  0001 C CNN
@@ -4448,7 +4448,7 @@ F 3 "" H 15000 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR069
+L video-booster-board:+3V3 #PWR069
 U 1 1 5DF268CF
 P 17700 3950
 F 0 "#PWR069" H 17700 3800 50  0001 C CNN
@@ -4459,7 +4459,7 @@ F 3 "" H 17700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR071
+L video-booster-board:+3V3 #PWR071
 U 1 1 5DF30C34
 P 18750 10900
 F 0 "#PWR071" H 18750 10750 50  0001 C CNN
@@ -4474,7 +4474,7 @@ Wire Wire Line
 Wire Wire Line
 	18750 11000 18850 11000
 $Comp
-L power:+3V3 #PWR064
+L video-booster-board:+3V3 #PWR064
 U 1 1 5DF8BAC3
 P 15800 8950
 F 0 "#PWR064" H 15800 8800 50  0001 C CNN
@@ -4485,7 +4485,7 @@ F 3 "" H 15800 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR066
+L video-booster-board:+3V3 #PWR066
 U 1 1 5DF8D377
 P 16200 8950
 F 0 "#PWR066" H 16200 8800 50  0001 C CNN
@@ -4496,7 +4496,7 @@ F 3 "" H 16200 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR039
+L video-booster-board:+3V3 #PWR039
 U 1 1 5DF94174
 P 7150 8750
 F 0 "#PWR039" H 7150 8600 50  0001 C CNN
@@ -4507,7 +4507,7 @@ F 3 "" H 7150 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR011
+L video-booster-board:+3V3 #PWR011
 U 1 1 5DFA2F42
 P 4200 10800
 F 0 "#PWR011" H 4200 10650 50  0001 C CNN
@@ -4518,7 +4518,7 @@ F 3 "" H 4200 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR044
+L video-booster-board:+3V3 #PWR044
 U 1 1 5DFA3510
 P 9450 9350
 F 0 "#PWR044" H 9450 9200 50  0001 C CNN
@@ -4529,7 +4529,7 @@ F 3 "" H 9450 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR043
+L video-booster-board:+3V3 #PWR043
 U 1 1 5DFA3B45
 P 9250 10800
 F 0 "#PWR043" H 9250 10650 50  0001 C CNN
@@ -4540,7 +4540,7 @@ F 3 "" H 9250 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR03
+L video-booster-board:+3V3 #PWR03
 U 1 1 5DFB03EA
 P 2350 13450
 F 0 "#PWR03" H 2350 13300 50  0001 C CNN
@@ -4551,7 +4551,7 @@ F 3 "" H 2350 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR07
+L video-booster-board:+3V3 #PWR07
 U 1 1 5DFB0B37
 P 2600 13450
 F 0 "#PWR07" H 2600 13300 50  0001 C CNN
@@ -4562,7 +4562,7 @@ F 3 "" H 2600 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR014
+L video-booster-board:+3V3 #PWR014
 U 1 1 5DFB111B
 P 4250 13400
 F 0 "#PWR014" H 4250 13250 50  0001 C CNN
@@ -4573,7 +4573,7 @@ F 3 "" H 4250 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR018
+L video-booster-board:+3V3 #PWR018
 U 1 1 5DFB17D9
 P 4500 13400
 F 0 "#PWR018" H 4500 13250 50  0001 C CNN
@@ -4584,7 +4584,7 @@ F 3 "" H 4500 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR021
+L video-booster-board:+3V3 #PWR021
 U 1 1 5DFB1DF0
 P 4750 13400
 F 0 "#PWR021" H 4750 13250 50  0001 C CNN
@@ -4595,7 +4595,7 @@ F 3 "" H 4750 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR030
+L video-booster-board:+3V3 #PWR030
 U 1 1 5DFB2497
 P 6200 13400
 F 0 "#PWR030" H 6200 13250 50  0001 C CNN
@@ -4606,7 +4606,7 @@ F 3 "" H 6200 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR031
+L video-booster-board:+3V3 #PWR031
 U 1 1 5DFB2B87
 P 6450 13400
 F 0 "#PWR031" H 6450 13250 50  0001 C CNN
@@ -4617,12 +4617,12 @@ F 3 "" H 6450 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:RCLAMP0524PATCT D10
+L video-booster-board:RCLAMP0524PATCT D10
 U 1 1 5DFD2A20
 P 20950 11200
 F 0 "D10" H 20950 11887 60  0000 C CNN
 F 1 "RCLAMP0524PATCT" H 20950 11781 60  0000 C CNN
-F 2 "antmicro-footprints:UFDFN-10_2.5x1mm" H 21150 11400 60  0001 L CNN
+F 2 "video-booster-board-footprints:UFDFN-10_2.5x1mm" H 21150 11400 60  0001 L CNN
 F 3 "https://www.semtech.com/uploads/documents/rclamp0522p_0524pa.pdf" H 21150 11500 60  0001 L CNN
 F 4 "Semtech Corporation" H 21150 12300 60  0001 L CNN "Manufacturer"
 F 5 "RCLAMP0524PATCT" H 21150 11700 60  0001 L CNN "MPN"
@@ -4630,7 +4630,7 @@ F 5 "RCLAMP0524PATCT" H 21150 11700 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR079
+L video-booster-board:GND #PWR079
 U 1 1 5DFE7A15
 P 20350 11700
 F 0 "#PWR079" H 20350 11450 50  0001 C CNN
