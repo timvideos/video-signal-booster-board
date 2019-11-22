@@ -2192,9 +2192,9 @@ Wire Wire Line
 Connection ~ 5700 9600
 Wire Wire Line
 	5700 9600 5550 9600
-Text Label 17800 9400 0    50   ~ 0
-TX_EQ0_R
 Text Label 17800 9500 0    50   ~ 0
+TX_EQ0_R
+Text Label 17800 9600 0    50   ~ 0
 TX_EQ1_R
 Text Label 17800 9700 0    50   ~ 0
 RX_EQ0_R
@@ -2283,10 +2283,10 @@ Wire Wire Line
 	17700 10700 18350 10700
 Wire Wire Line
 	17700 10800 18350 10800
-Text Label 17800 10000 0    50   ~ 0
-DBG_LED_0
 Text Label 17800 10100 0    50   ~ 0
-DBG_LED_1
+DBG_LED_TX
+Text Label 17800 10000 0    50   ~ 0
+DBG_LED_RX
 Wire Wire Line
 	18750 11700 18750 11300
 Wire Wire Line
@@ -2434,9 +2434,9 @@ Connection ~ 16750 11500
 Wire Wire Line
 	16750 11500 16750 11600
 Text Label 18900 9150 0    50   ~ 0
-DBG_LED_1
+DBG_LED_RX
 Text Label 18900 9050 0    50   ~ 0
-DBG_LED_0
+DBG_LED_TX
 Wire Wire Line
 	19800 9050 19800 9250
 Wire Wire Line
@@ -4025,13 +4025,13 @@ Wire Wire Line
 	14450 14600 14200 14600
 Wire Wire Line
 	14200 14700 14450 14700
-Text Label 14200 14400 0    50   ~ 0
-TX_EQ0
-Text Label 14200 14500 0    50   ~ 0
-TX_EQ1
-Text Label 14200 14600 0    50   ~ 0
-RX_EQ0
 Text Label 14200 14700 0    50   ~ 0
+TX_EQ0
+Text Label 14200 14600 0    50   ~ 0
+TX_EQ1
+Text Label 14200 14500 0    50   ~ 0
+RX_EQ0
+Text Label 14200 14400 0    50   ~ 0
 RX_EQ1
 $Comp
 L video-booster-board:GND #PWR04
@@ -4920,21 +4920,21 @@ Text Label 15550 10800 0    50   ~ 0
 UDN
 Text Label 15550 10900 0    50   ~ 0
 UDP
-Text Label 20550 9950 0    50   ~ 0
-VUSB
 Text Label 20550 10350 0    50   ~ 0
-UDN
-Text Label 20550 10450 0    50   ~ 0
-UDP
-Text Label 20550 10050 0    50   ~ 0
 VUSB
-Text Label 22050 9950 0    50   ~ 0
+Text Label 20550 9950 0    50   ~ 0
+UDN
+Text Label 20550 10050 0    50   ~ 0
+UDP
+Text Label 20550 10450 0    50   ~ 0
 VUSB
 Text Label 22050 10350 0    50   ~ 0
+VUSB
+Text Label 22100 9950 0    50   ~ 0
 UDN
-Text Label 22050 10450 0    50   ~ 0
+Text Label 22100 10050 0    50   ~ 0
 UDP
-Text Label 22050 10050 0    50   ~ 0
+Text Label 22050 10450 0    50   ~ 0
 VUSB
 $Comp
 L video-booster-board:R_100k_0402- R60
