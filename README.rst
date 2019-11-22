@@ -8,10 +8,12 @@ Booster configuration and HDMI control signals are managed by EFM32 microcontrol
 |
 
 Video Booster Board data flow diagram:
+
 .. image:: ./Images/vsb-data-flow.svg
 
 |
 
 Board visualization:
+
 .. image:: ./Images/vsb-board.png
 
