@@ -747,20 +747,6 @@ F 6 "10k" V 4700 5750 50  0000 L CNN "Val"
 	1    4550 5700
 	0    1    1    0   
 $EndComp
-$Comp
-L video-booster-board:R_10k_0402- R22
-U 1 1 5DBDC2E5
-P 4800 5700
-F 0 "R22" V 4650 5750 60  0000 L CNN
-F 1 "R_10k_0402" H 4800 5550 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 5000 5900 60  0001 L CNN
-F 3 "" H 4800 5700 50  0001 C CNN
-F 4 "VISHAY" H 5000 6100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 5000 6000 60  0001 L CNN "MPN"
-F 6 "10k" V 4950 5750 50  0000 L CNN "Val"
-	1    4800 5700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4900 6150 4800 6150
 $Comp
@@ -788,12 +774,8 @@ F 3 "" H 4800 6550 50  0001 C CNN
 	1    4800 6550
 	1    0    0    -1  
 $EndComp
-Text Notes 4850 5700 0    50   ~ 10
-DNP
 Text Label 3850 6150 0    50   ~ 0
 TX_HIZ_EN
-Wire Wire Line
-	4800 5850 4800 6150
 Connection ~ 4800 6150
 Wire Wire Line
 	4800 6150 3800 6150
@@ -1489,70 +1471,10 @@ Text Label 9800 11300 0    50   ~ 0
 RX_UTILITY
 Text Label 9800 11400 0    50   ~ 0
 RX_HPD
-$Comp
-L video-booster-board:R_0R_0402- R7
-U 1 1 5E792102
-P 15500 3200
-F 0 "R7" H 15300 3250 60  0000 C CNN
-F 1 "R_0R_0402" H 15500 3050 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 15700 3400 60  0001 L CNN
-F 3 "" H 15500 3200 50  0001 C CNN
-F 4 "PANASONIC" H 15700 3600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15700 3500 60  0001 L CNN "MPN"
-F 6 "0R" H 15700 3250 50  0000 C CNN "Val"
-	1    15500 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:R_0R_0402- R8
-U 1 1 5E7927B6
-P 15500 3300
-F 0 "R8" H 15300 3350 60  0000 C CNN
-F 1 "R_0R_0402" H 15500 3150 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 15700 3500 60  0001 L CNN
-F 3 "" H 15500 3300 50  0001 C CNN
-F 4 "PANASONIC" H 15700 3700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15700 3600 60  0001 L CNN "MPN"
-F 6 "0R" H 15700 3350 50  0000 C CNN "Val"
-	1    15500 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16450 3200 15650 3200
-Wire Wire Line
-	15650 3300 16450 3300
 Wire Wire Line
 	3150 3550 2600 3550
 Wire Wire Line
 	3150 3650 2600 3650
-$Comp
-L video-booster-board:R_0R_0402- R11
-U 1 1 5E8A7F00
-P 18200 3200
-F 0 "R11" H 18000 3250 60  0000 C CNN
-F 1 "R_0R_0402" H 18200 3050 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 18400 3400 60  0001 L CNN
-F 3 "" H 18200 3200 50  0001 C CNN
-F 4 "PANASONIC" H 18400 3600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 18400 3500 60  0001 L CNN "MPN"
-F 6 "0R" H 18400 3250 50  0000 C CNN "Val"
-	1    18200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:R_0R_0402- R12
-U 1 1 5E8A7F0A
-P 18200 3300
-F 0 "R12" H 18000 3350 60  0000 C CNN
-F 1 "R_0R_0402" H 18200 3150 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 18400 3500 60  0001 L CNN
-F 3 "" H 18200 3300 50  0001 C CNN
-F 4 "PANASONIC" H 18400 3700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 18400 3600 60  0001 L CNN "MPN"
-F 6 "0R" H 18400 3350 50  0000 C CNN "Val"
-	1    18200 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 13800 4250 13800
 Text Label 3800 13900 0    50   ~ 0
@@ -1585,20 +1507,6 @@ F 6 "10k" V 4650 13600 50  0000 L CNN "Val"
 	1    4500 13550
 	0    1    1    0   
 $EndComp
-$Comp
-L video-booster-board:R_10k_0402- R28
-U 1 1 5ED0E61B
-P 4750 13550
-F 0 "R28" V 4600 13600 60  0000 L CNN
-F 1 "R_10k_0402" H 4750 13400 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 4950 13750 60  0001 L CNN
-F 3 "" H 4750 13550 50  0001 C CNN
-F 4 "VISHAY" H 4950 13950 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 4950 13850 60  0001 L CNN "MPN"
-F 6 "10k" V 4900 13600 50  0000 L CNN "Val"
-	1    4750 13550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4850 14000 4750 14000
 $Comp
@@ -1626,12 +1534,8 @@ F 3 "" H 4750 14400 50  0001 C CNN
 	1    4750 14400
 	1    0    0    -1  
 $EndComp
-Text Notes 4800 13550 0    50   ~ 10
-DNP
 Text Label 3800 14000 0    50   ~ 0
 RX_HIZ_EN
-Wire Wire Line
-	4750 13700 4750 14000
 Connection ~ 4750 14000
 Wire Wire Line
 	4750 14000 3750 14000
@@ -2121,26 +2025,6 @@ F 3 "" H 15000 4650 50  0001 C CNN
 	1    15000 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15350 3300 14600 3300
-Wire Wire Line
-	15350 3200 14600 3200
-Wire Wire Line
-	19150 3200 18350 3200
-Wire Wire Line
-	18350 3300 19150 3300
-Wire Wire Line
-	18050 3300 17300 3300
-Wire Wire Line
-	18050 3200 17300 3200
-Text Notes 15450 3150 0    50   ~ 10
-DNP
-Text Notes 15450 3450 0    50   ~ 10
-DNP
-Text Notes 18150 3150 0    50   ~ 10
-DNP
-Text Notes 18150 3450 0    50   ~ 10
-DNP
 Wire Wire Line
 	7400 3850 8050 3850
 Wire Wire Line
@@ -2975,22 +2859,6 @@ Text Label 18950 4250 0    50   ~ 0
 RX_SINK_SDA
 Text Label 16300 4250 0    50   ~ 0
 TX_SRC_SDA
-Text Label 16000 3200 0    50   ~ 0
-TX_SRC_SDA
-Text Label 16000 3300 0    50   ~ 0
-TX_SRC_SCL
-Text Label 14600 3300 0    50   ~ 0
-TX_SINK_SCL
-Text Label 14600 3200 0    50   ~ 0
-TX_SINK_SDA
-Text Label 17300 3200 0    50   ~ 0
-RX_SINK_SDA
-Text Label 17300 3300 0    50   ~ 0
-RX_SINK_SCL
-Text Label 18650 3200 0    50   ~ 0
-RX_SRC_SDA
-Text Label 18650 3300 0    50   ~ 0
-RX_SRC_SCL
 Text Label 5600 14800 0    50   ~ 0
 RX_SRC_SCL
 Text Label 5600 14700 0    50   ~ 0
@@ -3511,11 +3379,9 @@ Wire Wire Line
 Connection ~ 16800 5950
 Text Label 15850 5950 0    50   ~ 0
 TX_SINK_PWR
-Text Label 11100 5750 0    50   ~ 0
-ADC4
 Text Label 8000 5850 0    50   ~ 0
 ADC5
-Text Label 7900 14000 0    50   ~ 0
+Text Label 11100 5750 0    50   ~ 0
 ADC6
 Text Label 17950 6200 0    50   ~ 0
 ADC7
@@ -4082,10 +3948,7 @@ F 5 "Harwin Inc." H 14800 2900 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	16850 10500 16700 10500
-Wire Wire Line
-	16850 10300 16700 10300
 NoConn ~ 16700 10500
-NoConn ~ 16700 10300
 Wire Wire Line
 	7500 2150 7650 2150
 Connection ~ 7500 2150
@@ -4360,17 +4223,6 @@ F 3 "" H 4550 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board:+3V3 #PWR026
-U 1 1 5DF0F17E
-P 4800 5550
-F 0 "#PWR026" H 4800 5400 50  0001 C CNN
-F 1 "+3V3" H 4815 5723 50  0000 C CNN
-F 2 "" H 4800 5550 50  0001 C CNN
-F 3 "" H 4800 5550 50  0001 C CNN
-	1    4800 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L video-booster-board:+3V3 #PWR032
 U 1 1 5DF0FBA7
 P 6500 5550
@@ -4581,17 +4433,6 @@ F 1 "+3V3" H 4515 13573 50  0000 C CNN
 F 2 "" H 4500 13400 50  0001 C CNN
 F 3 "" H 4500 13400 50  0001 C CNN
 	1    4500 13400
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:+3V3 #PWR021
-U 1 1 5DFB1DF0
-P 4750 13400
-F 0 "#PWR021" H 4750 13250 50  0001 C CNN
-F 1 "+3V3" H 4765 13573 50  0000 C CNN
-F 2 "" H 4750 13400 50  0001 C CNN
-F 3 "" H 4750 13400 50  0001 C CNN
-	1    4750 13400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4966,4 +4807,12 @@ Wire Wire Line
 Connection ~ 14650 6050
 Wire Wire Line
 	14650 6050 14500 6050
+Text Label 7950 14000 0    50   ~ 0
+ADC4
+Text Label 17800 9400 0    50   ~ 0
+RX_HIZ_EN
+Text Label 16250 10300 0    50   ~ 0
+TX_HIZ_EN
+Wire Wire Line
+	16850 10300 16250 10300
 $EndSCHEMATC
