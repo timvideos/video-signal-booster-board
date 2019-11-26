@@ -1,4 +1,4 @@
-(module QFN-32-1EP_5x5mm (layer F.Cu) (tedit 5DDBDB9A)
+(module QFN-32-1EP_5x5mm (layer F.Cu) (tedit 5DDBDB74)
   (attr smd)
   (fp_text reference REF** (at 0 -4.71) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

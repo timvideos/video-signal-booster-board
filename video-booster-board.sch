@@ -396,7 +396,7 @@ TX_DCC_EN
 Text Label 5600 4450 0    50   ~ 0
 TX_HIZ_EN
 $Bitmap
-Pos 2300 15650
+Pos 19400 15100
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 85 00 00 00 81 08 03 00 00 00 18 1B 56 
@@ -4501,7 +4501,7 @@ RX_SRC_CEC
 Text Label 21800 11600 0    50   ~ 0
 RX_SINK_CEC
 $Bitmap
-Pos 1100 15650
+Pos 22500 15100
 Scale 0.850000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 BE 00 00 00 C8 08 03 00 00 00 61 D1 AB 
@@ -4816,10 +4816,10 @@ TX_HIZ_EN
 Wire Wire Line
 	16850 10300 16250 10300
 $Comp
-L video-booster-board:C_1u_0402- C?
+L video-booster-board:C_1u_0402- C42
 U 1 1 5DE6659D
 P 15450 9350
-F 0 "C?" H 15565 9395 60  0000 L CNN
+F 0 "C42" H 15565 9395 60  0000 L CNN
 F 1 "C_1u_0402" H 15450 9200 60  0001 C CNN
 F 2 "video-booster-board-footprints:0402-cap" H 15650 9550 60  0001 L CNN
 F 3 "" H 15450 9350 50  0001 C CNN
@@ -4830,10 +4830,10 @@ F 6 "1u" H 15565 9297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board:GND #PWR?
+L video-booster-board:GND #PWR026
 U 1 1 5DE668F7
 P 15450 9500
-F 0 "#PWR?" H 15450 9250 50  0001 C CNN
+F 0 "#PWR026" H 15450 9250 50  0001 C CNN
 F 1 "GND" H 15455 9327 50  0000 C CNN
 F 2 "" H 15450 9500 50  0001 C CNN
 F 3 "" H 15450 9500 50  0001 C CNN
@@ -4845,10 +4845,10 @@ Wire Wire Line
 Wire Wire Line
 	15450 9100 15450 9200
 $Comp
-L video-booster-board:C_10u_0603- C?
+L video-booster-board:C_10u_0603- C41
 U 1 1 5DED3A14
 P 9800 2000
-F 0 "C?" H 9915 2045 60  0000 L CNN
+F 0 "C41" H 9915 2045 60  0000 L CNN
 F 1 "C_10u_0603" H 9800 1850 60  0001 C CNN
 F 2 "video-booster-board-footprints:0603-cap" H 10000 2200 60  0001 L CNN
 F 3 "" H 9800 2000 50  0001 C CNN
@@ -4862,14 +4862,25 @@ Connection ~ 9800 1850
 Wire Wire Line
 	9800 1850 9750 1850
 $Comp
-L video-booster-board:GND #PWR?
+L video-booster-board:GND #PWR021
 U 1 1 5DED892B
 P 9800 2150
-F 0 "#PWR?" H 9800 1900 50  0001 C CNN
+F 0 "#PWR021" H 9800 1900 50  0001 C CNN
 F 1 "GND" H 9800 2000 50  0000 C CNN
 F 2 "" H 9800 2150 50  0001 C CNN
 F 3 "" H 9800 2150 50  0001 C CNN
 	1    9800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:oshw_logo N1
+U 1 1 5DF48A15
+P 22350 13450
+F 0 "N1" H 22100 13800 50  0000 L CNN
+F 1 "oshw_logo" H 22100 13700 50  0000 L CNN
+F 2 "video-booster-board-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" H 22250 13700 50  0001 C CNN
+F 3 "" H 22350 13800 50  0001 C CNN
+	1    22350 13450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
