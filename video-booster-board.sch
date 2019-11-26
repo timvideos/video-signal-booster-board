@@ -396,7 +396,7 @@ TX_DCC_EN
 Text Label 5600 4450 0    50   ~ 0
 TX_HIZ_EN
 $Bitmap
-Pos 19400 15100
+Pos 1400 15650
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 85 00 00 00 81 08 03 00 00 00 18 1B 56 
@@ -3070,7 +3070,7 @@ F 3 "" H 15250 2250 50  0001 C CNN
 	1    15250 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 14200 2050 0    50   ~ 0
+Text Notes 14000 1850 0    50   ~ 0
 +5V Auxillary
 $Comp
 L video-booster-board:+5VA #PWR036
@@ -4501,7 +4501,7 @@ RX_SRC_CEC
 Text Label 21800 11600 0    50   ~ 0
 RX_SINK_CEC
 $Bitmap
-Pos 22500 15100
+Pos 2600 15650
 Scale 0.850000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 BE 00 00 00 C8 08 03 00 00 00 61 D1 AB 
@@ -4875,12 +4875,18 @@ $EndComp
 $Comp
 L video-booster-board:oshw_logo N1
 U 1 1 5DF48A15
-P 22350 13450
-F 0 "N1" H 22100 13800 50  0000 L CNN
-F 1 "oshw_logo" H 22100 13700 50  0000 L CNN
-F 2 "video-booster-board-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" H 22250 13700 50  0001 C CNN
-F 3 "" H 22350 13800 50  0001 C CNN
-	1    22350 13450
+P 18900 14250
+F 0 "N1" H 18650 14600 50  0000 L CNN
+F 1 "oshw_logo" H 18650 14500 50  0000 L CNN
+F 2 "video-booster-board-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" H 18800 14500 50  0001 C CNN
+F 3 "" H 18900 14600 50  0001 C CNN
+	1    18900 14250
 	1    0    0    -1  
 $EndComp
+Text Notes 13600 2650 0    50   ~ 0
+TBD: Consider changing into a small barrel jack (SMT)
+Wire Notes Line
+	17650 13000 17650 16050
+Text Notes 17800 13350 0    138  ~ 28
+Markings
 $EndSCHEMATC
