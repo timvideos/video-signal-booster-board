@@ -4138,10 +4138,10 @@ Text Notes 750  800  0    138  ~ 28
 HDMI transmitter
 Wire Wire Line
 	16800 5950 17350 5950
-Text Label 9750 1850 0    50   ~ 0
+Text Label 9850 1850 0    50   ~ 0
 TX_SINK_5V
 Wire Wire Line
-	10350 1850 9750 1850
+	10350 1850 9800 1850
 Wire Notes Line
 	12800 13000 22950 13000
 Wire Notes Line
@@ -4815,4 +4815,61 @@ Text Label 16250 10300 0    50   ~ 0
 TX_HIZ_EN
 Wire Wire Line
 	16850 10300 16250 10300
+$Comp
+L video-booster-board:C_1u_0402- C?
+U 1 1 5DE6659D
+P 15450 9350
+F 0 "C?" H 15565 9395 60  0000 L CNN
+F 1 "C_1u_0402" H 15450 9200 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 15650 9550 60  0001 L CNN
+F 3 "" H 15450 9350 50  0001 C CNN
+F 4 "TDK" H 15650 9750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 15650 9650 60  0001 L CNN "MPN"
+F 6 "1u" H 15565 9297 50  0000 L CNN "Val"
+	1    15450 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:GND #PWR?
+U 1 1 5DE668F7
+P 15450 9500
+F 0 "#PWR?" H 15450 9250 50  0001 C CNN
+F 1 "GND" H 15455 9327 50  0000 C CNN
+F 2 "" H 15450 9500 50  0001 C CNN
+F 3 "" H 15450 9500 50  0001 C CNN
+	1    15450 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 9100 15450 9100
+Wire Wire Line
+	15450 9100 15450 9200
+$Comp
+L video-booster-board:C_10u_0603- C?
+U 1 1 5DED3A14
+P 9800 2000
+F 0 "C?" H 9915 2045 60  0000 L CNN
+F 1 "C_10u_0603" H 9800 1850 60  0001 C CNN
+F 2 "video-booster-board-footprints:0603-cap" H 10000 2200 60  0001 L CNN
+F 3 "" H 9800 2000 50  0001 C CNN
+F 4 "AVX" H 10000 2400 60  0001 L CNN "Manufacturer"
+F 5 "06036D106MAT2A" H 10000 2300 60  0001 L CNN "MPN"
+F 6 "10u" H 9915 1947 50  0000 L CNN "Val"
+	1    9800 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 1850
+Wire Wire Line
+	9800 1850 9750 1850
+$Comp
+L video-booster-board:GND #PWR?
+U 1 1 5DED892B
+P 9800 2150
+F 0 "#PWR?" H 9800 1900 50  0001 C CNN
+F 1 "GND" H 9800 2000 50  0000 C CNN
+F 2 "" H 9800 2150 50  0001 C CNN
+F 3 "" H 9800 2150 50  0001 C CNN
+	1    9800 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
