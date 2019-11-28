@@ -533,28 +533,6 @@ F 3 "" H 7650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L video-booster-board:HDMI-PE10-19-LF- J2
-U 1 1 5DBAED87
-P 2100 3400
-F 0 "J2" V 1650 2650 50  0000 R CNN
-F 1 "HDMI-PE10-19-LF" V 1750 3300 50  0000 R CNN
-F 2 "video-booster-board-footprints:HDMI-PE10-19-LF" H 2300 3600 60  0001 L CNN
-F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.pdf" H 2175 3550 50  0001 C CNN
-	1    2100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:685119134923_- J6
-U 1 1 5DBAFB0A
-P 10350 3250
-F 0 "J6" H 10100 4300 50  0000 L CNN
-F 1 "685119134923_" V 10850 2300 50  0000 L CNN
-F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10550 3450 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10375 3250 50  0001 C CNN
-	1    10350 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L video-booster-board:C_100n_0402_6V3- C27
 U 1 1 5DBDC1F8
 P 17200 2100
@@ -1133,28 +1111,6 @@ F 2 "" H 5550 9600 50  0001 C CNN
 F 3 "" H 5550 9600 50  0001 C CNN
 	1    5550 9600
 	-1   0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:HDMI-PE10-19-LF- J3
-U 1 1 5DF9B9E7
-P 2450 10850
-F 0 "J3" V 2000 10100 50  0000 R CNN
-F 1 "HDMI-PE10-19-LF" V 2100 10750 50  0000 R CNN
-F 2 "video-booster-board-footprints:HDMI-PE10-19-LF" H 2650 11050 60  0001 L CNN
-F 3 "http://www.morethanall.com/images/products/March2017/JtPYSqVaIFqwSbTYDg6j.pdf" H 2525 11000 50  0001 C CNN
-	1    2450 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:685119134923_- J9
-U 1 1 5DF9B9EE
-P 10750 10700
-F 0 "J9" H 10500 11750 50  0000 L CNN
-F 1 "685119134923_" V 11250 9750 50  0000 L CNN
-F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10950 10900 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10775 10700 50  0001 C CNN
-	1    10750 10700
-	1    0    0    -1  
 $EndComp
 $Comp
 L video-booster-board:PTN3363- U1
@@ -3024,42 +2980,6 @@ TX_SINK_SDA_3V
 Text Label 5900 6050 0    50   ~ 0
 TX_SINK_SCL_3V
 $Comp
-L video-booster-board:C_4u7_0603- C36
-U 1 1 62A47AFC
-P 14900 2050
-F 0 "C36" H 14950 2150 60  0000 L CNN
-F 1 "C_4u7_0603" H 14900 1900 60  0001 C CNN
-F 2 "video-booster-board-footprints:0603-cap" H 15100 2250 60  0001 L CNN
-F 3 "" H 14900 2050 50  0001 C CNN
-F 4 "TDK" H 15100 2450 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1V475M080AC" H 15100 2350 60  0001 L CNN "MPN"
-F 6 "4u7" H 14950 1950 50  0000 L CNN "Val"
-	1    14900 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:GND #PWR061
-U 1 1 62AD30B5
-P 14700 2250
-F 0 "#PWR061" H 14700 2000 50  0001 C CNN
-F 1 "GND" H 14705 2077 50  0000 C CNN
-F 2 "" H 14700 2250 50  0001 C CNN
-F 3 "" H 14700 2250 50  0001 C CNN
-	1    14700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:GND #PWR062
-U 1 1 62AD3480
-P 14900 2250
-F 0 "#PWR062" H 14900 2000 50  0001 C CNN
-F 1 "GND" H 14905 2077 50  0000 C CNN
-F 2 "" H 14900 2250 50  0001 C CNN
-F 3 "" H 14900 2250 50  0001 C CNN
-	1    14900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L video-booster-board:GND #PWR068
 U 1 1 62AD35F3
 P 15250 2250
@@ -3070,8 +2990,6 @@ F 3 "" H 15250 2250 50  0001 C CNN
 	1    15250 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 14000 1850 0    50   ~ 0
-+5V Auxillary
 $Comp
 L video-booster-board:+5VA #PWR036
 U 1 1 6291ED95
@@ -3084,19 +3002,8 @@ F 3 "" H 15000 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 2250 14700 1900
-Wire Wire Line
-	14700 1800 14900 1800
-Wire Wire Line
 	15250 1550 15250 1800
 Connection ~ 15250 1800
-Wire Wire Line
-	14900 1800 14900 1900
-Connection ~ 14900 1800
-Wire Wire Line
-	14900 1800 15250 1800
-Wire Wire Line
-	14900 2200 14900 2250
 Wire Wire Line
 	15250 2200 15250 2250
 $Comp
@@ -3936,14 +3843,14 @@ Wire Wire Line
 $Comp
 L video-booster-board:M20-9990246 J10
 U 1 1 5DD74C13
-P 14600 1800
-F 0 "J10" V 14375 1808 50  0000 C CNN
-F 1 "M20-9990246" V 14466 1808 50  0000 C CNN
-F 2 "video-booster-board-footprints:PinHeader_1x2_P2.54mm" H 14800 2000 60  0001 L CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 14800 2100 60  0001 L CNN
-F 4 "M20-9990246" H 14800 2300 60  0001 L CNN "MPN"
-F 5 "Harwin Inc." H 14800 2900 60  0001 L CNN "Manufacturer"
-	1    14600 1800
+P 14500 2000
+F 0 "J10" V 14000 2000 50  0000 C CNN
+F 1 "M20-9990246" V 14100 2100 50  0000 C CNN
+F 2 "video-booster-board-footprints:PinHeader_1x2_P2.54mm" H 14700 2200 60  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 14700 2300 60  0001 L CNN
+F 4 "M20-9990246" H 14700 2500 60  0001 L CNN "MPN"
+F 5 "Harwin Inc." H 14700 3100 60  0001 L CNN "Manufacturer"
+	1    14500 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -4883,10 +4790,141 @@ F 3 "" H 18900 14600 50  0001 C CNN
 	1    18900 14250
 	1    0    0    -1  
 $EndComp
-Text Notes 13600 2650 0    50   ~ 0
-TBD: Consider changing into a small barrel jack (SMT)
 Wire Notes Line
 	17650 13000 17650 16050
 Text Notes 17800 13350 0    138  ~ 28
 Markings
+$Comp
+L video-booster-board:CHDMI-AMSS-01-C J2
+U 1 1 5DE81C03
+P 2100 3400
+F 0 "J2" V 1650 2650 50  0000 R CNN
+F 1 "CHDMI-AMSS-01-C" V 1750 3300 50  0000 R CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C" H 2300 3600 60  0001 L CNN
+F 3 "" H 2175 3550 50  0001 C CNN
+	1    2100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:CHDMI-AMSS-01-C J3
+U 1 1 5DE89759
+P 2450 10850
+F 0 "J3" V 2000 10100 50  0000 R CNN
+F 1 "CHDMI-AMSS-01-C" V 2100 10750 50  0000 R CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C" H 2650 11050 60  0001 L CNN
+F 3 "" H 2525 11000 50  0001 C CNN
+	1    2450 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 2200 14900 2250
+Wire Wire Line
+	14900 1800 15250 1800
+Wire Wire Line
+	14900 1800 14900 1900
+Wire Wire Line
+	14150 1800 14600 1800
+Text Notes 13550 2150 0    50   ~ 0
++5V Auxillary
+$Comp
+L video-booster-board:GND #PWR062
+U 1 1 62AD3480
+P 14900 2250
+F 0 "#PWR062" H 14900 2000 50  0001 C CNN
+F 1 "GND" H 14905 2077 50  0000 C CNN
+F 2 "" H 14900 2250 50  0001 C CNN
+F 3 "" H 14900 2250 50  0001 C CNN
+	1    14900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:GND #PWR061
+U 1 1 62AD30B5
+P 14150 2250
+F 0 "#PWR061" H 14150 2000 50  0001 C CNN
+F 1 "GND" H 14155 2077 50  0000 C CNN
+F 2 "" H 14150 2250 50  0001 C CNN
+F 3 "" H 14150 2250 50  0001 C CNN
+	1    14150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:C_4u7_0603- C36
+U 1 1 62A47AFC
+P 14900 2050
+F 0 "C36" H 14950 2150 60  0000 L CNN
+F 1 "C_4u7_0603" H 14900 1900 60  0001 C CNN
+F 2 "video-booster-board-footprints:0603-cap" H 15100 2250 60  0001 L CNN
+F 3 "" H 14900 2050 50  0001 C CNN
+F 4 "TDK" H 15100 2450 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1V475M080AC" H 15100 2350 60  0001 L CNN "MPN"
+F 6 "4u7" H 14950 1950 50  0000 L CNN "Val"
+	1    14900 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 14900 1800
+Wire Wire Line
+	14600 1800 14600 2000
+Connection ~ 14600 1800
+Wire Wire Line
+	14600 1800 14900 1800
+Wire Wire Line
+	14600 2100 14600 2250
+$Comp
+L video-booster-board:GND #PWR090
+U 1 1 5E16E7E8
+P 14600 2250
+F 0 "#PWR090" H 14600 2000 50  0001 C CNN
+F 1 "GND" H 14605 2077 50  0000 C CNN
+F 2 "" H 14600 2250 50  0001 C CNN
+F 3 "" H 14600 2250 50  0001 C CNN
+	1    14600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:685119134923_ J6
+U 1 1 5E191611
+P 10350 3250
+F 0 "J6" H 10100 4300 50  0000 L CNN
+F 1 "685119134923_" V 10800 2250 50  0000 L CNN
+F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10550 3450 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10375 3250 50  0001 C CNN
+	1    10350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:685119134923_ J9
+U 1 1 5E1A9DA9
+P 10750 10700
+F 0 "J9" H 10500 11750 50  0000 L CNN
+F 1 "685119134923_" V 11200 9700 50  0000 L CNN
+F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10950 10900 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10775 10700 50  0001 C CNN
+	1    10750 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 1900 14150 2000
+Wire Wire Line
+	14150 2000 14150 2250
+Connection ~ 14150 2000
+$Comp
+L video-booster-board:694103107102 J4
+U 1 1 5DECDCEC
+P 14150 1800
+F 0 "J4" H 13950 2100 50  0000 C CNN
+F 1 "694103107102" H 13950 2000 50  0000 C CNN
+F 2 "video-booster-board-footprints:69410X107102" H 14350 1825 50  0001 L BNN
+F 3 "https://www.we-online.de/katalog/datasheet/694103107102.pdf" H 14350 1600 50  0001 L BNN
+F 4 "None" H 14350 1750 50  0001 L BNN "Field4"
+F 5 "694103107102" H 14350 1675 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 14350 1450 50  0001 L BNN "Field6"
+F 7 "Wurth Electronics" H 14350 1525 50  0001 L BNN "Field7"
+F 8 "DC Power jack" H 14350 1875 50  0001 L BNN "Field8"
+	1    14150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 1800 14150 1725
+Connection ~ 14150 1800
 $EndSCHEMATC

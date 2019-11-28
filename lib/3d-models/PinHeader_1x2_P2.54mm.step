@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '//tsclient/linux/models/PinHeader_1x2_P2.54mm.step',
+/* name */ 'PinHeader_1x2_P2.54mm.step',
 /* time_stamp */ '2019-10-31T12:44:58+01:00',
 /* author */ (''),
 /* organization */ (''),

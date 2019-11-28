@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '//tsclient/linux/models/HDMI-PE10-19-LF.step',
+/* name */ 'HDMI-PE10-19-LF.step',
 /* time_stamp */ '2019-10-31T10:26:14+01:00',
 /* author */ (''),
 /* organization */ (''),
