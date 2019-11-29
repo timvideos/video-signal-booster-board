@@ -5011,4 +5011,46 @@ F 5 "None" H 18450 3875 60  0001 L CNN "Manufacturer"
 	1    18250 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8900 6850 9450 6850
+Text Label 8000 6850 0    50   ~ 0
+TX_SRC_CEC
+Wire Wire Line
+	8000 6850 8500 6850
+$Comp
+L antmicroShuntsJumpers:solder_jumper J14
+U 1 1 5E49C50E
+P 8700 6850
+F 0 "J14" H 8550 6950 50  0000 C CNN
+F 1 "solder_jumper" H 8700 6750 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 8900 7050 60  0001 L CNN
+F 3 "" H 8900 7150 60  0001 L CNN
+F 4 "None" H 8900 7150 60  0001 L CNN "MPN"
+F 5 "None" H 8900 7225 60  0001 L CNN "Manufacturer"
+	1    8700 6850
+	1    0    0    -1  
+$EndComp
+Text Label 8950 6850 0    50   ~ 0
+TX_SINK_CEC
+Wire Wire Line
+	8750 14800 9300 14800
+Text Label 7850 14800 0    50   ~ 0
+RX_SRC_CEC
+Wire Wire Line
+	7850 14800 8350 14800
+$Comp
+L antmicroShuntsJumpers:solder_jumper J13
+U 1 1 5E7EE4F0
+P 8550 14800
+F 0 "J13" H 8400 14900 50  0000 C CNN
+F 1 "solder_jumper" H 8550 14700 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 8750 15000 60  0001 L CNN
+F 3 "" H 8750 15100 60  0001 L CNN
+F 4 "None" H 8750 15100 60  0001 L CNN "MPN"
+F 5 "None" H 8750 15175 60  0001 L CNN "Manufacturer"
+	1    8550 14800
+	1    0    0    -1  
+$EndComp
+Text Label 8800 14800 0    50   ~ 0
+RX_SINK_CEC
 $EndSCHEMATC
