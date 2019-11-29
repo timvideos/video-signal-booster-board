@@ -4927,4 +4927,88 @@ $EndComp
 Wire Wire Line
 	14150 1800 14150 1725
 Connection ~ 14150 1800
+Text Label 18500 3350 0    50   ~ 0
+RX_SRC_SDA_3V
+Text Label 18500 3500 0    50   ~ 0
+RX_SRC_SCL_3V
+Wire Wire Line
+	18450 3350 19100 3350
+Wire Wire Line
+	18450 3500 19100 3500
+Text Label 17400 3350 0    50   ~ 0
+RX_SINK_SDA_3V
+Text Label 17400 3500 0    50   ~ 0
+RX_SINK_SCL_3V
+Wire Wire Line
+	17400 3350 18050 3350
+Wire Wire Line
+	17400 3500 18050 3500
+Text Label 15850 3350 0    50   ~ 0
+TX_SRC_SDA_3V
+Text Label 15850 3500 0    50   ~ 0
+TX_SRC_SCL_3V
+Wire Wire Line
+	15800 3350 16450 3350
+Wire Wire Line
+	15800 3500 16450 3500
+Text Label 14750 3350 0    50   ~ 0
+TX_SINK_SDA_3V
+Text Label 14750 3500 0    50   ~ 0
+TX_SINK_SCL_3V
+Wire Wire Line
+	14750 3350 15400 3350
+Wire Wire Line
+	14750 3500 15400 3500
+$Comp
+L antmicroShuntsJumpers:solder_jumper J5
+U 1 1 5E3DE445
+P 15600 3350
+F 0 "J5" H 15450 3450 50  0000 C CNN
+F 1 "solder_jumper" H 15600 3250 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 15800 3550 60  0001 L CNN
+F 3 "" H 15800 3650 60  0001 L CNN
+F 4 "None" H 15800 3650 60  0001 L CNN "MPN"
+F 5 "None" H 15800 3725 60  0001 L CNN "Manufacturer"
+	1    15600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroShuntsJumpers:solder_jumper J7
+U 1 1 5E3DF685
+P 15600 3500
+F 0 "J7" H 15450 3600 50  0000 C CNN
+F 1 "solder_jumper" H 15600 3400 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 15800 3700 60  0001 L CNN
+F 3 "" H 15800 3800 60  0001 L CNN
+F 4 "None" H 15800 3800 60  0001 L CNN "MPN"
+F 5 "None" H 15800 3875 60  0001 L CNN "Manufacturer"
+	1    15600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroShuntsJumpers:solder_jumper J8
+U 1 1 5E3DFAD2
+P 18250 3350
+F 0 "J8" H 18100 3450 50  0000 C CNN
+F 1 "solder_jumper" H 18250 3250 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 18450 3550 60  0001 L CNN
+F 3 "" H 18450 3650 60  0001 L CNN
+F 4 "None" H 18450 3650 60  0001 L CNN "MPN"
+F 5 "None" H 18450 3725 60  0001 L CNN "Manufacturer"
+	1    18250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroShuntsJumpers:solder_jumper J12
+U 1 1 5E3DFF30
+P 18250 3500
+F 0 "J12" H 18100 3600 50  0000 C CNN
+F 1 "solder_jumper" H 18250 3400 50  0001 C CNN
+F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 18450 3700 60  0001 L CNN
+F 3 "" H 18450 3800 60  0001 L CNN
+F 4 "None" H 18450 3800 60  0001 L CNN "MPN"
+F 5 "None" H 18450 3875 60  0001 L CNN "Manufacturer"
+	1    18250 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
