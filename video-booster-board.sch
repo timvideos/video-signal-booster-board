@@ -396,7 +396,7 @@ TX_DCC_EN
 Text Label 5600 4450 0    50   ~ 0
 TX_HIZ_EN
 $Bitmap
-Pos 1400 15650
+Pos 19450 15050
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 85 00 00 00 81 08 03 00 00 00 18 1B 56 
@@ -2058,19 +2058,6 @@ Wire Wire Line
 	17700 11300 18350 11300
 Wire Wire Line
 	17700 11400 18350 11400
-$Comp
-L video-booster-board:EFM32HG321- U6
-U 1 1 5E196AD5
-P 17250 10650
-F 0 "U6" H 17225 12487 60  0000 C CNN
-F 1 "EFM32HG321" H 17225 12381 60  0000 C CNN
-F 2 "video-booster-board-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2674358.pdf" H 16200 9150 60  0001 L CNN
-F 4 "Silicon Labs" H 16950 9550 60  0001 L CNN "Manufacturer"
-F 5 "EFM32HG321" H 16900 9350 60  0001 L CNN "MPN"
-	1    17250 10650
-	-1   0    0    -1  
-$EndComp
 Text Label 17900 10200 0    50   ~ 0
 ADC4
 Text Label 17900 10300 0    50   ~ 0
@@ -2247,7 +2234,6 @@ Wire Wire Line
 	16850 9300 16850 9200
 Wire Wire Line
 	16850 9200 16200 9200
-Connection ~ 16850 9200
 Wire Wire Line
 	16200 9200 16200 8950
 Connection ~ 16200 9200
@@ -4408,7 +4394,7 @@ RX_SRC_CEC
 Text Label 21800 11600 0    50   ~ 0
 RX_SINK_CEC
 $Bitmap
-Pos 2600 15650
+Pos 22600 15100
 Scale 0.850000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 BE 00 00 00 C8 08 03 00 00 00 61 D1 AB 
@@ -5053,4 +5039,29 @@ F 5 "None" H 8750 15175 60  0001 L CNN "Manufacturer"
 $EndComp
 Text Label 8800 14800 0    50   ~ 0
 RX_SINK_CEC
+$Comp
+L antmicroMechanicalParts:antmicro_logo N2
+U 1 1 5DECEBB2
+P 19900 14250
+F 0 "N2" H 19800 14600 50  0000 L CNN
+F 1 "antmicro_logo" H 19800 14450 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 19800 14500 50  0001 C CNN
+F 3 "" H 19900 14600 50  0001 C CNN
+	1    19900 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:EFM32HG322F64 U6
+U 1 1 5DEEDAAE
+P 17250 10650
+F 0 "U6" H 17225 12487 60  0000 C CNN
+F 1 "EFM32HG322F64" H 17225 12381 60  0000 C CNN
+F 2 "antmicro-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2674358.pdf" H 16200 9150 60  0001 L CNN
+F 4 "Silicon Labs" H 16950 9550 60  0001 L CNN "Manufacturer"
+F 5 "EFM32HG322F64" H 16900 9350 60  0001 L CNN "MPN"
+	1    17250 10650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 16850 9200
 $EndSCHEMATC
