@@ -369,7 +369,7 @@
     (add_net "Net-(U6-Pad32)")
   )
 
-  (module antmicro-footprints:TQFP-48_7x7mm (layer F.Cu) (tedit 5DCE5CB6) (tstamp 5DE7C662)
+  (module video-booster-board-footprints:TQFP-48_7x7mm (layer F.Cu) (tedit 5DCE5CB6) (tstamp 5DE7C662)
     (at 127.88 77.16 270)
     (descr http://ww1.microchip.com/downloads/en/DeviceDoc/40001884A.pdf)
     (path /5DEEDAAE)
@@ -504,7 +504,7 @@
     )
   )
 
-  (module antmicro-footprints:antmicro-logo_scaled_12mm (layer B.Cu) (tedit 5DE4FF56) (tstamp 5DE545C0)
+  (module video-booster-board-footprints:antmicro-logo_scaled_12mm (layer B.Cu) (tedit 5DE4FF56) (tstamp 5DE545C0)
     (at 146.411 90.9752 90)
     (path /5DECEBB2)
     (fp_text reference N2 (at 0.6096 2.0955 90) (layer B.SilkS) hide
@@ -818,7 +818,7 @@
       (xy -4.226657 1.919111) (xy -4.17787 1.905427)) (layer B.Mask) (width 0.01))
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE20152)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE20152)
     (at 136.611 79.4002 90)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -858,7 +858,7 @@
       ))
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE20144)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE20144)
     (at 136.611 77 270)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -932,7 +932,7 @@
     )
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE0E999)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE0E999)
     (at 131.336 75.1252 90)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -972,7 +972,7 @@
       ))
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE1C760)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE1C760)
     (at 125.996 70.7602)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -1012,7 +1012,7 @@
       ))
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE0EA0D)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE0EA0D)
     (at 125.996 72.5702)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")
@@ -1052,7 +1052,7 @@
       ))
   )
 
-  (module antmicro-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE15A3D)
+  (module video-booster-board-footprints:SolderJumper-0.6x1.4mm (layer B.Cu) (tedit 5DDFF3C8) (tstamp 5DE15A3D)
     (at 133.161 75.1252 90)
     (descr "SMD Solder Jumper, 0.6x1.4mm, rounded Pads, 0.2mm gap, open")
     (tags "solder jumper open")

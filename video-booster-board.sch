@@ -4946,12 +4946,12 @@ Wire Wire Line
 Wire Wire Line
 	14750 3500 15400 3500
 $Comp
-L antmicroShuntsJumpers:solder_jumper J5
+L video-booster-board:solder_jumper J5
 U 1 1 5E3DE445
 P 15600 3350
 F 0 "J5" H 15450 3450 50  0000 C CNN
 F 1 "solder_jumper" H 15600 3250 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 15800 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15800 3550 60  0001 L CNN
 F 3 "" H 15800 3650 60  0001 L CNN
 F 4 "None" H 15800 3650 60  0001 L CNN "MPN"
 F 5 "None" H 15800 3725 60  0001 L CNN "Manufacturer"
@@ -4959,12 +4959,12 @@ F 5 "None" H 15800 3725 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroShuntsJumpers:solder_jumper J7
+L video-booster-board:solder_jumper J7
 U 1 1 5E3DF685
 P 15600 3500
 F 0 "J7" H 15450 3600 50  0000 C CNN
 F 1 "solder_jumper" H 15600 3400 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 15800 3700 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15800 3700 60  0001 L CNN
 F 3 "" H 15800 3800 60  0001 L CNN
 F 4 "None" H 15800 3800 60  0001 L CNN "MPN"
 F 5 "None" H 15800 3875 60  0001 L CNN "Manufacturer"
@@ -4972,12 +4972,12 @@ F 5 "None" H 15800 3875 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroShuntsJumpers:solder_jumper J8
+L video-booster-board:solder_jumper J8
 U 1 1 5E3DFAD2
 P 18250 3350
 F 0 "J8" H 18100 3450 50  0000 C CNN
 F 1 "solder_jumper" H 18250 3250 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 18450 3550 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 18450 3550 60  0001 L CNN
 F 3 "" H 18450 3650 60  0001 L CNN
 F 4 "None" H 18450 3650 60  0001 L CNN "MPN"
 F 5 "None" H 18450 3725 60  0001 L CNN "Manufacturer"
@@ -4985,12 +4985,12 @@ F 5 "None" H 18450 3725 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroShuntsJumpers:solder_jumper J12
+L video-booster-board:solder_jumper J12
 U 1 1 5E3DFF30
 P 18250 3500
 F 0 "J12" H 18100 3600 50  0000 C CNN
 F 1 "solder_jumper" H 18250 3400 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 18450 3700 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 18450 3700 60  0001 L CNN
 F 3 "" H 18450 3800 60  0001 L CNN
 F 4 "None" H 18450 3800 60  0001 L CNN "MPN"
 F 5 "None" H 18450 3875 60  0001 L CNN "Manufacturer"
@@ -5004,12 +5004,12 @@ TX_SRC_CEC
 Wire Wire Line
 	8000 6850 8500 6850
 $Comp
-L antmicroShuntsJumpers:solder_jumper J14
+L video-booster-board:solder_jumper J14
 U 1 1 5E49C50E
 P 8700 6850
 F 0 "J14" H 8550 6950 50  0000 C CNN
 F 1 "solder_jumper" H 8700 6750 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 8900 7050 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 8900 7050 60  0001 L CNN
 F 3 "" H 8900 7150 60  0001 L CNN
 F 4 "None" H 8900 7150 60  0001 L CNN "MPN"
 F 5 "None" H 8900 7225 60  0001 L CNN "Manufacturer"
@@ -5025,12 +5025,12 @@ RX_SRC_CEC
 Wire Wire Line
 	7850 14800 8350 14800
 $Comp
-L antmicroShuntsJumpers:solder_jumper J13
+L video-booster-board:solder_jumper J13
 U 1 1 5E7EE4F0
 P 8550 14800
 F 0 "J13" H 8400 14900 50  0000 C CNN
 F 1 "solder_jumper" H 8550 14700 50  0001 C CNN
-F 2 "antmicro-footprints:SolderJumper-0.6x1.4mm" H 8750 15000 60  0001 L CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 8750 15000 60  0001 L CNN
 F 3 "" H 8750 15100 60  0001 L CNN
 F 4 "None" H 8750 15100 60  0001 L CNN "MPN"
 F 5 "None" H 8750 15175 60  0001 L CNN "Manufacturer"
@@ -5040,23 +5040,23 @@ $EndComp
 Text Label 8800 14800 0    50   ~ 0
 RX_SINK_CEC
 $Comp
-L antmicroMechanicalParts:antmicro_logo N2
+L video-booster-board:antmicro_logo N2
 U 1 1 5DECEBB2
 P 19900 14250
 F 0 "N2" H 19800 14600 50  0000 L CNN
 F 1 "antmicro_logo" H 19800 14450 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 19800 14500 50  0001 C CNN
+F 2 "video-booster-board-footprints:antmicro-logo_scaled_12mm" H 19800 14500 50  0001 C CNN
 F 3 "" H 19900 14600 50  0001 C CNN
 	1    19900 14250
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMicrocontrollers:EFM32HG322F64 U6
+L video-booster-board:EFM32HG322F64 U6
 U 1 1 5DEEDAAE
 P 17250 10650
 F 0 "U6" H 17225 12487 60  0000 C CNN
 F 1 "EFM32HG322F64" H 17225 12381 60  0000 C CNN
-F 2 "antmicro-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
+F 2 "video-booster-board-footprints:TQFP-48_7x7mm" H 16500 9250 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2674358.pdf" H 16200 9150 60  0001 L CNN
 F 4 "Silicon Labs" H 16950 9550 60  0001 L CNN "Manufacturer"
 F 5 "EFM32HG322F64" H 16900 9350 60  0001 L CNN "MPN"
