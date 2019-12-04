@@ -1,4 +1,4 @@
-(module CHDMI-AMSS-01-C (layer F.Cu) (tedit 5DDFD337)
+(module CHDMI-AMSS-01-C (layer F.Cu) (tedit 5DE780BB)
   (descr "SMT Horizontal HDMI, 19 pins")
   (attr smd)
   (fp_text reference CHDMI-AMSS-01-C (at 0.2 -3.975) (layer F.SilkS)
@@ -43,8 +43,8 @@
   (pad 19 smd rect (at 4.5 0 180) (size 0.55 2.65) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4 0 180) (size 0.55 2.65) (layers B.Cu B.Paste B.Mask))
   (pad 1 smd rect (at -4.5 0 180) (size 0.55 2.65) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/HDMI-PE10-19-LF.step
-    (offset (xyz 0 24.2 -5.5))
+  (model ${KIPRJMOD}/lib/3d-models/CHDMI-AMSS-01-C.step
+    (offset (xyz 0 -7.75 -0.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
