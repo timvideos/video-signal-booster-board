@@ -369,6 +369,61 @@
     (add_net "Net-(U6-Pad32)")
   )
 
+  (module video-booster-board-footprints:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5DCE5D24) (tstamp 5DDD1D3E)
+    (at 141.49 78.68)
+    (descr http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf)
+    (path /633E3EA1)
+    (attr smd)
+    (fp_text reference U2 (at 1.546 -2.0898) (layer F.SilkS)
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
+    )
+    (fp_text value TPS2110APW (at 0 3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.2 1.5) (end 2.2 1.5) (layer F.Fab) (width 0.1))
+    (fp_line (start 2.2 -1.5) (end 2.2 1.5) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.2 -1.2) (end -1.9 -1.5) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.9 -1.5) (end 2.2 -1.5) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.2 -1.2) (end -2.2 1.5) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
+    )
+    (fp_line (start -2.35 -1.25) (end -2.85 -1.25) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.95 -1.6) (end -2.35 -1.25) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.65 -1.6) (end -1.95 -1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start 2.3 -1.6) (end 1.8 -1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start 2.3 -1.3) (end 2.3 -1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start 2.3 1.6) (end 1.8 1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start 2.3 1.25) (end 2.3 1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start -2.3 1.6) (end -1.7 1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start -2.3 1.3) (end -2.3 1.6) (layer F.SilkS) (width 0.1))
+    (fp_line (start 3.55 1.75) (end -3.55 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.55 1.75) (end -3.55 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.55 -1.75) (end 3.55 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.55 1.75) (end 3.55 -1.75) (layer F.CrtYd) (width 0.05))
+    (pad 8 smd rect (at 2.7 -0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 83 +5VA))
+    (pad 7 smd rect (at 2.7 -0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 85 /TX_SINK_PWR))
+    (pad 6 smd rect (at 2.7 0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 84 /TX_SRC_5V))
+    (pad 5 smd rect (at 2.7 0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 4 smd rect (at -2.7 0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 108 "Net-(R30-Pad1)"))
+    (pad 3 smd rect (at -2.7 0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 83 +5VA))
+    (pad 1 smd rect (at -2.7 -0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 117 /PWR_CTL_D0))
+    (pad 2 smd rect (at -2.7 -0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 118 /PWR_CTL_D1))
+    (model "${KIPRJMOD}/lib/3d-models/TSSOP-8 4_4.STEP"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
+  )
+
   (module video-booster-board-footprints:CHDMI-AMSS-01-C (layer F.Cu) (tedit 5DE780BB) (tstamp 5DDFE9CF)
     (at 114.55 90.5637 270)
     (descr "SMT Horizontal HDMI, 19 pins")
@@ -647,7 +702,7 @@
       (net 2 GND))
     (pad 6 smd rect (at -3.875 -0.25 270) (size 1.25 0.35) (layers F.Cu F.Paste F.Mask)
       (net 109 /RX_SRC_SDA_3V))
-    (model ${ANT3DMDL}/TQFP-48.STEP
+    (model ${KIPRJMOD}/lib/3d-models/TQFP-48.STEP
       (offset (xyz 0 0 0.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1075,7 +1130,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 105 /RX_SINK_CEC))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1283,7 +1338,7 @@
       (net 2 GND))
     (pad 3 smd rect (at -4.3 8 90) (size 2.2 2.2) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/694103107102.stp
+    (model ${KIPRJMOD}/lib/3d-models/694103107102.stp
       (offset (xyz 0 4.65 2.65))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1367,7 +1422,7 @@
       (net 24 /RX_IN_D0_N))
     (pad 10 smd rect (at 0 1.3 270) (size 0.28 2.6) (layers F.Cu F.Paste F.Mask)
       (net 23 /RX_IN_CLK_P))
-    (model ${ANT3DMDL}/685119134923.stp
+    (model ${KIPRJMOD}/lib/3d-models/685119134923.stp
       (offset (xyz 0 1 4.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1451,7 +1506,7 @@
       (net 38 /TX_OUT_D0_N))
     (pad 10 smd rect (at 0 1.3 270) (size 0.28 2.6) (layers F.Cu F.Paste F.Mask)
       (net 39 /TX_OUT_CLK_P))
-    (model ${ANT3DMDL}/685119134923.stp
+    (model ${KIPRJMOD}/lib/3d-models/685119134923.stp
       (offset (xyz 0 1 4.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2508,7 +2563,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2542,7 +2597,7 @@
       (net 113 /ADC5))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2576,7 +2631,7 @@
       (net 102 /RX_SRC_SCL))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 86 /RX_SRC_5V))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2610,7 +2665,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2703,7 +2758,7 @@
       (net 99 /TX_SINK_SCL))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 90 /TX_SINK_5V))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2835,65 +2890,10 @@
       (net 83 +5VA))
     (pad 2 thru_hole circle (at 2.54 0.02) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/PinHeader_1x2_P2.54mm.step
+    (model ${KIPRJMOD}/lib/3d-models/PinHeader_1x2_P2.54mm.step
       (offset (xyz -10.16 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module video-booster-board-footprints:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5DCE5D24) (tstamp 5DDD1D3E)
-    (at 141.49 78.68)
-    (descr http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf)
-    (path /633E3EA1)
-    (attr smd)
-    (fp_text reference U2 (at 1.546 -2.0898) (layer F.SilkS)
-      (effects (font (size 0.65 0.65) (thickness 0.15)))
-    )
-    (fp_text value TPS2110APW (at 0 3) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -2.2 1.5) (end 2.2 1.5) (layer F.Fab) (width 0.1))
-    (fp_line (start 2.2 -1.5) (end 2.2 1.5) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.2 -1.2) (end -1.9 -1.5) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.9 -1.5) (end 2.2 -1.5) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.2 -1.2) (end -2.2 1.5) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
-      (effects (font (size 0.65 0.65) (thickness 0.15)))
-    )
-    (fp_line (start -2.35 -1.25) (end -2.85 -1.25) (layer F.SilkS) (width 0.1))
-    (fp_line (start -1.95 -1.6) (end -2.35 -1.25) (layer F.SilkS) (width 0.1))
-    (fp_line (start -1.65 -1.6) (end -1.95 -1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start 2.3 -1.6) (end 1.8 -1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start 2.3 -1.3) (end 2.3 -1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start 2.3 1.6) (end 1.8 1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start 2.3 1.25) (end 2.3 1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start -2.3 1.6) (end -1.7 1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start -2.3 1.3) (end -2.3 1.6) (layer F.SilkS) (width 0.1))
-    (fp_line (start 3.55 1.75) (end -3.55 1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.55 1.75) (end -3.55 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.55 -1.75) (end 3.55 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 3.55 1.75) (end 3.55 -1.75) (layer F.CrtYd) (width 0.05))
-    (pad 8 smd rect (at 2.7 -0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 83 +5VA))
-    (pad 7 smd rect (at 2.7 -0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 85 /TX_SINK_PWR))
-    (pad 6 smd rect (at 2.7 0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 84 /TX_SRC_5V))
-    (pad 5 smd rect (at 2.7 0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 2 GND))
-    (pad 4 smd rect (at -2.7 0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 108 "Net-(R30-Pad1)"))
-    (pad 3 smd rect (at -2.7 0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 83 +5VA))
-    (pad 1 smd rect (at -2.7 -0.975) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 117 /PWR_CTL_D0))
-    (pad 2 smd rect (at -2.7 -0.325) (size 1.2 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 118 /PWR_CTL_D1))
-    (model "${ANT3DMDL}/TSSOP-8 4_4.STEP"
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2935,7 +2935,7 @@
       (net 84 /TX_SRC_5V))
     (pad K smd rect (at -0.85 0 180) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2980,7 +2980,7 @@
       (net 83 +5VA))
     (pad K smd rect (at -0.85 0 180) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3025,7 +3025,7 @@
       (net 4 /VUSB))
     (pad K smd rect (at -0.85 0 180) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3070,7 +3070,7 @@
       (net 83 +5VA))
     (pad K smd rect (at -0.85 0) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 87 /RX_SINK_5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3115,7 +3115,7 @@
       (net 2 GND))
     (pad K smd rect (at -0.85 0 90) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 83 +5VA))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3160,7 +3160,7 @@
       (net 86 /RX_SRC_5V))
     (pad K smd rect (at -0.85 0) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 87 /RX_SINK_5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3205,7 +3205,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.29 -0.75 90) (size 0.43 0.31) (layers F.Cu F.Paste F.Mask)
       (net 95 /RX_SINK_SDA))
-    (model ${ANT3DMDL}/SOT833-1.step
+    (model ${KIPRJMOD}/lib/3d-models/SOT833-1.step
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3250,7 +3250,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.29 -0.75) (size 0.43 0.31) (layers F.Cu F.Paste F.Mask)
       (net 92 /TX_SRC_SDA))
-    (model ${ANT3DMDL}/SOT833-1.step
+    (model ${KIPRJMOD}/lib/3d-models/SOT833-1.step
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3284,7 +3284,7 @@
       (net 115 /ADC7))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3318,7 +3318,7 @@
       (net 83 +5VA))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 115 /ADC7))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3352,7 +3352,7 @@
       (net 89 "Net-(D9-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 130 /DBG_LED_TX))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3386,7 +3386,7 @@
       (net 88 "Net-(D8-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 129 /DBG_LED_RX))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3420,7 +3420,7 @@
       (net 91 /ADC4))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3454,7 +3454,7 @@
       (net 86 /RX_SRC_5V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 91 /ADC4))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3488,7 +3488,7 @@
       (net 90 /TX_SINK_5V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 113 /ADC5))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3579,7 +3579,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 0.95 1.35 180) (size 0.55 1) (layers F.Cu F.Paste F.Mask)
       (net 85 /TX_SINK_PWR))
-    (model ${ANT3DMDL}/sot23-5.step
+    (model ${KIPRJMOD}/lib/3d-models/sot23-5.step
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3621,7 +3621,7 @@
       (net 89 "Net-(D9-Pad1)"))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/LED0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3663,7 +3663,7 @@
       (net 88 "Net-(D8-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/LED0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3708,7 +3708,7 @@
       (net 86 /RX_SRC_5V))
     (pad K smd rect (at -0.85 0 180) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
-    (model ${ANT3DMDL}/SOD523F.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD523F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3742,7 +3742,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3776,7 +3776,7 @@
       (net 87 /RX_SINK_5V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3810,7 +3810,7 @@
       (net 84 /TX_SRC_5V))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3845,7 +3845,7 @@
       (net 83 +5VA))
     (pad 2 smd rect (at 0.7 0 90) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -3879,7 +3879,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 83 +5VA))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3913,7 +3913,7 @@
       (net 84 /TX_SRC_5V))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3947,7 +3947,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 85 /TX_SINK_PWR))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3981,7 +3981,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4015,7 +4015,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4049,7 +4049,7 @@
       (net 112 /TX_SINK_SCL_3V))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4083,7 +4083,7 @@
       (net 111 /TX_SINK_SDA_3V))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4117,7 +4117,7 @@
       (net 90 /TX_SINK_5V))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 85 /TX_SINK_PWR))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4151,7 +4151,7 @@
       (net 90 /TX_SINK_5V))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 85 /TX_SINK_PWR))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4185,7 +4185,7 @@
       (net 28 /RX_IN_D2_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4219,7 +4219,7 @@
       (net 25 /RX_IN_D0_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4253,7 +4253,7 @@
       (net 22 /RX_IN_D2_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4287,7 +4287,7 @@
       (net 19 /TX_IN_D1_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4321,7 +4321,7 @@
       (net 26 /RX_IN_D1_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4355,7 +4355,7 @@
       (net 27 /RX_IN_D1_N))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4389,7 +4389,7 @@
       (net 24 /RX_IN_D0_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4423,7 +4423,7 @@
       (net 23 /RX_IN_CLK_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4457,7 +4457,7 @@
       (net 21 /RX_IN_CLK_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4491,7 +4491,7 @@
       (net 78 /TX_IN_CLK_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4525,7 +4525,7 @@
       (net 15 /TX_IN_CLK_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4559,7 +4559,7 @@
       (net 17 /TX_IN_D0_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4593,7 +4593,7 @@
       (net 16 /TX_IN_D0_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4627,7 +4627,7 @@
       (net 14 /TX_IN_D2_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4661,7 +4661,7 @@
       (net 18 /TX_IN_D1_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4695,7 +4695,7 @@
       (net 20 /TX_IN_D2_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4729,7 +4729,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4763,7 +4763,7 @@
       (net 22 /RX_IN_D2_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 72 /C_RX_IN_D2_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4797,7 +4797,7 @@
       (net 26 /RX_IN_D1_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 70 /C_RX_IN_D1_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4831,7 +4831,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 73 "Net-(C26-Pad1)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4865,7 +4865,7 @@
       (net 21 /RX_IN_CLK_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 50 /C_RX_IN_CLK_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4899,7 +4899,7 @@
       (net 24 /RX_IN_D0_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 67 /C_RX_IN_D0_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4933,7 +4933,7 @@
       (net 27 /RX_IN_D1_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 69 /C_RX_IN_D1_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4967,7 +4967,7 @@
       (net 28 /RX_IN_D2_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 71 /C_RX_IN_D2_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5001,7 +5001,7 @@
       (net 23 /RX_IN_CLK_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 66 /C_RX_IN_CLK_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5035,7 +5035,7 @@
       (net 25 /RX_IN_D0_P))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 68 /C_RX_IN_D0_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5069,7 +5069,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5103,7 +5103,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 42 /TX_HIZ_EN))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5137,7 +5137,7 @@
       (net 63 /RX_DCC_EN))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5171,7 +5171,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 106 /TX_SINK_CEC))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5205,7 +5205,7 @@
       (net 53 /RX_DDET))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5239,7 +5239,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 107 /RX_SRC_CEC))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5273,7 +5273,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 65 /RX_HIZ_EN))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5307,7 +5307,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 108 "Net-(R30-Pad1)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5341,7 +5341,7 @@
       (net 98 /TX_SINK_SDA))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 90 /TX_SINK_5V))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5375,7 +5375,7 @@
       (net 109 /RX_SRC_SDA_3V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5409,7 +5409,7 @@
       (net 110 /RX_SRC_SCL_3V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5443,7 +5443,7 @@
       (net 106 /TX_SINK_CEC))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 100 "Net-(J6-Pad13)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5477,7 +5477,7 @@
       (net 81 /RX_EQ0_R))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 55 /RX_EQ0))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5511,7 +5511,7 @@
       (net 82 /RX_EQ1_R))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 52 /RX_EQ1))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5545,7 +5545,7 @@
       (net 107 /RX_SRC_CEC))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 103 "Net-(J9-Pad13)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5579,7 +5579,7 @@
       (net 101 /RX_SRC_SDA))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 86 /RX_SRC_5V))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5614,7 +5614,7 @@
       (net 126 +3V3))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -5648,7 +5648,7 @@
       (net 1 +5V))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5682,7 +5682,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5716,7 +5716,7 @@
       (net 20 /TX_IN_D2_N))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 48 /C_TX_IN_D2_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5750,7 +5750,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5784,7 +5784,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 "Net-(C6-Pad1)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5818,7 +5818,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 "Net-(C29-Pad1)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5852,7 +5852,7 @@
       (net 78 /TX_IN_CLK_N))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 29 /C_TX_IN_CLK_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5886,7 +5886,7 @@
       (net 16 /TX_IN_D0_N))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 44 /C_TX_IN_D0_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5920,7 +5920,7 @@
       (net 19 /TX_IN_D1_N))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 46 /C_TX_IN_D1_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5954,7 +5954,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5988,7 +5988,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6022,7 +6022,7 @@
       (net 14 /TX_IN_D2_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 49 /C_TX_IN_D2_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6056,7 +6056,7 @@
       (net 18 /TX_IN_D1_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 47 /C_TX_IN_D1_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6090,7 +6090,7 @@
       (net 17 /TX_IN_D0_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 45 /C_TX_IN_D0_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6124,7 +6124,7 @@
       (net 15 /TX_IN_CLK_P))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 43 /C_TX_IN_CLK_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6158,7 +6158,7 @@
       (net 33 /TX_EQ0))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6192,7 +6192,7 @@
       (net 31 /TX_EQ1))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6226,7 +6226,7 @@
       (net 33 /TX_EQ0))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 79 /TX_EQ0_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6260,7 +6260,7 @@
       (net 80 /TX_EQ1_R))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 31 /TX_EQ1))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6294,7 +6294,7 @@
       (net 6 "Net-(R13-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6328,7 +6328,7 @@
       (net 104 /TX_SRC_CEC))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 94 "Net-(J2-Pad13)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6362,7 +6362,7 @@
       (net 10 "Net-(R2-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 128 /UDP))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6396,7 +6396,7 @@
       (net 9 "Net-(R1-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 127 /UDN))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6430,7 +6430,7 @@
       (net 55 /RX_EQ0))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6464,7 +6464,7 @@
       (net 52 /RX_EQ1))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6498,7 +6498,7 @@
       (net 105 /RX_SINK_CEC))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 97 "Net-(J3-Pad13)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6532,7 +6532,7 @@
       (net 54 "Net-(R17-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6566,7 +6566,7 @@
       (net 126 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 104 /TX_SRC_CEC))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6600,7 +6600,7 @@
       (net 41 /TX_DCC_EN))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6634,7 +6634,7 @@
       (net 32 /TX_DDET))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6669,7 +6669,7 @@
       (net 4 /VUSB))
     (pad 2 smd rect (at 0.7 0 180) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -6704,7 +6704,7 @@
       (net 126 +3V3))
     (pad 2 smd rect (at 0.7 0 270) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -6753,7 +6753,7 @@
       (net 2 GND) (solder_mask_margin 0.07))
     (pad 1 smd rect (at -0.95 1.35 270) (size 0.6 1.05) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V) (solder_mask_margin 0.07))
-    (model ${ANT3DMDL}/LP2985-33DBVR.stp
+    (model ${KIPRJMOD}/lib/3d-models/LP2985-33DBVR.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -6810,7 +6810,7 @@
       (net 3 "Net-(J1-PadSH)"))
     (pad SH smd rect (at -2.4625 2.3 90) (size 2.1 1.475) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(J1-PadSH)"))
-    (model ${ANT3DMDL}/473460001.step
+    (model ${KIPRJMOD}/lib/3d-models/473460001.step
       (offset (xyz 0 -0.1 1.2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
