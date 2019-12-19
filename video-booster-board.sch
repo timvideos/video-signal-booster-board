@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:video-booster-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -4779,28 +4780,6 @@ Wire Notes Line
 	17650 13000 17650 16050
 Text Notes 17800 13350 0    138  ~ 28
 Markings
-$Comp
-L video-booster-board:CHDMI-AMSS-01-C J2
-U 1 1 5DE81C03
-P 2100 3400
-F 0 "J2" V 1650 2650 50  0000 R CNN
-F 1 "CHDMI-AMSS-01-C" V 1750 3300 50  0000 R CNN
-F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C" H 2300 3600 60  0001 L CNN
-F 3 "" H 2175 3550 50  0001 C CNN
-	1    2100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:CHDMI-AMSS-01-C J3
-U 1 1 5DE89759
-P 2450 10850
-F 0 "J3" V 2000 10100 50  0000 R CNN
-F 1 "CHDMI-AMSS-01-C" V 2100 10750 50  0000 R CNN
-F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C" H 2650 11050 60  0001 L CNN
-F 3 "" H 2525 11000 50  0001 C CNN
-	1    2450 10850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14900 2200 14900 2250
 Wire Wire Line
@@ -5063,4 +5042,26 @@ F 5 "EFM32HG322F64" H 16900 9350 60  0001 L CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 Connection ~ 16850 9200
+$Comp
+L antmicroUSBDVIHDMIConnectors:CHDMI-AMSS-01-C-Vertical J2
+U 1 1 5E106A04
+P 2100 3400
+F 0 "J2" V 1650 2700 50  0000 R CNN
+F 1 "CHDMI-AMSS-01-C-Vertical" V 1750 3700 50  0000 R CNN
+F 2 "antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2300 3600 60  0001 L CNN
+F 3 "" H 2175 3550 50  0001 C CNN
+	1    2100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:CHDMI-AMSS-01-C-Vertical J3
+U 1 1 5E11114A
+P 2450 10850
+F 0 "J3" V 2000 10150 50  0000 R CNN
+F 1 "CHDMI-AMSS-01-C-Vertical" V 2100 11150 50  0000 R CNN
+F 2 "antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2650 11050 60  0001 L CNN
+F 3 "" H 2525 11000 50  0001 C CNN
+	1    2450 10850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
