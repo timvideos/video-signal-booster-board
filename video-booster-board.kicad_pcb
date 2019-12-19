@@ -382,7 +382,7 @@
     (add_net /TX_IN_D2_P)
   )
 
-  (module antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1 locked (layer F.Cu) (tedit 5DFB5F20) (tstamp 5DFBC4B8)
+  (module video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1 locked (layer F.Cu) (tedit 5DFB5F20) (tstamp 5DFBC4B8)
     (at 114 67.1957 90)
     (descr "SMT Horizontal HDMI, 19 pins")
     (path /5E11114A)
@@ -452,14 +452,14 @@
       (net 2 GND))
     (pad SH thru_hole oval (at 6.75 0) (size 4.7 1.8) (drill oval 3.9 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/CHDMI-AMSS-01-C.step
+    (model ${KIPRJMOD}/lib/3d-models/CHDMI-AMSS-01-C.step
       (offset (xyz 0 -0 6.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1 (layer F.Cu) (tedit 5DFB6F0A) (tstamp 5DFBC490)
+  (module video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1 (layer F.Cu) (tedit 5DFB6F0A) (tstamp 5DFBC490)
     (at 114 90.5637 90)
     (descr "SMT Horizontal HDMI, 19 pins")
     (path /5E106A04)
@@ -529,7 +529,7 @@
       (net 2 GND))
     (pad SH thru_hole oval (at 6.75 0) (size 4.7 1.8) (drill oval 3.9 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${ANT3DMDL}/CHDMI-AMSS-01-C.step
+    (model ${KIPRJMOD}/lib/3d-models/CHDMI-AMSS-01-C.step
       (offset (xyz 0 -0 6.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

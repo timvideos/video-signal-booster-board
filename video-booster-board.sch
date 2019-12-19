@@ -5043,23 +5043,23 @@ F 5 "EFM32HG322F64" H 16900 9350 60  0001 L CNN "MPN"
 $EndComp
 Connection ~ 16850 9200
 $Comp
-L antmicroUSBDVIHDMIConnectors:CHDMI-AMSS-01-C-Vertical J2
+L video-booster-board:CHDMI-AMSS-01-C-Vertical J2
 U 1 1 5E106A04
 P 2100 3400
 F 0 "J2" V 1650 2700 50  0000 R CNN
 F 1 "CHDMI-AMSS-01-C-Vertical" V 1750 3700 50  0000 R CNN
-F 2 "antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2300 3600 60  0001 L CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2300 3600 60  0001 L CNN
 F 3 "" H 2175 3550 50  0001 C CNN
 	1    2100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:CHDMI-AMSS-01-C-Vertical J3
+L video-booster-board:CHDMI-AMSS-01-C-Vertical J3
 U 1 1 5E11114A
 P 2450 10850
 F 0 "J3" V 2000 10150 50  0000 R CNN
 F 1 "CHDMI-AMSS-01-C-Vertical" V 2100 11150 50  0000 R CNN
-F 2 "antmicro-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2650 11050 60  0001 L CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2650 11050 60  0001 L CNN
 F 3 "" H 2525 11000 50  0001 C CNN
 	1    2450 10850
 	1    0    0    -1  
