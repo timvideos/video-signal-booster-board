@@ -2135,23 +2135,8 @@ Text Label 17800 11000 0    50   ~ 0
 DBG_SWCLK
 Text Label 17800 11100 0    50   ~ 0
 DBG_SWDIO
-Text Notes 18800 10900 0    50   ~ 0
+Text Notes 19350 11150 0    50   ~ 0
 SWD Debug
-Wire Wire Line
-	18450 11200 18850 11200
-$Comp
-L video-booster-board:MC-HVT1-S04-G- J11
-U 1 1 5F05FE9B
-P 19000 11300
-F 0 "J11" V 19191 11222 50  0000 R CNN
-F 1 "MC-HVT1-S04-G" H 19350 11100 50  0000 R CNN
-F 2 "video-booster-board-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 19200 11600 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 19200 11700 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 19200 11800 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 19200 11900 60  0001 L CNN "Manufacturer"
-	1    19000 11300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	17700 11100 18850 11100
 Wire Wire Line
@@ -5063,5 +5048,64 @@ F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2650 11050 
 F 3 "" H 2525 11000 50  0001 C CNN
 	1    2450 10850
 	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:GND #PWR091
+U 1 1 5E7C37AD
+P 15100 11700
+F 0 "#PWR091" H 15100 11450 50  0001 C CNN
+F 1 "GND" H 15105 11527 50  0000 C CNN
+F 2 "" H 15100 11700 50  0001 C CNN
+F 3 "" H 15100 11700 50  0001 C CNN
+	1    15100 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 11500 15100 11700
+Wire Wire Line
+	18450 11200 18850 11200
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP1
+U 1 1 5E2A7EA1
+P 18950 11300
+F 0 "TP1" V 18950 11250 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 18950 11200 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11500 60  0001 L CNN
+F 3 "" H 19150 11600 60  0001 L CNN
+	1    18950 11300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP4
+U 1 1 5E2AE023
+P 18950 11200
+F 0 "TP4" V 18950 11150 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 18950 11100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11400 60  0001 L CNN
+F 3 "" H 19150 11500 60  0001 L CNN
+	1    18950 11200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP3
+U 1 1 5E2AE346
+P 18950 11100
+F 0 "TP3" V 18950 11050 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 18950 11000 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11300 60  0001 L CNN
+F 3 "" H 19150 11400 60  0001 L CNN
+	1    18950 11100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP2
+U 1 1 5E2AE5BD
+P 18950 11000
+F 0 "TP2" V 18950 10950 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 18950 10900 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11200 60  0001 L CNN
+F 3 "" H 19150 11300 60  0001 L CNN
+	1    18950 11000
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
