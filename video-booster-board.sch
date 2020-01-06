@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:video-booster-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -4771,9 +4770,7 @@ Wire Wire Line
 	14900 1800 15250 1800
 Wire Wire Line
 	14900 1800 14900 1900
-Wire Wire Line
-	14150 1800 14600 1800
-Text Notes 13550 2150 0    50   ~ 0
+Text Notes 13800 2050 0    50   ~ 0
 +5V Auxillary
 $Comp
 L video-booster-board:GND #PWR062
@@ -4784,17 +4781,6 @@ F 1 "GND" H 14905 2077 50  0000 C CNN
 F 2 "" H 14900 2250 50  0001 C CNN
 F 3 "" H 14900 2250 50  0001 C CNN
 	1    14900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:GND #PWR061
-U 1 1 62AD30B5
-P 14150 2250
-F 0 "#PWR061" H 14150 2000 50  0001 C CNN
-F 1 "GND" H 14155 2077 50  0000 C CNN
-F 2 "" H 14150 2250 50  0001 C CNN
-F 3 "" H 14150 2250 50  0001 C CNN
-	1    14150 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4814,7 +4800,6 @@ $EndComp
 Connection ~ 14900 1800
 Wire Wire Line
 	14600 1800 14600 2000
-Connection ~ 14600 1800
 Wire Wire Line
 	14600 1800 14900 1800
 Wire Wire Line
@@ -4852,30 +4837,6 @@ F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10775 10700 5
 	1    10750 10700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14150 1900 14150 2000
-Wire Wire Line
-	14150 2000 14150 2250
-Connection ~ 14150 2000
-$Comp
-L video-booster-board:694103107102 J4
-U 1 1 5DECDCEC
-P 14150 1800
-F 0 "J4" H 13950 2100 50  0000 C CNN
-F 1 "694103107102" H 13950 2000 50  0000 C CNN
-F 2 "video-booster-board-footprints:69410X107102" H 14350 1825 50  0001 L BNN
-F 3 "https://www.we-online.de/katalog/datasheet/694103107102.pdf" H 14350 1600 50  0001 L BNN
-F 4 "None" H 14350 1750 50  0001 L BNN "Field4"
-F 5 "694103107102" H 14350 1675 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 14350 1450 50  0001 L BNN "Field6"
-F 7 "Wurth Electronics" H 14350 1525 50  0001 L BNN "Field7"
-F 8 "DC Power jack" H 14350 1875 50  0001 L BNN "Field8"
-	1    14150 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14150 1800 14150 1725
-Connection ~ 14150 1800
 Text Label 18500 3350 0    50   ~ 0
 RX_SRC_SDA_3V
 Text Label 18500 3500 0    50   ~ 0
