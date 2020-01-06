@@ -4334,49 +4334,6 @@ F 3 "" H 6450 13400 50  0001 C CNN
 	1    6450 13400
 	1    0    0    -1  
 $EndComp
-$Comp
-L video-booster-board:GND #PWR079
-U 1 1 5DFE7A15
-P 21050 11700
-F 0 "#PWR079" H 21050 11450 50  0001 C CNN
-F 1 "GND" H 21055 11527 50  0000 C CNN
-F 2 "" H 21050 11700 50  0001 C CNN
-F 3 "" H 21050 11700 50  0001 C CNN
-	1    21050 11700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21100 11500 20550 11500
-Wire Wire Line
-	21100 11600 20550 11600
-Wire Wire Line
-	21100 11200 20550 11200
-Wire Wire Line
-	21100 11100 20550 11100
-Text Label 20550 11100 0    50   ~ 0
-TX_SRC_CEC
-Text Label 20550 11200 0    50   ~ 0
-TX_SINK_CEC
-Text Label 20550 11500 0    50   ~ 0
-RX_SRC_CEC
-Text Label 20550 11600 0    50   ~ 0
-RX_SINK_CEC
-Wire Wire Line
-	22300 11500 21750 11500
-Wire Wire Line
-	22300 11600 21750 11600
-Wire Wire Line
-	22300 11200 21750 11200
-Wire Wire Line
-	22300 11100 21750 11100
-Text Label 21800 11100 0    50   ~ 0
-TX_SRC_CEC
-Text Label 21800 11200 0    50   ~ 0
-TX_SINK_CEC
-Text Label 21800 11500 0    50   ~ 0
-RX_SRC_CEC
-Text Label 21800 11600 0    50   ~ 0
-RX_SINK_CEC
 $Bitmap
 Pos 22600 15100
 Scale 0.850000
@@ -4563,97 +4520,10 @@ BF D4 DE 9E 74 FA 83 62 A5 7B F4 F2 65 1F 31 15 FE E4 E5 4B B5 D2 77 5B E5 F3 3F
 D2 9B 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L video-booster-board:RCLAMP0524PATCT_ D10
-U 1 1 5DDDC206
-P 21600 11400
-F 0 "D10" H 21425 11947 60  0000 C CNN
-F 1 "RCLAMP0524PATCT_" H 21425 11841 60  0000 C CNN
-F 2 "video-booster-board-footprints:UFDFN-10_2.5x1mm" H 20625 10950 60  0001 L CNN
-F 3 "https://www.semtech.com/uploads/documents/rclamp0522p_0524pa.pdf" H 20625 11050 60  0001 L CNN
-F 4 "Semtech Corporation" H 21800 12500 60  0001 L CNN "Manufacturer"
-F 5 "RCLAMP0524PATCT" H 20975 10750 60  0001 L CNN "MPN"
-	1    21600 11400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21100 11300 21050 11300
-Wire Wire Line
-	21050 11300 21050 11400
-Wire Wire Line
-	21100 11400 21050 11400
-Connection ~ 21050 11400
-Wire Wire Line
-	21050 11400 21050 11700
-$Comp
-L video-booster-board:GND #PWR089
-U 1 1 5E01A716
-P 21050 10550
-F 0 "#PWR089" H 21050 10300 50  0001 C CNN
-F 1 "GND" H 21055 10377 50  0000 C CNN
-F 2 "" H 21050 10550 50  0001 C CNN
-F 3 "" H 21050 10550 50  0001 C CNN
-	1    21050 10550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21100 10350 20550 10350
-Wire Wire Line
-	21100 10450 20550 10450
-Wire Wire Line
-	21100 10050 20550 10050
-Wire Wire Line
-	21100 9950 20550 9950
-Wire Wire Line
-	22300 10350 21750 10350
-Wire Wire Line
-	22300 10450 21750 10450
-Wire Wire Line
-	22300 10050 21750 10050
-Wire Wire Line
-	22300 9950 21750 9950
-$Comp
-L video-booster-board:RCLAMP0524PATCT_ D11
-U 1 1 5E01A72E
-P 21600 10250
-F 0 "D11" H 21425 10797 60  0000 C CNN
-F 1 "RCLAMP0524PATCT_" H 21425 10691 60  0000 C CNN
-F 2 "video-booster-board-footprints:UFDFN-10_2.5x1mm" H 20625 9800 60  0001 L CNN
-F 3 "https://www.semtech.com/uploads/documents/rclamp0522p_0524pa.pdf" H 20625 9900 60  0001 L CNN
-F 4 "Semtech Corporation" H 21800 11350 60  0001 L CNN "Manufacturer"
-F 5 "RCLAMP0524PATCT" H 20975 9600 60  0001 L CNN "MPN"
-	1    21600 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21100 10150 21050 10150
-Wire Wire Line
-	21050 10150 21050 10250
-Wire Wire Line
-	21100 10250 21050 10250
-Connection ~ 21050 10250
-Wire Wire Line
-	21050 10250 21050 10550
 Text Label 15550 10800 0    50   ~ 0
 UDN
 Text Label 15550 10900 0    50   ~ 0
 UDP
-Text Label 20550 10350 0    50   ~ 0
-VUSB
-Text Label 20550 9950 0    50   ~ 0
-UDN
-Text Label 20550 10050 0    50   ~ 0
-UDP
-Text Label 20550 10450 0    50   ~ 0
-VUSB
-Text Label 22050 10350 0    50   ~ 0
-VUSB
-Text Label 22100 9950 0    50   ~ 0
-UDN
-Text Label 22100 10050 0    50   ~ 0
-UDP
-Text Label 22050 10450 0    50   ~ 0
-VUSB
 $Comp
 L video-booster-board:R_100k_0402- R60
 U 1 1 5E1B540A
