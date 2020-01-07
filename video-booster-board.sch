@@ -3100,20 +3100,6 @@ F 6 "806k" V 16103 6370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L video-booster-board:C_1u_0402- C34
-U 1 1 6348A162
-P 16400 6300
-F 0 "C34" H 16500 6250 60  0000 L CNN
-F 1 "C_1u_0402" H 16400 6150 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-cap" H 16600 6500 60  0001 L CNN
-F 3 "" H 16400 6300 50  0001 C CNN
-F 4 "TDK" H 16600 6700 60  0001 L CNN "Manufacturer"
-F 5 "C1005X6S1A105K050BC" H 16600 6600 60  0001 L CNN "MPN"
-F 6 "1u" H 16500 6150 50  0000 L CNN "Val"
-	1    16400 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L video-booster-board:GND #PWR050
 U 1 1 634E5914
 P 16050 6450
@@ -3227,33 +3213,9 @@ F 6 "1R" H 16700 6050 50  0000 C CNN "Val"
 	1    16600 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L video-booster-board:R_1R_0402 R57
-U 1 1 63B8103C
-P 16600 6150
-F 0 "R57" H 16500 6250 60  0000 C CNN
-F 1 "R_1R_0402" H 16600 6000 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-res" H 16800 6350 60  0001 L CNN
-F 3 "" H 16600 6150 50  0001 C CNN
-F 4 "YAGEO" H 16800 6550 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-071RL" H 16800 6450 60  0001 L CNN "MPN"
-F 6 "1R" H 16700 6250 50  0000 C CNN "Val"
-	1    16600 6150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16450 5950 16400 5950
 Connection ~ 16400 5950
-Wire Wire Line
-	16400 6150 16450 6150
-Connection ~ 16400 6150
-Wire Wire Line
-	16750 6150 16800 6150
-Wire Wire Line
-	16800 6150 16800 5950
-Wire Wire Line
-	16800 5950 16750 5950
-Connection ~ 16800 5950
 Text Label 15850 5950 0    50   ~ 0
 TX_SINK_PWR
 Text Label 8000 5850 0    50   ~ 0
@@ -4013,8 +3975,6 @@ Text Notes 750  7950 0    138  ~ 28
 HDMI receiver
 Text Notes 750  800  0    138  ~ 28
 HDMI transmitter
-Wire Wire Line
-	16800 5950 17350 5950
 Text Label 9850 1850 0    50   ~ 0
 TX_SINK_5V
 Wire Wire Line
@@ -4938,5 +4898,21 @@ F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11200 60  0001 L CNN
 F 3 "" H 19150 11300 60  0001 L CNN
 	1    18950 11000
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16750 5950 17350 5950
+$Comp
+L video-booster-board:C_1u_0402- C34
+U 1 1 6348A162
+P 16400 6300
+F 0 "C34" H 16500 6250 60  0000 L CNN
+F 1 "C_1u_0402" H 16400 6150 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16600 6500 60  0001 L CNN
+F 3 "" H 16400 6300 50  0001 C CNN
+F 4 "TDK" H 16600 6700 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 16600 6600 60  0001 L CNN "MPN"
+F 6 "1u" H 16500 6150 50  0000 L CNN "Val"
+	1    16400 6300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
