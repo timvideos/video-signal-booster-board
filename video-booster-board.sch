@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:video-booster-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -3560,6 +3561,8 @@ F 0 "IC1" H 10725 6815 50  0000 C CNN
 F 1 "INA180A1IDBVT" H 10725 6724 50  0000 C CNN
 F 2 "video-booster-board-footprints:SOT-23-5" H 10550 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina180.pdf" H 10550 6700 50  0001 C CNN
+F 4 "Texas Instruments" H 10500 6150 50  0001 C CNN "Manufacturer"
+F 5 "INA180A1IDBVT" H 10500 6150 50  0001 C CNN "MPN"
 	1    10500 6150
 	1    0    0    -1  
 $EndComp
@@ -3707,18 +3710,9 @@ P 14850 14500
 F 0 "SW1" H 14850 14867 50  0000 C CNN
 F 1 "1571983-5" H 14850 14776 50  0000 C CNN
 F 2 "video-booster-board-footprints:1571983-5" H 14850 14500 50  0001 L BNN
-F 3 "TE Connectivity" H 14850 14500 50  0001 L BNN
-F 4 "450-1762-6-ND" H 14850 14500 50  0001 L BNN "Field4"
-F 5 "Single Pole - Single Throw" H 14850 14500 50  0001 L BNN "Field5"
-F 6 ".1 A" H 14850 14500 50  0001 L BNN "Field6"
-F 7 "DIP-4 TE Connectivity" H 14850 14500 50  0001 L BNN "Field7"
-F 8 "50 VDC" H 14850 14500 50  0001 L BNN "Field8"
-F 9 "https://www.te.com/usa-en/product-1571983-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 14850 14500 50  0001 L BNN "Field9"
-F 10 "1571983-5" H 14850 14500 50  0001 L BNN "Field10"
-F 11 "https://www.digikey.pl/product-detail/en/te-connectivity-alcoswitch-switches/1571983-5/450-1762-6-ND/2755727?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 14850 14500 50  0001 L BNN "Field11"
-F 12 "1571983-5" H 14850 14500 50  0001 L BNN "Field12"
-F 13 "GDH04STR04=DIP SWITCH" H 14850 14500 50  0001 L BNN "Field13"
-F 14 "DIP" H 14850 14500 50  0001 L BNN "Field14"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1571983&DocType=Customer+Drawing&DocLang=English" H 14850 14500 50  0001 L BNN
+F 4 "TE Connectivity" H 14850 14500 50  0001 L BNN "Manufacturer"
+F 5 "1571983-5" H 14850 14500 50  0001 L BNN "MPN"
 	1    14850 14500
 	1    0    0    -1  
 $EndComp
@@ -4652,7 +4646,9 @@ P 10350 3250
 F 0 "J6" H 10100 4300 50  0000 L CNN
 F 1 "685119134923_" V 10800 2250 50  0000 L CNN
 F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10550 3450 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10375 3250 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/685119134923.pdf" H 10375 3250 50  0001 C CNN
+F 4 "Wurth Elektronik" H 10350 3250 50  0001 C CNN "Manufacturer"
+F 5 "685119134923" H 10350 3250 50  0001 C CNN "MPN"
 	1    10350 3250
 	1    0    0    -1  
 $EndComp
@@ -4663,7 +4659,9 @@ P 10750 10700
 F 0 "J9" H 10500 11750 50  0000 L CNN
 F 1 "685119134923_" V 11200 9700 50  0000 L CNN
 F 2 "video-booster-board-footprints:HDMI_A_Female_685119134923" H 10950 10900 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 10775 10700 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/685119134923.pdf" H 10775 10700 50  0001 C CNN
+F 4 "685119134923" H 10750 10700 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 10750 10700 50  0001 C CNN "Manufacturer"
 	1    10750 10700
 	1    0    0    -1  
 $EndComp
@@ -4824,8 +4822,10 @@ U 1 1 5E106A04
 P 2100 3400
 F 0 "J2" V 1650 2700 50  0000 R CNN
 F 1 "CHDMI-AMSS-01-C-Vertical" V 1750 3700 50  0000 R CNN
-F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2300 3600 60  0001 L CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical" H 2300 3600 60  0001 L CNN
 F 3 "" H 2175 3550 50  0001 C CNN
+F 4 " CHDMI-AMSX-01-X" H 2100 3400 50  0001 C CNN "MPN"
+F 5 "Kaweei" H 2100 3400 50  0001 C CNN "Manufacturer"
 	1    2100 3400
 	1    0    0    -1  
 $EndComp
@@ -4835,8 +4835,10 @@ U 1 1 5E11114A
 P 2450 10850
 F 0 "J3" V 2000 10150 50  0000 R CNN
 F 1 "CHDMI-AMSS-01-C-Vertical" V 2100 11150 50  0000 R CNN
-F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical-mod1" H 2650 11050 60  0001 L CNN
+F 2 "video-booster-board-footprints:CHDMI-AMSS-01-C-Vertical" H 2650 11050 60  0001 L CNN
 F 3 "" H 2525 11000 50  0001 C CNN
+F 4 " CHDMI-AMSX-01-X" H 2450 10850 50  0001 C CNN "MPN"
+F 5 "Kaweei" H 2450 10850 50  0001 C CNN "Manufacturer"
 	1    2450 10850
 	1    0    0    -1  
 $EndComp
@@ -4915,4 +4917,6 @@ F 6 "1u" H 16500 6150 50  0000 L CNN "Val"
 	1    16400 6300
 	1    0    0    -1  
 $EndComp
+Text Notes 16500 6150 0    50   ~ 0
+Consider changing R56 into 500mOhm
 $EndSCHEMATC

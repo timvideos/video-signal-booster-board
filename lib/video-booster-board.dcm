@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 685119134923_
+F https://www.we-online.com/catalog/datasheet/685119134923.pdf
+$ENDCMP
+#
+$CMP INA180A1IDBVT
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
+#End Doc Library
