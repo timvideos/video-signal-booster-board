@@ -1939,45 +1939,45 @@ Wire Wire Line
 $Comp
 L video-booster-board:GND #PWR065
 U 1 1 5DCFFD45
-P 15800 6100
-F 0 "#PWR065" H 15800 5850 50  0001 C CNN
-F 1 "GND" H 15805 5927 50  0000 C CNN
-F 2 "" H 15800 6100 50  0001 C CNN
-F 3 "" H 15800 6100 50  0001 C CNN
-	1    15800 6100
+P 15800 6000
+F 0 "#PWR065" H 15800 5750 50  0001 C CNN
+F 1 "GND" H 15805 5827 50  0000 C CNN
+F 2 "" H 15800 6000 50  0001 C CNN
+F 3 "" H 15800 6000 50  0001 C CNN
+	1    15800 6000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	15700 5800 15800 5800
+	15700 5700 15800 5700
 Wire Wire Line
-	15800 5800 15800 6100
+	15800 5700 15800 6000
 Wire Wire Line
-	14900 5500 14800 5500
+	14900 5400 14800 5400
 Wire Wire Line
 	9950 3650 9300 3650
 $Comp
 L video-booster-board:C_100n_0402_6V3- C32
 U 1 1 5E5CD0C1
-P 14800 5950
-F 0 "C32" H 15000 5900 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 14800 5800 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-cap" H 15000 6150 60  0001 L CNN
-F 3 "" H 14800 5950 50  0001 C CNN
-F 4 "Walsin" H 15000 6350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 15000 6250 60  0001 L CNN "MPN"
-F 6 "100n" H 15000 5800 50  0000 C CNN "Val"
-	1    14800 5950
+P 14800 5850
+F 0 "C32" H 15000 5800 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 14800 5700 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 15000 6050 60  0001 L CNN
+F 3 "" H 14800 5850 50  0001 C CNN
+F 4 "Walsin" H 15000 6250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15000 6150 60  0001 L CNN "MPN"
+F 6 "100n" H 15000 5700 50  0000 C CNN "Val"
+	1    14800 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L video-booster-board:GND #PWR060
 U 1 1 5E601B03
-P 14800 6100
-F 0 "#PWR060" H 14800 5850 50  0001 C CNN
-F 1 "GND" H 14805 5927 50  0000 C CNN
-F 2 "" H 14800 6100 50  0001 C CNN
-F 3 "" H 14800 6100 50  0001 C CNN
-	1    14800 6100
+P 14800 6000
+F 0 "#PWR060" H 14800 5750 50  0001 C CNN
+F 1 "GND" H 14805 5827 50  0000 C CNN
+F 2 "" H 14800 6000 50  0001 C CNN
+F 3 "" H 14800 6000 50  0001 C CNN
+	1    14800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2357,9 +2357,9 @@ Text Label 17800 10800 0    50   ~ 0
 TX_SINK_SDA_3V
 Text Label 16250 9900 0    50   ~ 0
 RX_SRC_SCL_3V
-Text Label 14150 5600 0    50   ~ 0
+Text Label 14150 5500 0    50   ~ 0
 TX_SRC_SCL_3V
-Text Label 14150 5700 0    50   ~ 0
+Text Label 14150 5600 0    50   ~ 0
 TX_SRC_SDA_3V
 Text Label 5600 3850 0    50   ~ 0
 TX_SINK_SDA_3V
@@ -2608,182 +2608,182 @@ Wire Wire Line
 $Comp
 L video-booster-board:NTS0102GT U5
 U 1 1 61020792
-P 15300 5750
-F 0 "U5" H 15050 6150 50  0000 C CNN
-F 1 "NTS0102GT" H 15450 6150 50  0000 C CNN
-F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 15200 6250 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 15950 6500 50  0001 C CNN
-F 4 "NTS0102GT" H 15300 6173 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 15300 6174 50  0001 C CNN "Manufacturer"
-	1    15300 5750
+P 15300 5650
+F 0 "U5" H 15050 6050 50  0000 C CNN
+F 1 "NTS0102GT" H 15450 6050 50  0000 C CNN
+F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 15200 6150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 15950 6400 50  0001 C CNN
+F 4 "NTS0102GT" H 15300 6073 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 15300 6074 50  0001 C CNN "Manufacturer"
+	1    15300 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14900 5800 14800 5800
+	14900 5700 14800 5700
 Wire Wire Line
-	14800 5800 14800 5500
+	14800 5700 14800 5400
 Wire Wire Line
-	14900 5600 14150 5600
+	14900 5500 14150 5500
 Wire Wire Line
-	14150 5700 14900 5700
+	14150 5600 14900 5600
 Wire Wire Line
-	14800 5500 14800 5400
+	14800 5400 14800 5300
 $Comp
 L video-booster-board:C_100n_0402_6V3- C38
 U 1 1 61566A03
-P 16000 5950
-F 0 "C38" H 16200 5950 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 16000 5800 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-cap" H 16200 6150 60  0001 L CNN
-F 3 "" H 16000 5950 50  0001 C CNN
-F 4 "Walsin" H 16200 6350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 16200 6250 60  0001 L CNN "MPN"
-F 6 "100n" H 16150 6050 50  0000 C CNN "Val"
-	1    16000 5950
+P 16000 5850
+F 0 "C38" H 16200 5850 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 16000 5700 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 16200 6050 60  0001 L CNN
+F 3 "" H 16000 5850 50  0001 C CNN
+F 4 "Walsin" H 16200 6250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 16200 6150 60  0001 L CNN "MPN"
+F 6 "100n" H 16150 5950 50  0000 C CNN "Val"
+	1    16000 5850
 	1    0    0    1   
 $EndComp
-Connection ~ 14800 5800
+Connection ~ 14800 5700
 $Comp
 L video-booster-board:GND #PWR073
 U 1 1 61610A9A
-P 16000 6100
-F 0 "#PWR073" H 16000 5850 50  0001 C CNN
-F 1 "GND" H 16005 5927 50  0000 C CNN
-F 2 "" H 16000 6100 50  0001 C CNN
-F 3 "" H 16000 6100 50  0001 C CNN
-	1    16000 6100
+P 16000 6000
+F 0 "#PWR073" H 16000 5750 50  0001 C CNN
+F 1 "GND" H 16005 5827 50  0000 C CNN
+F 2 "" H 16000 6000 50  0001 C CNN
+F 3 "" H 16000 6000 50  0001 C CNN
+	1    16000 6000
 	1    0    0    -1  
 $EndComp
-Connection ~ 14800 5500
-Wire Wire Line
-	15700 5700 16550 5700
+Connection ~ 14800 5400
 Wire Wire Line
 	15700 5600 16550 5600
 Wire Wire Line
-	15700 5500 16000 5500
+	15700 5500 16550 5500
 Wire Wire Line
-	16000 5800 16000 5500
-Connection ~ 16000 5500
+	15700 5400 16000 5400
 Wire Wire Line
-	16000 5500 16550 5500
-Text Label 16100 5600 0    50   ~ 0
-TX_SRC_SCL
+	16000 5700 16000 5400
+Connection ~ 16000 5400
+Wire Wire Line
+	16000 5400 16550 5400
 Text Label 16100 5500 0    50   ~ 0
+TX_SRC_SCL
+Text Label 16100 5400 0    50   ~ 0
 TX_SRC_5V
 $Comp
 L video-booster-board:GND #PWR080
 U 1 1 61A64653
-P 18500 6100
-F 0 "#PWR080" H 18500 5850 50  0001 C CNN
-F 1 "GND" H 18505 5927 50  0000 C CNN
-F 2 "" H 18500 6100 50  0001 C CNN
-F 3 "" H 18500 6100 50  0001 C CNN
-	1    18500 6100
+P 19700 5750
+F 0 "#PWR080" H 19700 5500 50  0001 C CNN
+F 1 "GND" H 19705 5577 50  0000 C CNN
+F 2 "" H 19700 5750 50  0001 C CNN
+F 3 "" H 19700 5750 50  0001 C CNN
+	1    19700 5750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	18400 5800 18500 5800
+	19600 5450 19700 5450
 Wire Wire Line
-	18500 5800 18500 6100
+	19700 5450 19700 5750
 Wire Wire Line
-	17600 5500 17500 5500
+	18800 5150 18700 5150
 $Comp
 L video-booster-board:GND #PWR076
 U 1 1 61A64665
-P 17500 6100
-F 0 "#PWR076" H 17500 5850 50  0001 C CNN
-F 1 "GND" H 17505 5927 50  0000 C CNN
-F 2 "" H 17500 6100 50  0001 C CNN
-F 3 "" H 17500 6100 50  0001 C CNN
-	1    17500 6100
+P 18700 5750
+F 0 "#PWR076" H 18700 5500 50  0001 C CNN
+F 1 "GND" H 18705 5577 50  0000 C CNN
+F 2 "" H 18700 5750 50  0001 C CNN
+F 3 "" H 18700 5750 50  0001 C CNN
+	1    18700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L video-booster-board:NTS0102GT U7
 U 1 1 61A6466F
-P 18000 5750
-F 0 "U7" H 17750 6150 50  0000 C CNN
-F 1 "NTS0102GT" H 18150 6150 50  0000 C CNN
-F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 17900 6250 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 18650 6500 50  0001 C CNN
-F 4 "NTS0102GT" H 18000 6173 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 18000 6174 50  0001 C CNN "Manufacturer"
-	1    18000 5750
+P 19200 5400
+F 0 "U7" H 18950 5800 50  0000 C CNN
+F 1 "NTS0102GT" H 19350 5800 50  0000 C CNN
+F 2 "video-booster-board-footprints:PSON50P100X195X50-8N" H 19100 5900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 19850 6150 50  0001 C CNN
+F 4 "NTS0102GT" H 19200 5823 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 19200 5824 50  0001 C CNN "Manufacturer"
+	1    19200 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17600 5800 17500 5800
+	18800 5450 18700 5450
 Wire Wire Line
-	17500 5800 17500 5500
+	18700 5450 18700 5150
 Wire Wire Line
-	17600 5600 16850 5600
+	18800 5250 18050 5250
 Wire Wire Line
-	16850 5700 17600 5700
+	18050 5350 18800 5350
 Wire Wire Line
-	17500 5500 17500 5400
+	18700 5150 18700 5050
 $Comp
 L video-booster-board:C_100n_0402_6V3- C39
 U 1 1 61A64683
-P 18700 5950
-F 0 "C39" H 18900 5950 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 18700 5800 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-cap" H 18900 6150 60  0001 L CNN
-F 3 "" H 18700 5950 50  0001 C CNN
-F 4 "Walsin" H 18900 6350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 18900 6250 60  0001 L CNN "MPN"
-F 6 "100n" H 18850 6050 50  0000 C CNN "Val"
-	1    18700 5950
+P 19900 5600
+F 0 "C39" H 20100 5600 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 19900 5450 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 20100 5800 60  0001 L CNN
+F 3 "" H 19900 5600 50  0001 C CNN
+F 4 "Walsin" H 20100 6000 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 20100 5900 60  0001 L CNN "MPN"
+F 6 "100n" H 20050 5700 50  0000 C CNN "Val"
+	1    19900 5600
 	1    0    0    1   
 $EndComp
 $Comp
 L video-booster-board:GND #PWR082
 U 1 1 61A6468A
-P 18700 6100
-F 0 "#PWR082" H 18700 5850 50  0001 C CNN
-F 1 "GND" H 18705 5927 50  0000 C CNN
-F 2 "" H 18700 6100 50  0001 C CNN
-F 3 "" H 18700 6100 50  0001 C CNN
-	1    18700 6100
+P 19900 5750
+F 0 "#PWR082" H 19900 5500 50  0001 C CNN
+F 1 "GND" H 19905 5577 50  0000 C CNN
+F 2 "" H 19900 5750 50  0001 C CNN
+F 3 "" H 19900 5750 50  0001 C CNN
+	1    19900 5750
 	1    0    0    -1  
 $EndComp
-Connection ~ 17500 5500
+Connection ~ 18700 5150
 Wire Wire Line
-	18400 5700 19250 5700
+	19600 5350 20450 5350
 Wire Wire Line
-	18400 5600 19250 5600
+	19600 5250 20450 5250
 Wire Wire Line
-	18400 5500 18700 5500
+	19600 5150 19900 5150
 Wire Wire Line
-	18700 5800 18700 5500
-Connection ~ 18700 5500
+	19900 5450 19900 5150
+Connection ~ 19900 5150
 Wire Wire Line
-	18700 5500 19250 5500
-Text Label 18750 5500 0    50   ~ 0
+	19900 5150 20450 5150
+Text Label 19950 5150 0    50   ~ 0
 RX_SINK_5V
 $Comp
 L video-booster-board:C_100n_0402_6V3- C35
 U 1 1 61AB5659
-P 17500 5950
-F 0 "C35" H 17700 5900 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 17500 5800 60  0001 C CNN
-F 2 "video-booster-board-footprints:0402-cap" H 17700 6150 60  0001 L CNN
-F 3 "" H 17500 5950 50  0001 C CNN
-F 4 "Walsin" H 17700 6350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 17700 6250 60  0001 L CNN "MPN"
-F 6 "100n" H 17700 5800 50  0000 C CNN "Val"
-	1    17500 5950
+P 18700 5600
+F 0 "C35" H 18900 5550 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 18700 5450 60  0001 C CNN
+F 2 "video-booster-board-footprints:0402-cap" H 18900 5800 60  0001 L CNN
+F 3 "" H 18700 5600 50  0001 C CNN
+F 4 "Walsin" H 18900 6000 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 18900 5900 60  0001 L CNN "MPN"
+F 6 "100n" H 18900 5450 50  0000 C CNN "Val"
+	1    18700 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 17500 5800
-Text Label 16850 5600 0    50   ~ 0
+Connection ~ 18700 5450
+Text Label 18050 5250 0    50   ~ 0
 RX_SINK_SCL_3V
-Text Label 16850 5700 0    50   ~ 0
+Text Label 18050 5350 0    50   ~ 0
 RX_SINK_SDA_3V
-Text Label 18750 5600 0    50   ~ 0
+Text Label 19950 5250 0    50   ~ 0
 RX_SINK_SCL
-Text Label 18750 5700 0    50   ~ 0
+Text Label 19950 5350 0    50   ~ 0
 RX_SINK_SDA
-Text Label 16100 5700 0    50   ~ 0
+Text Label 16100 5600 0    50   ~ 0
 TX_SRC_SDA
 Text Label 5600 14800 0    50   ~ 0
 RX_SRC_SCL
@@ -3976,11 +3976,9 @@ Wire Notes Line
 	12800 13000 22950 13000
 Wire Notes Line
 	22950 13000 22950 12950
-Wire Notes Line
-	450  7550 22950 7550
 Text Notes 13050 850  0    138  ~ 28
 Power supply
-Text Notes 13150 8050 0    138  ~ 28
+Text Notes 13100 8550 0    138  ~ 28
 MCU
 Text Notes 3250 3700 0    50   ~ 0
 SCL/SDA operate at 5V
@@ -4121,23 +4119,23 @@ $EndComp
 $Comp
 L video-booster-board:+3V3 #PWR063
 U 1 1 5DF262B9
-P 14800 5400
-F 0 "#PWR063" H 14800 5250 50  0001 C CNN
-F 1 "+3V3" H 14815 5573 50  0000 C CNN
-F 2 "" H 14800 5400 50  0001 C CNN
-F 3 "" H 14800 5400 50  0001 C CNN
-	1    14800 5400
+P 14800 5300
+F 0 "#PWR063" H 14800 5150 50  0001 C CNN
+F 1 "+3V3" H 14815 5473 50  0000 C CNN
+F 2 "" H 14800 5300 50  0001 C CNN
+F 3 "" H 14800 5300 50  0001 C CNN
+	1    14800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L video-booster-board:+3V3 #PWR069
 U 1 1 5DF268CF
-P 17500 5400
-F 0 "#PWR069" H 17500 5250 50  0001 C CNN
-F 1 "+3V3" H 17515 5573 50  0000 C CNN
-F 2 "" H 17500 5400 50  0001 C CNN
-F 3 "" H 17500 5400 50  0001 C CNN
-	1    17500 5400
+P 18700 5050
+F 0 "#PWR069" H 18700 4900 50  0001 C CNN
+F 1 "+3V3" H 18715 5223 50  0000 C CNN
+F 2 "" H 18700 5050 50  0001 C CNN
+F 3 "" H 18700 5050 50  0001 C CNN
+	1    18700 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4664,88 +4662,62 @@ F 5 "Wurth Elektronik" H 10750 10700 50  0001 C CNN "Manufacturer"
 	1    10750 10700
 	1    0    0    -1  
 $EndComp
-Text Label 18400 6750 0    50   ~ 0
+Text Label 19650 6400 0    50   ~ 0
 RX_SRC_SDA_3V
-Text Label 18400 6900 0    50   ~ 0
+Text Label 19650 7250 0    50   ~ 0
 RX_SRC_SCL_3V
 Wire Wire Line
-	18350 6750 19000 6750
+	19600 6400 20450 6400
 Wire Wire Line
-	18350 6900 19000 6900
-Text Label 17300 6750 0    50   ~ 0
+	19550 7250 20450 7250
+Text Label 18300 6400 0    50   ~ 0
 RX_SINK_SDA_3V
-Text Label 17300 6900 0    50   ~ 0
+Text Label 18300 7250 0    50   ~ 0
 RX_SINK_SCL_3V
 Wire Wire Line
-	17300 6750 17950 6750
+	18300 6400 19200 6400
 Wire Wire Line
-	17300 6900 17950 6900
-Text Label 15750 6750 0    50   ~ 0
+	18300 7250 19150 7250
+Text Label 15650 6500 0    50   ~ 0
 TX_SRC_SDA_3V
-Text Label 15750 6900 0    50   ~ 0
+Text Label 15650 7250 0    50   ~ 0
 TX_SRC_SCL_3V
 Wire Wire Line
-	15700 6750 16350 6750
+	15600 6500 16450 6500
 Wire Wire Line
-	15700 6900 16350 6900
-Text Label 14650 6750 0    50   ~ 0
+	15600 7250 16450 7250
+Text Label 14200 6500 0    50   ~ 0
 TX_SINK_SDA_3V
-Text Label 14650 6900 0    50   ~ 0
+Text Label 14200 7250 0    50   ~ 0
 TX_SINK_SCL_3V
 Wire Wire Line
-	14650 6750 15300 6750
+	14200 6500 15200 6500
 Wire Wire Line
-	14650 6900 15300 6900
+	14200 7250 15200 7250
 $Comp
 L video-booster-board:solder_jumper J5
 U 1 1 5E3DE445
-P 15500 6750
-F 0 "J5" H 15350 6850 50  0000 C CNN
-F 1 "solder_jumper" H 15500 6650 50  0001 C CNN
-F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15700 6950 60  0001 L CNN
-F 3 "" H 15700 7050 60  0001 L CNN
-F 4 "None" H 15700 7050 60  0001 L CNN "MPN"
-F 5 "None" H 15700 7125 60  0001 L CNN "Manufacturer"
-	1    15500 6750
+P 15400 6500
+F 0 "J5" H 15250 6600 50  0000 C CNN
+F 1 "solder_jumper" H 15400 6400 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15600 6700 60  0001 L CNN
+F 3 "" H 15600 6800 60  0001 L CNN
+F 4 "None" H 15600 6800 60  0001 L CNN "MPN"
+F 5 "None" H 15600 6875 60  0001 L CNN "Manufacturer"
+	1    15400 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L video-booster-board:solder_jumper J7
 U 1 1 5E3DF685
-P 15500 6900
-F 0 "J7" H 15350 7000 50  0000 C CNN
-F 1 "solder_jumper" H 15500 6800 50  0001 C CNN
-F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15700 7100 60  0001 L CNN
-F 3 "" H 15700 7200 60  0001 L CNN
-F 4 "None" H 15700 7200 60  0001 L CNN "MPN"
-F 5 "None" H 15700 7275 60  0001 L CNN "Manufacturer"
-	1    15500 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:solder_jumper J8
-U 1 1 5E3DFAD2
-P 18150 6750
-F 0 "J8" H 18000 6850 50  0000 C CNN
-F 1 "solder_jumper" H 18150 6650 50  0001 C CNN
-F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 18350 6950 60  0001 L CNN
-F 3 "" H 18350 7050 60  0001 L CNN
-F 4 "None" H 18350 7050 60  0001 L CNN "MPN"
-F 5 "None" H 18350 7125 60  0001 L CNN "Manufacturer"
-	1    18150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L video-booster-board:solder_jumper J12
-U 1 1 5E3DFF30
-P 18150 6900
-F 0 "J12" H 18000 7000 50  0000 C CNN
-F 1 "solder_jumper" H 18150 6800 50  0001 C CNN
-F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 18350 7100 60  0001 L CNN
-F 3 "" H 18350 7200 60  0001 L CNN
-F 4 "None" H 18350 7200 60  0001 L CNN "MPN"
-F 5 "None" H 18350 7275 60  0001 L CNN "Manufacturer"
-	1    18150 6900
+P 15400 7250
+F 0 "J7" H 15250 7350 50  0000 C CNN
+F 1 "solder_jumper" H 15400 7150 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15600 7450 60  0001 L CNN
+F 3 "" H 15600 7550 60  0001 L CNN
+F 4 "None" H 15600 7550 60  0001 L CNN "MPN"
+F 5 "None" H 15600 7625 60  0001 L CNN "Manufacturer"
+	1    15400 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4922,4 +4894,194 @@ Wire Notes Line
 	22900 4500 12750 4500
 Text Notes 13150 4900 0    138  ~ 28
 EDID configuration
+$Comp
+L video-booster-board:solder_jumper J4
+U 1 1 5E747FED
+P 15200 6700
+F 0 "J4" H 15050 6800 50  0000 C CNN
+F 1 "solder_jumper" H 15200 6600 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15400 6900 60  0001 L CNN
+F 3 "" H 15400 7000 60  0001 L CNN
+F 4 "None" H 15400 7000 60  0001 L CNN "MPN"
+F 5 "None" H 15400 7075 60  0001 L CNN "Manufacturer"
+	1    15200 6700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15200 6500
+$Comp
+L video-booster-board:solder_jumper J15
+U 1 1 5E7A1812
+P 15600 6700
+F 0 "J15" H 15450 6800 50  0000 C CNN
+F 1 "solder_jumper" H 15600 6600 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15800 6900 60  0001 L CNN
+F 3 "" H 15800 7000 60  0001 L CNN
+F 4 "None" H 15800 7000 60  0001 L CNN "MPN"
+F 5 "None" H 15800 7075 60  0001 L CNN "Manufacturer"
+	1    15600 6700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15600 6500
+Wire Notes Line
+	450  7500 12750 7500
+Wire Notes Line
+	12750 8150 22950 8150
+Wire Wire Line
+	15200 6900 15200 6950
+Wire Wire Line
+	15200 6950 14200 6950
+Wire Wire Line
+	15600 6900 15600 6950
+Wire Wire Line
+	15600 6950 16450 6950
+Text Label 14200 6950 0    50   ~ 0
+TX_SINK_SDA_MCU_3V
+Text Label 15650 6950 0    50   ~ 0
+TX_SRC_SDA_MCU_3V
+$Comp
+L video-booster-board:solder_jumper J16
+U 1 1 5EB25FBC
+P 15600 7450
+F 0 "J16" H 15450 7550 50  0000 C CNN
+F 1 "solder_jumper" H 15600 7350 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15800 7650 60  0001 L CNN
+F 3 "" H 15800 7750 60  0001 L CNN
+F 4 "None" H 15800 7750 60  0001 L CNN "MPN"
+F 5 "None" H 15800 7825 60  0001 L CNN "Manufacturer"
+	1    15600 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15600 7250
+$Comp
+L video-booster-board:solder_jumper J11
+U 1 1 5EB26B55
+P 15200 7450
+F 0 "J11" H 15050 7550 50  0000 C CNN
+F 1 "solder_jumper" H 15200 7350 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 15400 7650 60  0001 L CNN
+F 3 "" H 15400 7750 60  0001 L CNN
+F 4 "None" H 15400 7750 60  0001 L CNN "MPN"
+F 5 "None" H 15400 7825 60  0001 L CNN "Manufacturer"
+	1    15200 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15200 7250
+Wire Wire Line
+	15200 7650 15200 7700
+Wire Wire Line
+	15200 7700 14200 7700
+Wire Wire Line
+	15600 7650 15600 7700
+Wire Wire Line
+	15600 7700 16450 7700
+Text Label 14200 7700 0    50   ~ 0
+TX_SINK_SCL_MCU_3V
+Text Label 15650 7700 0    50   ~ 0
+TX_SRC_SCL_MCU_3V
+$Comp
+L video-booster-board:solder_jumper J18
+U 1 1 5EDA38B8
+P 19200 6600
+F 0 "J18" H 19050 6700 50  0000 C CNN
+F 1 "solder_jumper" H 19200 6500 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19400 6800 60  0001 L CNN
+F 3 "" H 19400 6900 60  0001 L CNN
+F 4 "None" H 19400 6900 60  0001 L CNN "MPN"
+F 5 "None" H 19400 6975 60  0001 L CNN "Manufacturer"
+	1    19200 6600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19200 6400
+$Comp
+L video-booster-board:solder_jumper J8
+U 1 1 5E3DFAD2
+P 19400 6400
+F 0 "J8" H 19250 6500 50  0000 C CNN
+F 1 "solder_jumper" H 19400 6300 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19600 6600 60  0001 L CNN
+F 3 "" H 19600 6700 60  0001 L CNN
+F 4 "None" H 19600 6700 60  0001 L CNN "MPN"
+F 5 "None" H 19600 6775 60  0001 L CNN "Manufacturer"
+	1    19400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:solder_jumper J20
+U 1 1 5EDFFAFF
+P 19600 6600
+F 0 "J20" H 19450 6700 50  0000 C CNN
+F 1 "solder_jumper" H 19600 6500 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19800 6800 60  0001 L CNN
+F 3 "" H 19800 6900 60  0001 L CNN
+F 4 "None" H 19800 6900 60  0001 L CNN "MPN"
+F 5 "None" H 19800 6975 60  0001 L CNN "Manufacturer"
+	1    19600 6600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19600 6400
+Wire Wire Line
+	19600 6800 19600 6850
+Wire Wire Line
+	19600 6850 20450 6850
+Wire Wire Line
+	19200 6800 19200 6850
+Wire Wire Line
+	19200 6850 18300 6850
+Text Label 18300 6850 0    50   ~ 0
+RX_SINK_SDA_MCU_3V
+Text Label 19650 6850 0    50   ~ 0
+RX_SRC_SDA_MCU_3V
+$Comp
+L video-booster-board:solder_jumper J17
+U 1 1 5F0DE81E
+P 19150 7450
+F 0 "J17" H 19000 7550 50  0000 C CNN
+F 1 "solder_jumper" H 19150 7350 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19350 7650 60  0001 L CNN
+F 3 "" H 19350 7750 60  0001 L CNN
+F 4 "None" H 19350 7750 60  0001 L CNN "MPN"
+F 5 "None" H 19350 7825 60  0001 L CNN "Manufacturer"
+	1    19150 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19150 7250
+$Comp
+L video-booster-board:solder_jumper J12
+U 1 1 5E3DFF30
+P 19350 7250
+F 0 "J12" H 19200 7350 50  0000 C CNN
+F 1 "solder_jumper" H 19350 7150 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19550 7450 60  0001 L CNN
+F 3 "" H 19550 7550 60  0001 L CNN
+F 4 "None" H 19550 7550 60  0001 L CNN "MPN"
+F 5 "None" H 19550 7625 60  0001 L CNN "Manufacturer"
+	1    19350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L video-booster-board:solder_jumper J19
+U 1 1 5F13B88B
+P 19550 7450
+F 0 "J19" H 19400 7550 50  0000 C CNN
+F 1 "solder_jumper" H 19550 7350 50  0001 C CNN
+F 2 "video-booster-board-footprints:SolderJumper-0.6x1.4mm" H 19750 7650 60  0001 L CNN
+F 3 "" H 19750 7750 60  0001 L CNN
+F 4 "None" H 19750 7750 60  0001 L CNN "MPN"
+F 5 "None" H 19750 7825 60  0001 L CNN "Manufacturer"
+	1    19550 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19550 7250
+Wire Wire Line
+	19550 7650 19550 7700
+Wire Wire Line
+	19550 7700 20450 7700
+Wire Wire Line
+	19150 7650 19150 7700
+Wire Wire Line
+	19150 7700 18300 7700
+Text Label 18300 7700 0    50   ~ 0
+RX_SINK_SCL_MCU_3V
+Text Label 19650 7700 0    50   ~ 0
+RX_SRC_SCL_MCU_3V
 $EndSCHEMATC
