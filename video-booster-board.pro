@@ -1,4 +1,4 @@
-update=Tue 07 Jan 2020 21:06:10 CET
+update=Sun 19 Jan 2020 12:57:40 CET
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=video-booster-board.net
 CopperLayerCount=4
 BoardThickness=1.55
 AllowMicroVias=0
@@ -75,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
