@@ -2254,7 +2254,7 @@ Wire Wire Line
 Wire Wire Line
 	19800 9550 19800 9650
 Wire Wire Line
-	19800 9950 19800 10150
+	19800 9950 19800 10100
 $Comp
 L video-booster-board:GND #PWR084
 U 1 1 5E667AF8
@@ -5084,4 +5084,42 @@ Text Label 17800 9200 0    50   ~ 0
 TX_SRC_SCL_MCU_3V
 Text Label 17800 9100 0    50   ~ 0
 TX_SRC_SDA_MCU_3V
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP6
+U 1 1 5E2C2C7D
+P 19900 9050
+F 0 "TP6" V 19900 9000 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 19900 8950 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 20100 9250 60  0001 L CNN
+F 3 "" H 20100 9350 60  0001 L CNN
+	1    19900 9050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19800 9050
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP5
+U 1 1 5E2C3610
+P 19450 9150
+F 0 "TP5" V 19450 9100 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 19450 9050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19650 9350 60  0001 L CNN
+F 3 "" H 19650 9450 60  0001 L CNN
+	1    19450 9150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19350 9150
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP7
+U 1 1 5E2D84E6
+P 19900 10100
+F 0 "TP7" V 19900 10050 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 19900 10000 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 20100 10300 60  0001 L CNN
+F 3 "" H 20100 10400 60  0001 L CNN
+	1    19900 10100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19800 10100
+Wire Wire Line
+	19800 10100 19800 10150
 $EndSCHEMATC

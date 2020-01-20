@@ -1,4 +1,4 @@
-update=Sun 19 Jan 2020 12:57:40 CET
+update=Mon 20 Jan 2020 23:21:51 CET
 version=1
 last_client=kicad
 [general]
@@ -75,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -245,7 +245,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.14
+Clearance=0.125
 TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.25
@@ -256,7 +256,7 @@ dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=OPSIS_HDMI
-Clearance=0.14
+Clearance=0.125
 TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.25
