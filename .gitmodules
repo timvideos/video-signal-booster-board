@@ -1,0 +1,3 @@
+[submodule "example-firmware/zephyr"]
+	path = example-firmware/zephyr
+	url = https://github.com/antmicro/zephyr.git
