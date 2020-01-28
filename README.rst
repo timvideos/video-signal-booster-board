@@ -20,6 +20,6 @@ Board visualization:
 Getting Started
 ---------------
 By default EFM32 microcontroller has SiLabs AN0042 bootloader. To make the MCU compatible with Video Booster Board firmware it is necessary to flash it with `Toboot <https://github.com/im-tomu/toboot>`_ using Openocd.
-To flash Toboot follow this `instruction<https://github.com/im-tomu/toboot/tree/master/openocd`>_. Be aware that it was originally created for Tomu board, so wiring differs a little bit. SWD pins are located on the bottom side of Video Booster Board. Connect all 4 signals accordingly. 
+To flash Toboot follow this `instruction <https://github.com/im-tomu/toboot/tree/master/openocd>`_. Be aware that it was originally created for Tomu board, so wiring differs a little bit. SWD pins are located on the bottom side of Video Booster Board. Connect all 4 signals accordingly. 
 
 
