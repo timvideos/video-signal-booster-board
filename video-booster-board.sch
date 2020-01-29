@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:video-booster-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -4825,45 +4826,45 @@ Wire Wire Line
 Wire Wire Line
 	18450 11200 18850 11200
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP1
+L video-booster-board:TP_SMD_0_75MM TP1
 U 1 1 5E2A7EA1
 P 18950 11300
 F 0 "TP1" V 18950 11250 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 18950 11200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11500 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 19150 11500 60  0001 L CNN
 F 3 "" H 19150 11600 60  0001 L CNN
 	1    18950 11300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP4
+L video-booster-board:TP_SMD_0_75MM TP4
 U 1 1 5E2AE023
 P 18950 11200
 F 0 "TP4" V 18950 11150 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 18950 11100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11400 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 19150 11400 60  0001 L CNN
 F 3 "" H 19150 11500 60  0001 L CNN
 	1    18950 11200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP3
+L video-booster-board:TP_SMD_0_75MM TP3
 U 1 1 5E2AE346
 P 18950 11100
 F 0 "TP3" V 18950 11050 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 18950 11000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11300 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 19150 11300 60  0001 L CNN
 F 3 "" H 19150 11400 60  0001 L CNN
 	1    18950 11100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP2
+L video-booster-board:TP_SMD_0_75MM TP2
 U 1 1 5E2AE5BD
 P 18950 11000
 F 0 "TP2" V 18950 10950 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 18950 10900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19150 11200 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 19150 11200 60  0001 L CNN
 F 3 "" H 19150 11300 60  0001 L CNN
 	1    18950 11000
 	0    -1   -1   0   
@@ -5085,36 +5086,36 @@ TX_SRC_SCL_MCU_3V
 Text Label 17800 9100 0    50   ~ 0
 TX_SRC_SDA_MCU_3V
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP6
+L video-booster-board:TP_SMD_0_75MM TP6
 U 1 1 5E2C2C7D
 P 19900 9050
 F 0 "TP6" V 19900 9000 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 19900 8950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 20100 9250 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 20100 9250 60  0001 L CNN
 F 3 "" H 20100 9350 60  0001 L CNN
 	1    19900 9050
 	0    -1   -1   0   
 $EndComp
 Connection ~ 19800 9050
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP5
+L video-booster-board:TP_SMD_0_75MM TP5
 U 1 1 5E2C3610
 P 19450 9150
 F 0 "TP5" V 19450 9100 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 19450 9050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 19650 9350 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 19650 9350 60  0001 L CNN
 F 3 "" H 19650 9450 60  0001 L CNN
 	1    19450 9150
 	0    -1   -1   0   
 $EndComp
 Connection ~ 19350 9150
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP7
+L video-booster-board:TP_SMD_0_75MM TP7
 U 1 1 5E2D84E6
 P 19900 10100
 F 0 "TP7" V 19900 10050 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 19900 10000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 20100 10300 60  0001 L CNN
+F 2 "video-booster-board-footprints:Testpoint_smd_0_75mm" H 20100 10300 60  0001 L CNN
 F 3 "" H 20100 10400 60  0001 L CNN
 	1    19900 10100
 	0    -1   -1   0   
