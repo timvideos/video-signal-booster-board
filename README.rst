@@ -95,6 +95,6 @@ A sample Python code that would drive the MCU over I2C bus is::
 3D-printable enclosure
 ----------------------
 
-There is also a 3D-printable enclosure available in the ``3d-models`` repository.
+There is also a 3D-printable enclosure available in the ``3d-models`` directory.
 The enclosure allows the electronics to be covered and attaches the Video Booster Board to the Numato board installed in a typical thin mini-ITX chassis.
 
