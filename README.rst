@@ -3,12 +3,12 @@ Video Booster Board
 
 .. image:: ./img/vsb-board.png
 
-Overview: 
+Overview:
 ---------
 
 This repository contains a KiCad PCB project for an open hardware board design that allows to improve the quality of HDMI video signals transmitted over long cables.
 
-Key features: 
+Key features:
 -------------
 
 * HDMI signal preconditioning with a pair of `PTN3363 <https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf>`_ HDMI level shifters.
@@ -45,7 +45,7 @@ Example firmware
 ----------------
 
 The EFM32 MCU used in the design comes with a factory programmed ``AN0042`` bootloader.
-In order to  make the MCU compatible with the provided example firmware it is advisable to replace the default bootloader with `Toboot <https://github.com/im-tomu/toboot>`_ 
+In order to  make the MCU compatible with the provided example firmware it is advisable to replace the default bootloader with `Toboot <https://github.com/im-tomu/toboot>`_
 over SWD interface using `OpenOCD <http://openocd.org/>`_.
 The SWD signals from the MCU are exposed on test pads marked with ``IO`` and ``CLK`` on the bottom side of the Video Booster Board.
 Additionally there are test pads with system ground and power supply exposed next to them.
@@ -61,12 +61,12 @@ In order to build the example firmware please use the following commands::
      git clone https://github.com/antmicro/video-signal-booster-board
      cd video-signal-booster-board
      git submodule update --init --recursive
-     cd example-firmware      
-     python3 -m pip install -r zephyr/scripts/requirements.txt                                    
+     cd example-firmware
+     python3 -m pip install -r zephyr/scripts/requirements.txt
      wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.10.3/zephyr-sdk-0.10.3-setup.run
-     chmod +x zephyr-sdk-0.10.3-setup.run                                  
-     ./zephyr-sdk-0.10.3-setup.run -- -d <zephyr_installation_path>                      
-     export ZEPHYR_TOOLCHAIN_VARIANT=zephyr                                
+     chmod +x zephyr-sdk-0.10.3-setup.run
+     ./zephyr-sdk-0.10.3-setup.run -- -d <zephyr_installation_path>
+     export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
      export ZEPHYR_SDK_INSTALL_DIR=<zephyr_installation_path>
      source zephyr/zephyr-env.sh
      west init -l zephyr
@@ -95,6 +95,16 @@ A sample Python code that would drive the MCU over I2C bus is::
 3D-printable enclosure
 ----------------------
 
-There is also a 3D-printable enclosure available in the ``3d-models`` directory.
-The enclosure allows the electronics to be covered and attaches the Video Booster Board to the Numato board installed in a typical thin mini-ITX chassis.
+.. image:: ./img/3dprint-enclosure.png
 
+There are also 3D-printable enclosure .stl files available in the ``3d-models`` directory.
+The enclosure allows the electronics to be covered and attaches the Video Booster Board to the Numato board installed in a typical thin mini-ITX chassis.
+A connector is the source, B is the sink of the RX/TX signal. 
+
+For printing the enclosure, use slicer settings matching your used 3D printer and filament.
+Setting layer thickness to a value between 0.15mm and 0.2mm is sufficient.
+The image below shows proposed print orientation.
+
+.. image:: ./img/3dprint-orientation.png
+
+Enclosure can be assembled with the board using 3 M1.6x8 flathead bolts.
