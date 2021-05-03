@@ -1,15 +1,18 @@
+===================
 Video Booster Board
 ===================
+
+Copyright (c) 2019-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: ./img/vsb-board.png
 
 Overview:
----------
+=========
 
 This repository contains a KiCad PCB project for an open hardware board design that allows to improve the quality of HDMI video signals transmitted over long cables.
 
 Key features:
--------------
+=============
 
 * HDMI signal preconditioning with a pair of `PTN3363 <https://www.nxp.com/docs/en/data-sheet/PTN3363.pdf>`_ HDMI level shifters.
 * Signal equalization controlled with on-board DIP-Switch
@@ -17,7 +20,7 @@ Key features:
 * Supports different EDID connection scenarios
 
 Mechanical layout and dimensions
---------------------------------
+================================
 
 The board has been mechanically optimised for usage with the `Numato Opsis <https://hdmi2usb.tv/numato-opsis/>`_ open video capture device.
 It is possible to use it with different platforms using HDMI extender cables.
@@ -29,7 +32,7 @@ It follows the data flow diagram presented below:
 .. image:: ./img/vsb-data-flow.svg
 
 Getting Started
----------------
+===============
 
 Please refer to KiCad schematic files for more information regarding hardware functionalities implemented in the design.
 The PCB layout has been defined with a 4-layer stackup.
@@ -42,7 +45,7 @@ This will make the on-board MCU accessible on EDID bus driven from ``J2`` HDMI i
 Please check the schematics and software codebase for any other jumper configuration.
 
 Example firmware
-----------------
+================
 
 The EFM32 MCU used in the design comes with a factory programmed ``AN0042`` bootloader.
 In order to  make the MCU compatible with the provided example firmware it is advisable to replace the default bootloader with `Toboot <https://github.com/im-tomu/toboot>`_
@@ -93,7 +96,7 @@ A sample Python code that would drive the MCU over I2C bus is::
      bus.write_byte_data(0x3a, 0x00, 0x03)
 
 3D-printable enclosure
-----------------------
+======================
 
 .. image:: ./img/3dprint-enclosure.png
 
@@ -108,3 +111,8 @@ The image below shows proposed print orientation.
 .. image:: ./img/3dprint-orientation.png
 
 Enclosure can be assembled with the board using 3 M1.6x8 flathead bolts.
+
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
